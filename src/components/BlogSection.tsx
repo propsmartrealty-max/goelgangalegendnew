@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Calendar, User, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const blogs = [
   {
@@ -7,21 +8,24 @@ const blogs = [
     excerpt: 'Explore the high ROI potential and future growth corridor of Bavdhan Budruk near Chandni Chowk flyover...',
     date: 'May 12, 2026',
     author: 'Infrastructure Analyst',
-    keywords: 'Real Estate Investment Bavdhan, Property Investment Pune West, High ROI Flats Bavdhan, Bavdhan Real Estate Growth'
+    keywords: 'Real Estate Investment Bavdhan, Property Investment Pune West, High ROI Flats Bavdhan, Bavdhan Real Estate Growth',
+    slug: 'bavdhan-real-estate-investment-2026'
   },
   {
     title: 'Stadium Life: The Rise of Sports-Integrated Townships in Pune',
     excerpt: 'Discover the unique lifestyle at Goel Ganga Legend County, featuring the Michael Phelps Swimming Academy and Tagda Raho by Dhoni...',
     date: 'May 10, 2026',
     author: 'Lifestyle Expert',
-    keywords: 'Sports Township Pune, Luxury Gated Community Bavdhan, Goel Ganga Legend County Amenities, Modern Lifestyle Pune'
+    keywords: 'Sports Township Pune, Luxury Gated Community Bavdhan, Goel Ganga Legend County Amenities, Modern Lifestyle Pune',
+    slug: 'roi-sports-townships-pune'
   },
   {
     title: 'The Chandni Chowk Flyover: Transforming Connectivity for Legend County',
     excerpt: 'How the new multi-level flyover has slashed travel time from Bavdhan to Hinjewadi, Baner, and Kothrud...',
     date: 'May 08, 2026',
     author: 'Connectivity Reporter',
-    keywords: 'Bavdhan near Chandni Chowk, Bavdhan to Hinjewadi, Bavdhan to Kothrud, Flats near Highway Touch'
+    keywords: 'Bavdhan near Chandni Chowk, Bavdhan to Hinjewadi, Bavdhan to Kothrud, Flats near Highway Touch',
+    slug: 'bavdhan-vs-hinjewadi-real-estate'
   }
 ];
 
@@ -81,8 +85,8 @@ export default function BlogSection() {
                 </div>
               </div>
 
-              <button 
-                onClick={() => window.dispatchEvent(new CustomEvent('openEnquiryModal'))}
+              <Link 
+                to={`/insights/${blog.slug}`}
                 style={{ 
                   background: 'none', 
                   border: 'none', 
@@ -93,11 +97,12 @@ export default function BlogSection() {
                   alignItems: 'center', 
                   gap: '0.5rem', 
                   cursor: 'pointer',
+                  textDecoration: 'none',
                   padding: 0
                 }}
               >
                 READ FULL ARTICLE <ArrowRight size={16} />
-              </button>
+              </Link>
             </motion.div>
           ))}
         </div>

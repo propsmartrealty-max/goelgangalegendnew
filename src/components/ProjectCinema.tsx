@@ -57,8 +57,10 @@ export default function ProjectCinema() {
           </div>
 
           <img 
-            src="/hero-aerial.png" 
-            alt="Cinematic Walkthrough" 
+            src="/hero-aerial.webp" 
+            alt="Goel Ganga Legend County - Cinematic Project Walkthrough Video Preview" 
+            title="Goel Ganga Legend County - Cinematic Project Walkthrough"
+            loading="lazy"
             style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
           />
 

@@ -1,4 +1,5 @@
 import { Download, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const specs = [
   { label: 'Project Name', value: 'Goel Ganga Legend County' },
@@ -111,18 +112,18 @@ export default function ProjectMonograph() {
             <div style={{ padding: '2rem', background: 'rgba(255,255,255,0.02)', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-light)' }}>
               <div style={{ fontSize: '0.9rem', fontWeight: 800, marginBottom: '1rem' }}>Silo Monographs (Hyper-Local Authority)</div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                <a href="/3bhk-flats-bavdhan" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <Link to="/3bhk-flats-bavdhan" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                    3 BHK Bavdhan <ArrowRight size={14} />
-                </a>
-                <a href="/sports-township-pune" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                </Link>
+                <Link to="/sports-township-pune" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                    Sports Township <ArrowRight size={14} />
-                </a>
-                <a href="/investment-flats-bavdhan-pune" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                </Link>
+                <Link to="/investment-flats-bavdhan-pune" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                    Investment ROI <ArrowRight size={14} />
-                </a>
-                <a href="/luxury-projects-bavdhan" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                </Link>
+                <Link to="/luxury-projects-bavdhan" style={{ fontSize: '0.8rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                    Luxury Projects <ArrowRight size={14} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

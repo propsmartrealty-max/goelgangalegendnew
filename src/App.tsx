@@ -35,12 +35,44 @@ import ArticlePage from './pages/ArticlePage';
 import SEO from './components/SEO';
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        const timer = setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }, 150);
+        return () => clearTimeout(timer);
+      }
+    }
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, hash]);
   return null;
 }
+
+const homepageFAQs = [
+  {
+    question: "What is the concept of Goel Ganga Legend County Bavdhan Pune?",
+    answer: "Goel Ganga Legend County is a premium 30-acre integrated sports township in Bavdhan, Pune, featuring 12.5 acres of dedicated sports infrastructure and 9+ professional sports academies."
+  },
+  {
+    question: "What apartment configurations are available at Goel Ganga Legend County?",
+    answer: "We offer luxury 2 BHK, 3 BHK, and spacious 3.5 BHK configurations starting from ₹1.77 Cr*."
+  },
+  {
+    question: "Which sports academies are active in Ganga Legend County?",
+    answer: "Active academies include the Michael Phelps Swimming Academy, South United Football Academy, and MS Dhoni's Tagda Raho functional fitness center."
+  },
+  {
+    question: "Is Goel Ganga Legend County RERA compliant?",
+    answer: "Yes, the project is fully RERA registered and compliant. The MahaRERA registration number is P52100054578."
+  },
+  {
+    question: "What is the commute time from Bavdhan to Hinjewadi IT Park?",
+    answer: "Located just 3 minutes from Chandni Chowk, Legend County offers quick 15-20 minute connectivity to Hinjewadi IT Park, Kothrud, and Baner."
+  }
+];
 
 const Home = () => (
   <>
@@ -48,6 +80,7 @@ const Home = () => (
       title="Goel Ganga Legend County | Luxury 3 & 3.5 BHK Sports Township, Bavdhan Pune"
       description="Discover Pune's premier 30-acre sports-first township. Luxury 3 & 3.5 BHK residences starting ₹1.77 Cr* with 9+ international sports academies."
       keywords="Goel Ganga Legend County, Luxury Flats Bavdhan, 3 BHK Pune, Sports Township Pune, Stadium Life Bavdhan"
+      faq={homepageFAQs}
     />
     <Hero />
     <Trust />

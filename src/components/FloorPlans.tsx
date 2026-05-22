@@ -10,7 +10,9 @@ const plans = [
     desc: 'Luxe 2 Series residences meticulously engineered for high-performance living, featuring an L-shaped living-dining layout and a master suite with a walk-in wardrobe.',
     features: ['L-Shaped Living & Dining', 'Master Suite with Walk-in Wardrobe', 'Expansive Sports-View Balcony', 'Dry Balcony for Utility', 'Premium Vitrified Flooring', 'Anti-skid Bathroom Tiles'],
     highlights: ['Vastu Compliant', 'Stadium View', 'Smart Home Ready'],
-    image: '/floorplan-3bhk.png'
+    image: '/floorplan-3bhk.webp',
+    width: 413,
+    height: 310
   },
   {
     type: '3.5 BHK Elite',
@@ -19,7 +21,9 @@ const plans = [
     desc: 'Elite 4 Series residences featuring a dedicated drawing room and dual-master master suites with walk-in ensuites, offering the ultimate in spatial luxury and privacy.',
     features: ['Dedicated Drawing Room', 'Dual Walk-in Ensuites', 'Grand Living-Dining Hub', 'Premium 3-Side Ventilation', 'Expanded Utility Dry Balcony', 'Imported Marble Foyer Option'],
     highlights: ['Premium Elevation', 'Corner Units', 'Panoramic Stadium Views'],
-    image: '/floorplan-3.5bhk.png'
+    image: '/floorplan-3.5bhk.webp',
+    width: 877,
+    height: 620
   },
 ];
 
@@ -67,6 +71,9 @@ export default function FloorPlans() {
                 src={p.image} 
                 alt={`${p.type} Floor Plan - Goel Ganga Legend County`}
                 title={`${p.type} Unit Configuration - Bavdhan Pune`}
+                width={p.width}
+                height={p.height}
+                loading="lazy"
                 style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '1rem', position: 'relative', zIndex: 2 }}
                 onError={(e) => {
                   (e.currentTarget as HTMLElement).style.opacity = '0';

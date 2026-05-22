@@ -1,4 +1,4 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { siloData } from '../data/siloData';
 import SEO from '../components/SEO';
@@ -7,6 +7,7 @@ import { CheckCircle2, ChevronRight } from 'lucide-react';
 
 export default function SiloPage() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const data = slug ? siloData[slug] : null;
 
   if (!data) return <Navigate to="/" replace />;
@@ -72,7 +73,7 @@ export default function SiloPage() {
       {/* Breadcrumbs */}
       <div className="container" style={{ padding: '1.5rem 0' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.75rem', opacity: 0.5, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           <ChevronRight size={12} />
           <span style={{ color: 'var(--accent)' }}>{slug?.replace(/-/g, ' ')}</span>
         </div>
@@ -82,11 +83,28 @@ export default function SiloPage() {
       <section className="section-light" style={{ padding: '4rem 0' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
-            <div style={{ display: 'grid', gap: '1.5rem' }}>
+            <div 
+              className="silo-content-body"
+              style={{ display: 'grid', gap: '1.5rem' }}
+              onClick={(e) => {
+                const target = e.target as HTMLElement;
+                const anchor = target.closest('a');
+                if (anchor && anchor.getAttribute('href')?.startsWith('/')) {
+                  e.preventDefault();
+                  const href = anchor.getAttribute('href');
+                  if (href) {
+                    navigate(href);
+                  }
+                }
+              }}
+            >
               {data.content.map((p, i) => (
-                <p key={i} className="body-md" style={{ color: 'var(--text-dark-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}>
-                  {p}
-                </p>
+                <p 
+                  key={i} 
+                  className="body-md" 
+                  style={{ color: 'var(--text-dark-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}
+                  dangerouslySetInnerHTML={{ __html: p }}
+                />
               ))}
               <div style={{ marginTop: '2rem', display: 'grid', gap: '1rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontWeight: 700, color: 'var(--text-dark)' }}>
@@ -138,6 +156,21 @@ export default function SiloPage() {
           </div>
         </div>
       </section>
+
+      {/* Inline Styles for Silo internal linking */}
+      <style>{`
+        .silo-content-body a {
+          color: var(--accent);
+          text-decoration: none;
+          border-bottom: 1px dashed var(--accent);
+          transition: all 0.3s;
+          font-weight: 600;
+        }
+        .silo-content-body a:hover {
+          color: var(--text-dark);
+          border-bottom-style: solid;
+        }
+      `}</style>
 
       <Contact />
     </div>

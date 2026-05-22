@@ -50,8 +50,12 @@ export default function Overview() {
             style={{ position: 'relative' }}
           >
             <img 
-              src="/hero-aerial.png" 
-              alt="Goel Ganga Legend County Aerial View" 
+              src="/hero-aerial.webp" 
+              alt="Goel Ganga Legend County Aerial View - Premium 30-Acre Sports Township in Bavdhan Pune" 
+              title="Goel Ganga Legend County Aerial View"
+              width={1024}
+              height={1024}
+              loading="lazy"
               style={{ width: '100%', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-xl)' }}
             />
             <div style={{

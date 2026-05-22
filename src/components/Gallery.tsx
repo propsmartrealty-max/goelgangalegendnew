@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
-  { src: '/hero-aerial.png', title: 'Aerial View', desc: '30-acre integrated township' },
-  { src: '/amenities-pool.png', title: 'Olympic Swimming Pool', desc: 'Michael Phelps Academy' },
-  { src: '/gallery-football.png', title: 'Football Turf', desc: 'South United Academy' },
-  { src: '/gallery-clubhouse.png', title: 'Grand Clubhouse', desc: 'Premium lifestyle hub' },
-  { src: '/interior-luxury.png', title: 'Luxury Interiors', desc: '3 & 3.5 BHK residences' },
-  { src: '/gallery-jogging.png', title: 'Jogging Track', desc: 'Landscaped wellness trail' },
+  { src: '/hero-aerial.webp', title: 'Aerial View', desc: '30-acre integrated township' },
+  { src: '/amenities-pool.webp', title: 'Olympic Swimming Pool', desc: 'Michael Phelps Academy' },
+  { src: '/gallery-football.webp', title: 'Football Turf', desc: 'South United Academy' },
+  { src: '/gallery-clubhouse.webp', title: 'Grand Clubhouse', desc: 'Premium lifestyle hub' },
+  { src: '/interior-luxury.webp', title: 'Luxury Interiors', desc: '3 & 3.5 BHK residences' },
+  { src: '/gallery-jogging.webp', title: 'Jogging Track', desc: 'Landscaped wellness trail' },
 ];
 
 export default function Gallery() {
@@ -58,7 +58,7 @@ export default function Gallery() {
               aspectRatio: '4/3',
             }}
           >
-            <img src={img.src} alt={img.title} loading="lazy" style={{
+            <img src={img.src} alt={img.title} width={1024} height={1024} loading="lazy" style={{
               width: '100%', height: '100%', objectFit: 'cover',
               transition: 'transform 0.6s var(--ease-out)',
             }}
@@ -123,6 +123,8 @@ export default function Gallery() {
               exit={{ opacity: 0, scale: 0.95 }}
               src={images[lightbox].src}
               alt={images[lightbox].title}
+              width={1024}
+              height={1024}
               onClick={(e) => e.stopPropagation()}
               style={{
                 maxWidth: '90vw', maxHeight: '85vh',

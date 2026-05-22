@@ -55,9 +55,12 @@ export default function About() {
               position: 'relative',
             }}>
               <img
-                src="/interior-luxury.png"
+                src="/interior-luxury.webp"
                 alt="Luxury 3 BHK interior at Goel Ganga Legend County"
                 title="Goel Ganga Legend County - Premium Interior Finishes"
+                loading="lazy"
+                width={400}
+                height={500}
                 style={{
                   width: '100%',
                   height: '100%',

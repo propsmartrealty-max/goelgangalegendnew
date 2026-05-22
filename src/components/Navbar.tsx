@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone } from 'lucide-react';
 import BrandLogo from './BrandLogo';
@@ -16,6 +17,7 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -26,7 +28,7 @@ export default function Navbar() {
   const handleClick = (href: string) => {
     setMobileOpen(false);
     if (window.location.pathname !== '/') {
-      window.location.href = '/' + href;
+      navigate('/' + href);
       return;
     }
     const el = document.querySelector(href);

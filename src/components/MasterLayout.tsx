@@ -40,9 +40,12 @@ export default function MasterLayout() {
             }}
           >
             <img 
-              src="/master-layout.png" 
+              src="/master-layout.webp" 
               alt="Goel Ganga Legend County 30-Acre Master Plan - Bavdhan Pune" 
               title="Official Master Layout of Goel Ganga Legend County - Featuring Sports Stadia, Schools & Central Park"
+              width={1000}
+              height={705}
+              loading="lazy"
               style={{ width: '100%', display: 'block' }}
             />
             <div style={{

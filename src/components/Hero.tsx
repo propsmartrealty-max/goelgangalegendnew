@@ -32,9 +32,12 @@ export default function Hero() {
         className="hero-bg"
       >
         <img
-          src="/hero-aerial.png"
+          src="/hero-aerial.webp"
           alt="Goel Ganga Legend County Grand Entrance — Luxury Sports Township in Bavdhan Pune"
           fetchPriority="high"
+          loading="eager"
+          width={1024}
+          height={1024}
           style={{
             width: '100%',
             height: '120%',
@@ -108,6 +111,19 @@ export default function Hero() {
               position: 'relative',
             }}>
               Legend County
+            </span>
+            <span style={{
+              position: 'absolute',
+              width: '1px',
+              height: '1px',
+              padding: 0,
+              margin: '-1px',
+              overflow: 'hidden',
+              clip: 'rect(0, 0, 0, 0)',
+              whiteSpace: 'nowrap',
+              border: 0
+            }}>
+              - Premium 2, 3 & 3.5 BHK Flats & Apartments for Sale in Bavdhan Pune Sports Township near Chandni Chowk
             </span>
           </motion.h1>
 

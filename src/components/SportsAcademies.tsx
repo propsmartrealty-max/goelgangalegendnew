@@ -7,21 +7,21 @@ const academies = [
     coach: 'Phelps Global Protocol',
     highlight: 'Olympic-sized competition pool',
     features: ['Video stroke analysis', 'Professional coaching for all ages', 'Heated water systems'],
-    image: '/amenities-pool.png'
+    image: '/amenities-pool.webp'
   },
   {
     name: 'South United Football Academy',
     coach: 'SUFC Elite Staff',
     highlight: 'FIFA-grade synthetic turf',
     features: ['Tactical training rooms', 'Injury prevention protocols', 'Scouting opportunities'],
-    image: '/gallery-clubhouse.png'
+    image: '/gallery-clubhouse.webp'
   },
   {
     name: 'Tagda Raho by MS Dhoni',
     coach: 'Dhoni Fitness Protocol',
     highlight: 'First in West Pune',
     features: ['Ancient Indian equipment', 'Functional movement focus', 'High-intensity circuits'],
-    image: '/interior-luxury.png'
+    image: '/interior-luxury.webp'
   }
 ];
 
@@ -56,8 +56,11 @@ export default function SportsAcademies() {
               <div style={{ height: '240px', position: 'relative' }}>
                 <img 
                   src={academy.image} 
-                  alt={academy.name} 
+                  alt={`${academy.name} in Bavdhan Pune - Goel Ganga Legend County`} 
                   title={`${academy.name} at Goel Ganga Legend County`}
+                  width={1024}
+                  height={1024}
+                  loading="lazy"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
                 <div style={{

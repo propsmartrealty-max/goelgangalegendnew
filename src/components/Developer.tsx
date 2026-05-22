@@ -51,8 +51,12 @@ export default function Developer() {
             }}
           >
             <img 
-              src="/interior-luxury.png" 
-              alt="Goel Ganga Vision" 
+              src="/interior-luxury.webp" 
+              alt="Goel Ganga Developments - Trusted Real Estate Developer in Pune" 
+              title="Goel Ganga Developments Legacy"
+              loading="lazy"
+              width={500}
+              height={500}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
             <div style={{
