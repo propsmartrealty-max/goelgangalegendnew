@@ -477,7 +477,15 @@ export default function ArticlePage() {
               border: '1px solid var(--border-light)'
             }}
           >
-            <img src={article.image} alt={article.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img 
+              src={article.image} 
+              alt={article.title} 
+              width={1024} 
+              height={1024} 
+              fetchPriority="high"
+              loading="eager" 
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+            />
           </motion.div>
 
           {/* Article Content */}

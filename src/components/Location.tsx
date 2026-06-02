@@ -106,7 +106,14 @@ export default function Location() {
               display: 'flex', alignItems: 'center', gap: '0.6rem',
               boxShadow: 'var(--shadow-md)', zIndex: 10,
             }}>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Maps_icon_%282020%29.svg/1024px-Google_Maps_icon_%282020%29.svg.png" style={{ height: 18 }} alt="Google Maps" />
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Maps_icon_%282020%29.svg/1024px-Google_Maps_icon_%282020%29.svg.png" 
+                width={18} 
+                height={18} 
+                loading="lazy" 
+                style={{ height: 18, width: 18 }} 
+                alt="Google Maps Logo" 
+              />
               <div style={{ fontSize: '0.75rem', fontWeight: 800 }}>4.8 ★ <span style={{ opacity: 0.5, fontWeight: 500 }}> (520+ Reviews)</span></div>
             </div>
 
