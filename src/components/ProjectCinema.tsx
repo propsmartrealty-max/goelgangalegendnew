@@ -60,6 +60,8 @@ export default function ProjectCinema() {
             src="/hero-aerial.webp" 
             alt="Goel Ganga Legend County - Cinematic Project Walkthrough Video Preview" 
             title="Goel Ganga Legend County - Cinematic Project Walkthrough"
+            width={1024}
+            height={1024}
             loading="lazy"
             style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
           />
