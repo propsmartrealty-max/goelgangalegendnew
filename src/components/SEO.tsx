@@ -7,9 +7,10 @@ interface SEOProps {
   canonical?: string;
   image?: string;
   faq?: { question: string; answer: string }[];
+  robots?: string;
 }
 
-export default function SEO({ title, description, keywords, canonical, image, faq }: SEOProps) {
+export default function SEO({ title, description, keywords, canonical, image, faq, robots }: SEOProps) {
   const siteUrl = 'https://goelgangalegend.com';
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
   const ogImage = image || `${siteUrl}/hero-aerial.webp`;
@@ -442,6 +443,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       <title>{title}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
+      {robots && <meta name="robots" content={robots} />}
       <link rel="canonical" href={fullCanonical} />
 
       {/* Open Graph */}

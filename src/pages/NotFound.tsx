@@ -17,6 +17,7 @@ export default function NotFound() {
         title="404 - Page Not Found | Goel Ganga Legend County"
         description="The page you are looking for does not exist. Return to Goel Ganga Legend County home page."
         canonical="/404"
+        robots="noindex, nofollow"
       />
       <div className="orb orb-gold" style={{ width: 400, height: 400, top: '20%', left: '30%', position: 'absolute' }} />
       
