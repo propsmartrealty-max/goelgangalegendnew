@@ -18,9 +18,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Luxury 3 BHK flats in Bavdhan starting ₹1.77 Cr*. Discover Goel Ganga Legend County, Pune\'s premier 30-acre sports township with 9+ international academies.',
     keywords: '3 BHK flats in Bavdhan, luxury flats in Bavdhan, 3 BHK Pune, Goel Ganga Legend County 3BHK, Goel Ganga Bavdhan 3BHK, premium homes Bavdhan, family apartments Bavdhan',
     content: [
-      'Bavdhan has emerged as one of the most sought-after residential destinations in <a href="/investment-flats-bavdhan-pune">West Pune</a>, offering a perfect blend of natural beauty and urban convenience. Our 3 BHK flats are meticulously designed to provide maximum spatial efficiency and premium comfort.',
-      'Located near <a href="/luxury-apartments-chandni-chowk">Chandni Chowk</a>, Legend County offers seamless connectivity to Hinjewadi IT Park, Kothrud, Baner, and Pashan. The project features 30 acres of integrated development with over 12.5 acres dedicated solely to <a href="/sports-township-pune">sports infrastructure</a> including tennis courts and cricket practice nets.',
-      'Each 3 BHK residence at Legend County comes with premium finishes, expansive balconies, and views of the lush green sports arena, making it the best investment in Bavdhan for those seeking a modern lifestyle.'
+      'If you are looking to <strong>buy 3 BHK flats in Bavdhan Pune</strong>, Goel Ganga Legend County offers premium residences engineered for luxury living. As the demand for spacious homes rises in the western corridor, our <strong>3 BHK apartments in Bavdhan</strong> stand out as the perfect choice for modern families seeking a balanced lifestyle.',
+      'Strategically located near <a href="/luxury-apartments-chandni-chowk">Chandni Chowk</a> in Pune, these premium residences ensure seamless connectivity to the Hinjewadi IT Park and Kothrud. The project is an integrated <a href="/rera-legal-compliance-bavdhan">gated community in Bavdhan Pune</a> that features a massive 12.5-acre professional <a href="/sports-township-pune">sports township Pune</a> infrastructure, including tennis courts and cricket nets, making it the best <a href="/investment-flats-bavdhan-pune">property in Bavdhan Pune</a> for sports enthusiasts.',
+      'Each of the <strong>3 BHK flats in Bavdhan</strong> at Ganga Legend County is designed with Vastu compliance in mind, featuring double-aspect balconies with breathtaking views of the NDA hills. If you are looking for <a href="/luxury-projects-bavdhan">new residential projects in Bavdhan Pune</a> that offer premium build quality, high rental yields, and unmatched appreciation potential, this is the ultimate destination.'
     ],
     faq: [
       { question: "What is the starting price for 3 BHK in Bavdhan at Legend County?", answer: "The 3 BHK flats at Goel Ganga Legend County start at ₹1.77 Cr*." },
@@ -39,9 +39,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Explore premium 2 BHK flats in Bavdhan at Goel Ganga Legend County. 30-acre sports township with high rental yield potential and world-class amenities.',
     keywords: '2 BHK in Bavdhan, buy 2 BHK in Bavdhan, Goel Ganga Legend County 2BHK price, premium flats Bavdhan, smart homes Bavdhan',
     content: [
-      'Our 2 BHK flats in Bavdhan are designed for young professionals and small families who value quality and lifestyle. As part of a <a href="/rera-legal-compliance-bavdhan">gated community in Bavdhan</a>, these homes offer security, peace, and unparalleled sports amenities.',
-      'Situated near NDA Road and the Mumbai Bangalore Highway, Legend County ensures you are never far from Kothrud or Hinjewadi. These high-rise <a href="/luxury-projects-bavdhan">flats in Bavdhan</a> feature hill-view balconies and modern architectural design.',
-      'Investing in a 2 BHK at Goel Ganga Legend County is a strategic choice for high ROI and rental income in Pune West\'s fastest-growing corridor.'
+      'For home buyers seeking premium <strong>2 BHK flats in Bavdhan Pune</strong>, Goel Ganga Legend County presents an exceptional residential opportunity. These smart and spacious <strong>2 BHK apartments in Bavdhan</strong> are tailored for young IT professionals and small families who want to experience premium community living.',
+      'Our premium <strong>2 BHK in Bavdhan Pune</strong> is strategically situated near NDA Road and the Mumbai-Bangalore Highway, offering quick transit to Hinjewadi, Baner, and Kothrud. As part of a luxury <a href="/rera-legal-compliance-bavdhan">gated community in Bavdhan</a>, these <a href="/luxury-projects-bavdhan">flats in Bavdhan</a> offer top-tier security, municipal water supply, and uninterrupted electricity backup.',
+      'Investing in a <strong>2 BHK flat in Bavdhan Pune</strong> at Ganga Legend County ensures a high-yield asset in one of West Pune\'s fastest-growing corridors. With corporate tenants constantly looking for homes near Hinjewadi, these apartments command premium rents, making it a highly profitable <a href="/investment-flats-bavdhan-pune">real estate investment in Bavdhan Pune</a>.'
     ],
     faq: [
       { question: "Are 2 BHK units available in Goel Ganga Legend County?", answer: "Yes, we offer premium 2 BHK configurations designed for optimal spatial efficiency." },
@@ -60,9 +60,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Goel Ganga Legend County is the top residential project in Bavdhan, Pune. Featuring 9+ international sports academies and luxury 3 & 3.5 BHK homes.',
     keywords: 'best project in Bavdhan, top residential project Bavdhan, luxury gated community Bavdhan, Goel Ganga Legend County reviews, premium township Bavdhan',
     content: [
-      'When comparing luxury projects in Bavdhan, Goel Ganga Legend County stands out for its massive 30-acre scale and dedicated 12.5-acre sports arena. It is a benchmark for premium lifestyle in <a href="/investment-flats-bavdhan-pune">Pune West</a>.',
-      'From the grand entrance plaza to the designer homes, every detail reflects "Atelier Genesis" quality. Whether you are looking for hill-facing apartments or a resort-style living experience, this is the ultimate destination.',
-      'With ready-to-move and under-construction options, Legend County is the most trusted choice for homebuyers seeking scenic homes near <a href="/luxury-apartments-chandni-chowk">Chandni Chowk</a>.'
+      'Among the top <strong>luxury projects in Bavdhan Pune</strong>, Goel Ganga Legend County stands as a landmark of premium planning and design. Spread over 30 acres of land, this premier development is the most sought-after <strong>luxury residential project in Bavdhan</strong> for buyers seeking an elite lifestyle.',
+      'Unlike standalone buildings, our <strong>luxury apartments in Bavdhan Pune</strong> are situated within an expansive township featuring 12.5 acres of dedicated sports facilities. The project integrates MS Dhoni\'s <a href="/tagda-raho-dhoni-pune">Tagda Raho</a> fitness protocol and the <a href="/michael-phelps-swimming-pune">Michael Phelps Swimming Academy</a>, raising the bar for <strong>premium projects in Bavdhan</strong>.',
+      'If you are looking for <strong>new residential projects in Bavdhan Pune</strong> with hill-view apartments, double-glazed windows, and world-class amenities, Legend County represents the perfect investment. Discover the ultimate gated estate near <a href="/luxury-apartments-chandni-chowk">Chandni Chowk</a> for premium living in Pune West.'
     ],
     faq: [
       { question: "Why is Legend County considered the best project in Bavdhan?", answer: "It is the only township in West Pune offering 12.5 acres of dedicated sports infrastructure with international academies." },
@@ -81,9 +81,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Looking for the best investment in Bavdhan? Goel Ganga Legend County offers high ROI flats with excellent rental potential near Hinjewadi and Kothrud.',
     keywords: 'real estate investment Bavdhan, property investment Pune West, high ROI flats Bavdhan, buy flat in Bavdhan, appreciation property Bavdhan',
     content: [
-      'Bavdhan is a high-growth real estate corridor in West Pune. With the completion of the Chandni Chowk flyover and the upcoming Pune Ring Road, property values are poised for significant appreciation.',
-      'Investing in a township like Legend County ensures long-term value due to its unique sports-first branding and massive open green spaces. It is a premium investment for those looking at Pune West residential growth.',
-      'Our payment plans and configuration options make it easier for investors to secure a high-yielding asset in a gated community that is always in demand.'
+      'Bavdhan has become the most profitable hub for <strong>real estate investment in Bavdhan Pune</strong>. With the completion of the multi-level Chandni Chowk flyover and the upcoming Pune Ring Road, values for <strong>properties in Bavdhan Pune</strong> are projected to appreciate significantly over the next few years.',
+      'Investing in <strong>flats in Bavdhan Pune</strong> at Goel Ganga Legend County ensures long-term capital growth and high rental yields. Branded sports residences command a premium in the rental market, making it the best <strong>property investment in West Pune</strong> for both local and NRI buyers.',
+      'With rental yields reaching 4.2% on our premium 3 BHK and 3.5 BHK configurations, Legend County outperforms standard developments in Pune. Secure your future by investing in a premium gated community that guarantees steady returns and excellent resale liquidity.'
     ],
     faq: [
       { question: "Is Bavdhan a good area for rental income?", answer: "Yes, due to its proximity to Hinjewadi IT Park and MIT College, there is consistent demand for rental apartments in Bavdhan." },
@@ -102,9 +102,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Experience Pune\'s premier sports-first township. Legend County in Bavdhan features 9+ international sports academies including Michael Phelps Swimming and Tagda Raho by Dhoni.',
     keywords: 'sports township Pune, Goel Ganga Legend County sports, football academy Pune, swimming academy Bavdhan, sports amenities Bavdhan, tennis court Bavdhan',
     content: [
-      'Legend County is not just a housing project; it is an ecosystem designed for high-performance living. With over 12.5 acres of dedicated sports arena, it is Pune\'s largest sports-integrated residential development.',
-      'Residents have exclusive access to professional coaching at the <a href="/michael-phelps-swimming-pune">Michael Phelps Swimming Academy</a>, South United Football Academy, and MS Dhoni\'s <a href="/tagda-raho-dhoni-pune">Tagda Raho</a> fitness protocol. Amenities include basketball courts, jogging tracks, and a meditation zone.',
-      'Whether you are a professional athlete or a fitness enthusiast, our township provides the perfect environment to train, recover, and excel in a nature-view home.'
+      'Goel Ganga Legend County is Pune\'s premier <strong>sports township Pune</strong>, offering an active lifestyle designed for champions. With over 12.5 acres dedicated solely to professional-grade sports infrastructure, we offer the most comprehensive <strong>sports residences in Pune</strong>.',
+      'Residents have direct access to world-class training at the <a href="/michael-phelps-swimming-pune">Michael Phelps Swimming Academy Pune</a>, the South United Football Academy, and MS Dhoni\'s <a href="/tagda-raho-dhoni-pune">Tagda Raho</a> center. This unique fitness-first ecosystem is what makes our <strong>property in Bavdhan Pune</strong> stand out from the crowd.',
+      'Our sports-themed <strong>gated community in Bavdhan Pune</strong> includes professional basketball courts, jogging tracks, tennis courts, and high-performance gyms. Live in a scenic, pollution-free environment that prioritizes your family\'s health and wellness.'
     ],
     faq: [
       { question: "Which sports academies are available at Legend County?", answer: "Professional academies include Michael Phelps Swimming, Tagda Raho by Dhoni, and South United Football Academy." },
@@ -123,9 +123,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Find premium luxury apartments near Chandni Chowk at Goel Ganga Legend County. 30-acre township with world-class amenities and unparalleled connectivity.',
     keywords: 'luxury apartments near Chandni Chowk, premium flats Bavdhan, Goel Ganga Legend County location, flats near Chandni Chowk, Bavdhan near Highway',
     content: [
-      'The multi-level flyover at Chandni Chowk has transformed the connectivity of Bavdhan, making it a prime hub for luxury living. Legend County is located just 3 minutes from this critical junction near the Mumbai Bangalore Highway.',
-      'Our residences offer a "Quiet Luxury" experience, away from the city\'s noise yet perfectly connected to Pune\'s primary business districts like Hinjewadi and Baner.',
-      'The project features modern architectural design, glass-morphism aesthetics, and a material palette inspired by elite international monographs, offering hill-facing towers in a scenic environment.'
+      'If you are searching for <strong>luxury apartments near Chandni Chowk Pune</strong>, Goel Ganga Legend County offers the perfect residence. Located just 3 minutes from this critical highway junction, our homes provide unparalleled connectivity to Hinjewadi, Baner, and Kothrud.',
+      'These premium <strong>flats near Chandni Chowk</strong> offer a peaceful escape from the city\'s noise, surrounded by the protected NDA forest lands. The strategic location makes it the preferred choice for corporate executives seeking <strong>apartments in Bavdhan Pune</strong> with easy highway access.',
+      'With premium high-street shopping, international schools, and specialized hospitals located within a 5-minute radius, this is the most convenient residential zone in West Pune. Explore our hill-facing 3 BHK and 3.5 BHK configurations today.'
     ],
     faq: [
       { question: "How far is Legend County from Chandni Chowk?", answer: "Goel Ganga Legend County is located just 2-3 minutes from Chandni Chowk." },
@@ -144,9 +144,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Looking for professional swimming coaching in Pune? Legend County features the Michael Phelps Swimming Academy with Olympic-grade infrastructure and expert coaching.',
     keywords: 'Michael Phelps Swimming Academy Pune, swimming classes Bavdhan, professional swimming coaching Pune, swimming pool Bavdhan',
     content: [
-      'Swimming is more than just a sport; it is a vital life skill and a full-body workout. At Legend County, we bring the global standards of the Michael Phelps Swimming Academy to your doorstep in West Pune.',
-      'Our facility features a competition-sized, temperature-controlled pool designed to meet international standards. Residents enjoy a wellness lifestyle with access to a clubhouse and yoga deck.',
-      'Whether you are an aspiring athlete or a recreational swimmer, our certified coaches follow the Phelps Global Protocol in a safe and supportive gated community environment.'
+      'Legend County is home to the world-renowned <strong>Michael Phelps Swimming Academy Pune</strong>, bringing elite aquatics training to West Pune. Residents have the exclusive privilege of professional swimming coaching inside the safety of their gated township.',
+      'Our facility features a competition-sized, temperature-controlled swimming pool built to international standards. This Olympic-grade training is a key highlight of our <strong>sports township Pune</strong> and a major value driver for our <strong>luxury flats in Bavdhan</strong>.',
+      'Whether you are training for competition or swimming for fitness, our certified coaches follow the Phelps Global Protocol. Experience a premium wellness lifestyle with access to top-tier sports amenities in Bavdhan.'
     ],
     faq: [
       { question: "What is the Michael Phelps Swimming Academy protocol?", answer: "It focuses on stroke mechanics and safety, developed by Michael Phelps and his coach Bob Bowman." },
@@ -165,9 +165,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Experience Tagda Raho by MS Dhoni at Legend County, Bavdhan. The first-of-its-kind functional fitness ecosystem in West Pune using traditional Indian equipment.',
     keywords: 'Tagda Raho MS Dhoni Pune, functional fitness Bavdhan, Dhoni gym Pune, strength training Bavdhan, gymnasium Bavdhan',
     content: [
-      'Tagda Raho is a unique fitness movement co-founded by MS Dhoni that blends traditional Indian strength training with modern functional movements.',
-      'Located within the 30-acre Legend County township, this academy uses ancient equipment like Gada, Mudgar, and Hanuman Vyayam for a holistic fitness experience that builds functional power.',
-      'This is the first Tagda Raho center in West Pune, offering residents an elite lifestyle environment to train under expert guidance following Dhoni\'s personal fitness philosophy.'
+      'Unleash your functional power at MS Dhoni\'s <strong>Tagda Raho Dhoni Pune</strong> center, located exclusively within Goel Ganga Legend County. This revolutionary fitness protocol combines traditional Indian workout equipment with modern movement training.',
+      'Train with Gada, Mudgar, and Vajra to build rotational strength and core stability. This is the first Tagda Raho center in West Pune, making our <strong>sports township Pune</strong> the ultimate destination for fitness enthusiasts seeking a premium lifestyle.',
+      'As a resident of our <strong>luxury gated community in Bavdhan Pune</strong>, you get priority access and special member rates at this elite training center. Live in a home that supports your fitness goals every single day.'
     ],
     faq: [
       { question: "What equipment is used at Tagda Raho?", answer: "It utilizes traditional Indian equipment like the Mudgar, Gada, and Vajra for functional training." },
@@ -186,9 +186,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Luxury 3.5 BHK flats in Bavdhan starting ₹2.10 Cr*. Experience high-performance living in Pune\'s premier sports township near Ryan International School.',
     keywords: '3.5 BHK flats in Bavdhan, 4 BHK Bavdhan, home office flats Pune, luxury 3.5 BHK Pune, spacious apartments Pune, flats near Ryan International School, property near MIT College Pune, flats near Chellaram Hospital Bavdhan',
     content: [
-      'Modern life requires flexible spaces. Our 3.5 BHK configurations at Legend County provide that "plus one" room that can adapt to your needs—be it a home office, a private yoga studio, or a media room.',
-      'These residences are designed with expansive balconies and premium finishes, offering panoramic views of the sports township and the green hills of Bavdhan Budruk. The project is strategically located near <a href="/schools-hospitals-near-bavdhan">Ryan International School and MIT College</a>, making it ideal for families.',
-      'Located just 3 minutes from Chandni Chowk, these units offer the perfect balance of connectivity and spacious luxury. With proximity to Chellaram Hospital and top-tier retail hubs, it is the most convenient luxury address in Pune West.'
+      'Discover spacious living with our premium <strong>3.5 BHK flats in Bavdhan Pune</strong> at Goel Ganga Legend County. Designed for families who need flexible layouts, these luxury apartments feature an extra room that can serve as a home office, private study, or yoga studio.',
+      'These elite <strong>3.5 BHK apartments in Bavdhan</strong> offer double-aspect balconies with panoramic views of the sports arena and the green NDA hills. The project\'s location is close to top-tier schools and hospitals, making it the best <a href="/schools-hospitals-near-bavdhan">property in Bavdhan Pune</a> for large families.',
+      'Located near Chandni Chowk and NDA Road, our <strong>3.5 BHK in Bavdhan Pune</strong> combines quiet luxury with unmatched connectivity. Invest in a premium configuration that offers high resale value, premium finishes, and maximum spatial utility.'
     ],
     faq: [
       { question: "What can I use the extra 0.5 room for?", answer: "Most residents use it as a high-end home office, a personal library, or a meditation/yoga room." },
@@ -207,9 +207,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Explore the best schools like Ryan International and hospitals like Chellaram near Goel Ganga Legend County, Bavdhan. The perfect location for family-first living.',
     keywords: 'schools in Bavdhan, hospitals in Bavdhan, Ryan International School Pune, MIT College Bavdhan, Chellaram Hospital Pune, flats near schools Bavdhan, property near hospitals Pune West',
     content: [
-      'When choosing a home, proximity to education and healthcare is paramount. Goel Ganga Legend County is situated in the infrastructure-rich zone of Bavdhan, surrounded by Pune\'s top institutions.',
-      'Ryan International School, Periwinkle English Medium School, and MIT College are all within a 5-10 minute drive. Healthcare is equally accessible with Chellaram Hospital and Sahyadri Hospital providing world-class medical facilities nearby.',
-      'The project\'s location near the Mumbai-Bangalore Highway ensures that you are connected to the best of Pune West while living in a peaceful, sports-focused environment.'
+      'Living at Goel Ganga Legend County puts you at the center of the best educational and healthcare infrastructure in West Pune. Our <strong>luxury flats in Bavdhan Pune</strong> are surrounded by top-rated international schools and multi-specialty hospitals.',
+      'Reputed schools like Ryan International School and MIT College are just a 5-10 minute drive away, making it ideal for families. Premium medical care is equally close, with Chellaram Hospital and Sahyadri Hospital providing world-class facilities nearby.',
+      'With supermarkets, retail high-streets, and transit corridors located at your doorstep near Chandni Chowk, Bavdhan is the most self-sufficient suburb in West Pune. Invest in a location that ensures a convenient and secure family life.'
     ],
     faq: [
       { question: "Which is the nearest top school to Legend County?", answer: "Ryan International School and Periwinkle School are within 7 minutes of the project." },
@@ -228,9 +228,9 @@ export const siloData: Record<string, SiloData> = {
     description: 'Verify the legal compliance and RERA status of Goel Ganga Legend County, Bavdhan. RERA No: P52100054578. Sanctioned sports township plans.',
     keywords: 'Goel Ganga Legend County RERA, RERA P52100054578, legal status Bavdhan project, title clear flats Bavdhan, sanctioned plans Pune township',
     content: [
-      'Goel Ganga Legend County is a fully RERA-registered integrated township project under MahaRERA number P52100054578. We prioritize architectural transparency and legal integrity in every square foot developed.',
-      'The project is built on title-clear land with all necessary approvals from the PMRDA and relevant local authorities. Our master plan for the 30-acre <a href="/sports-township-pune">sports township</a> is fully sanctioned, ensuring that the promised 12.5 acres of sports infrastructure is legally secured.',
-      'Buyers at Legend County can invest with absolute confidence, knowing that the project adheres to the highest standards of real estate governance and financial transparency.'
+      'Goel Ganga Legend County is a fully RERA-compliant and legally clear project in Bavdhan, Pune. Registered under MahaRERA number P52100054578, we ensure complete transparency and security for your real estate investment.',
+      'The project is developed on title-clear land with all necessary sanctions from the PMRDA. Our 30-acre master plan is fully approved, ensuring that the 12.5-acre <a href="/sports-township-pune">sports township Pune</a> amenities are legally protected and delivered.',
+      'Buyers can secure their dream home with absolute peace of mind, knowing that Goel Ganga Developments complies with all real estate regulations. Explore our legal documentation and RERA certificates today.'
     ],
     faq: [
       { question: "What is the MahaRERA number for Legend County?", answer: "The RERA registration number is P52100054578, covering the Stadium Life phase." },

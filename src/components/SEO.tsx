@@ -191,6 +191,20 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         "postalCode": "411021",
         "addressCountry": "IN"
       },
+      "about": {
+        "@type": "ApartmentComplex",
+        "name": "Goel Ganga Legend County",
+        "url": siteUrl,
+        "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "postalCode": "411021",
+          "addressCountry": "IN"
+        }
+      },
       "amenityFeature": [
         { "@type": "LocationFeatureSpecification", "name": "12.5 Acre Sports Arena", "value": "true" },
         { "@type": "LocationFeatureSpecification", "name": "Michael Phelps Swimming Academy", "value": "true" },
@@ -212,6 +226,28 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "url": siteUrl,
       "telephone": "+912067654321",
       "priceRange": "₹1.77 Cr - ₹2.10 Cr",
+      "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bavdhan"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pune"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "West Pune"
+        }
+      ],
+      "knowsAbout": [
+        "Real Estate in Pune",
+        "Flats in Bavdhan Pune",
+        "Luxury apartments near Chandni Chowk",
+        "Sports township in Pune",
+        "Premium properties in West Pune"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",
@@ -307,6 +343,9 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "name": "Goel Ganga Legend County",
       "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
       "url": siteUrl,
+      "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
+      "numberOfBedrooms": "2, 3, 3.5",
+      "priceRange": "₹1.77 Cr - ₹2.10 Cr",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",
