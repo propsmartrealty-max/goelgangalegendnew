@@ -55,6 +55,12 @@ items = [
         "link": "https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan",
         "description": "A comprehensive directory of top schools, universities, and healthcare facilities near Bavdhan, Pune West, for families planning to relocate.",
         "date": "2026-06-03T09:00:00+05:30"
+    },
+    {
+        "title": "Luxury 4 BHK Flats in Pune | Spacious Combined Homes Bavdhan",
+        "link": "https://goelgangalegend.com/luxury-4bhk-flats-pune",
+        "description": "Explore luxury 4 BHK duplex and combined flats in Bavdhan, Pune at Goel Ganga Legend County starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies.",
+        "date": "2026-06-04T09:00:00+05:30"
     }
 ]
 
