@@ -35,9 +35,11 @@ def trigger_webhook():
         method="POST"
     )
     
+    import ssl
+    context = ssl._create_unverified_context()
     try:
         print(f"Sending webhook trigger to GitHub repository: {repo}...")
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, context=context) as response:
             status = response.status
             if status == 204:
                 print("✅ Success! Webhook trigger sent successfully. The GitHub Action workflow has started.")
