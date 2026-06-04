@@ -6,9 +6,9 @@ This report lists the status of content depth, metadata optimization, RERA compl
 
 - **Total Silo Pages Audited:** 21
 - **Total Insights Articles Audited:** 9
-- **Average Silo Word Count:** 885 words (Target: 800+ words)
+- **Average Silo Word Count:** 888 words (Target: 800+ words)
 - **Average Article Word Count:** 1316 words (Target: 800+ words)
-- **Total Dynamic Internal Contextual Links:** 73 links
+- **Total Dynamic Internal Contextual Links:** 108 links
 - **RERA Verification Compliance (`P52100054578`):** 21/21 Silos, 9/9 Articles
 
 ## Silo Page Optimization Matrix
@@ -16,26 +16,26 @@ This report lists the status of content depth, metadata optimization, RERA compl
 | Silo Slug | Title Length | Description Length | FAQs | Total Word Count | Internal Links | RERA Verified | Sitemap Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `3bhk-flats-bavdhan` | 66 | 156 | 8 | 1024 | 7 | ✅ Verified | ✅ |
-| `2bhk-flats-bavdhan-pune` | 57 | 151 | 8 | 873 | 3 | ✅ Verified | ✅ |
+| `2bhk-flats-bavdhan-pune` | 57 | 151 | 8 | 875 | 4 | ✅ Verified | ✅ |
 | `luxury-projects-bavdhan` | 67 | 147 | 8 | 849 | 3 | ✅ Verified | ✅ |
-| `investment-flats-bavdhan-pune` | 59 | 150 | 8 | 929 | 0 | ✅ Verified | ✅ |
-| `sports-township-pune` | 57 | 146 | 8 | 829 | 2 | ✅ Verified | ✅ |
-| `luxury-apartments-chandni-chowk` | 58 | 153 | 8 | 877 | 0 | ✅ Verified | ✅ |
-| `michael-phelps-swimming-pune` | 63 | 165 | 8 | 805 | 0 | ✅ Verified | ✅ |
-| `tagda-raho-dhoni-pune` | 57 | 160 | 8 | 806 | 0 | ✅ Verified | ✅ |
-| `3.5-bhk-flats-bavdhan` | 65 | 152 | 8 | 819 | 1 | ✅ Verified | ✅ |
-| `schools-hospitals-near-bavdhan` | 57 | 163 | 8 | 832 | 1 | ✅ Verified | ✅ |
-| `rera-legal-compliance-bavdhan` | 63 | 138 | 8 | 807 | 1 | ✅ Verified | ✅ |
-| `pune-real-estate-market` | 50 | 148 | 8 | 945 | 3 | ✅ Verified | ✅ |
-| `west-pune-real-estate-market` | 62 | 153 | 8 | 968 | 5 | ✅ Verified | ✅ |
-| `luxury-real-estate-baner-pashan-link-road` | 65 | 145 | 8 | 1062 | 3 | ✅ Verified | ✅ |
-| `luxury-flats-kharadi-vs-bavdhan-pune` | 61 | 155 | 8 | 892 | 2 | ✅ Verified | ✅ |
-| `luxury-homes-koregaon-park-vs-bavdhan` | 54 | 150 | 8 | 874 | 3 | ✅ Verified | ✅ |
-| `luxury-apartments-baner-vs-bavdhan` | 60 | 150 | 8 | 851 | 3 | ✅ Verified | ✅ |
-| `luxury-flats-kothrud-vs-bavdhan-pune` | 60 | 144 | 8 | 881 | 3 | ✅ Verified | ✅ |
-| `luxury-3bhk-flats-pune` | 61 | 152 | 8 | 919 | 3 | ✅ Verified | ✅ |
-| `best-investment-property-pune` | 59 | 151 | 8 | 936 | 0 | ✅ Verified | ✅ |
-| `sports-township-pune-stadium-life` | 58 | 164 | 8 | 811 | 0 | ✅ Verified | ✅ |
+| `investment-flats-bavdhan-pune` | 59 | 150 | 8 | 931 | 1 | ✅ Verified | ✅ |
+| `sports-township-pune` | 57 | 146 | 8 | 831 | 3 | ✅ Verified | ✅ |
+| `luxury-apartments-chandni-chowk` | 58 | 153 | 8 | 879 | 1 | ✅ Verified | ✅ |
+| `michael-phelps-swimming-pune` | 63 | 165 | 8 | 809 | 2 | ✅ Verified | ✅ |
+| `tagda-raho-dhoni-pune` | 57 | 160 | 8 | 810 | 2 | ✅ Verified | ✅ |
+| `3.5-bhk-flats-bavdhan` | 65 | 152 | 8 | 823 | 3 | ✅ Verified | ✅ |
+| `schools-hospitals-near-bavdhan` | 57 | 163 | 8 | 834 | 2 | ✅ Verified | ✅ |
+| `rera-legal-compliance-bavdhan` | 63 | 138 | 8 | 809 | 2 | ✅ Verified | ✅ |
+| `pune-real-estate-market` | 50 | 148 | 8 | 951 | 6 | ✅ Verified | ✅ |
+| `west-pune-real-estate-market` | 62 | 153 | 8 | 972 | 7 | ✅ Verified | ✅ |
+| `luxury-real-estate-baner-pashan-link-road` | 65 | 145 | 8 | 1068 | 6 | ✅ Verified | ✅ |
+| `luxury-flats-kharadi-vs-bavdhan-pune` | 61 | 155 | 8 | 896 | 4 | ✅ Verified | ✅ |
+| `luxury-homes-koregaon-park-vs-bavdhan` | 54 | 150 | 8 | 878 | 5 | ✅ Verified | ✅ |
+| `luxury-apartments-baner-vs-bavdhan` | 60 | 150 | 8 | 855 | 5 | ✅ Verified | ✅ |
+| `luxury-flats-kothrud-vs-bavdhan-pune` | 60 | 144 | 8 | 885 | 5 | ✅ Verified | ✅ |
+| `luxury-3bhk-flats-pune` | 61 | 152 | 8 | 925 | 6 | ✅ Verified | ✅ |
+| `best-investment-property-pune` | 59 | 151 | 8 | 938 | 1 | ✅ Verified | ✅ |
+| `sports-township-pune-stadium-life` | 58 | 164 | 8 | 817 | 3 | ✅ Verified | ✅ |
 
 
 ## Insights Article Optimization Matrix
