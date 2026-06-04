@@ -71,8 +71,11 @@ def index_urls():
             "url": url,
             "type": "URL_UPDATED"
         }
-        response = requests.post(ENDPOINT, data=json.dumps(body), headers=headers)
-        print(f"Indexing {url}: {response.status_code} - {response.text}")
+        try:
+            response = requests.post(ENDPOINT, data=json.dumps(body), headers=headers, timeout=10)
+            print(f"Indexing {url}: {response.status_code} - {response.text}")
+        except requests.exceptions.RequestException as e:
+            print(f"Failed to index {url} due to error: {e}")
 
 if __name__ == "__main__":
     index_urls()

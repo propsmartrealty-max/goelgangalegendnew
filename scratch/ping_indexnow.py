@@ -12,7 +12,7 @@ data = {
 
 print("Pinging IndexNow (Bing/Yandex)...")
 try:
-    response = requests.post("https://api.indexnow.org/indexnow", json=data)
+    response = requests.post("https://api.indexnow.org/indexnow", json=data, timeout=10)
     print(f"Status: {response.status_code}")
     print(f"Response: {response.text}")
 except Exception as e:

@@ -551,12 +551,14 @@ export default function SEO({ title, description, keywords, canonical, image, fa
 
   const consolidatedSchema = getConsolidatedSchema();
 
+  const robotsMeta = robots || 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+
   return (
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
-      {robots && <meta name="robots" content={robots} />}
+      <meta name="robots" content={robotsMeta} />
       <link rel="canonical" href={fullCanonical} />
 
       {/* Open Graph */}
@@ -565,18 +567,23 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       <meta property="og:image" content={ogImage} />
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Goel Ganga Legend County" />
+      <meta property="og:locale" content="en_US" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:site" content="@goelgangapune" />
+      <meta name="twitter:creator" content="@goelgangapune" />
 
       {/* Consolidated Semantic Graph Schema */}
       {consolidatedSchema && (
         <script type="application/ld+json">
           {JSON.stringify(consolidatedSchema)}
         </script>
-      )}</Helmet>
+      )}
+    </Helmet>
   );
 }
