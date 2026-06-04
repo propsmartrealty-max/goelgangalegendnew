@@ -27,28 +27,34 @@ def main():
     # 2. Regenerate RSS feed
     run_script("generate_rss.py")
     
-    # 3. Ping Bing IndexNow (ignore network/CORS issues)
-    run_script("ping_indexnow.py", ignore_errors=True)
-    
-    # 4. Google Indexing (Gracefully bypassed/ignored if 403 or unauthorized)
-    print("\n=========================================")
-    print(" Running Google Indexing API Submission")
-    print("=========================================")
-    try:
-        result = subprocess.run([sys.executable, "scratch/index_legend.py"], capture_output=True, text=True)
-        stdout = result.stdout
-        print(stdout)
-        if "429" in stdout or "Quota exceeded" in stdout:
-            print("[INFO] Google Indexing: 429 Daily Quota Limit Exceeded. Gracefully bypassed Google indexing daily limits.")
-        elif "403" in stdout or "PERMISSION_DENIED" in stdout:
-            print("[INFO] Google Indexing: 403 PERMISSION_DENIED received. Bypassing Google indexing automatically.")
-            print("[INFO] Please verify and add 'goelganga@eminent-bond-433313-m2.iam.gserviceaccount.com' as an Owner in your GSC Property.")
-        elif result.returncode != 0:
-            print(f"[WARNING] Google Indexing script failed with code {result.returncode}. Bypassed.")
-        else:
-            print("[SUCCESS] Google Indexing completed successfully.")
-    except Exception as e:
-        print(f"[WARNING] Bypassing Google indexing due to script error: {e}")
+    # 3. Search Engine Indexing (Bypassed if BYPASS_INDEXING=1 environment variable is set)
+    if os.environ.get("BYPASS_INDEXING") == "1":
+        print("\n=========================================")
+        print(" [INFO] Bypassing Google and Bing Indexing (Git pre-commit bypass active)")
+        print("=========================================")
+    else:
+        # Ping Bing IndexNow (ignore network/CORS issues)
+        run_script("ping_indexnow.py", ignore_errors=True)
+        
+        # Google Indexing (Gracefully bypassed/ignored if 403 or unauthorized)
+        print("\n=========================================")
+        print(" Running Google Indexing API Submission")
+        print("=========================================")
+        try:
+            result = subprocess.run([sys.executable, "scratch/index_legend.py"], capture_output=True, text=True)
+            stdout = result.stdout
+            print(stdout)
+            if "429" in stdout or "Quota exceeded" in stdout:
+                print("[INFO] Google Indexing: 429 Daily Quota Limit Exceeded. Gracefully bypassed Google indexing daily limits.")
+            elif "403" in stdout or "PERMISSION_DENIED" in stdout:
+                print("[INFO] Google Indexing: 403 PERMISSION_DENIED received. Bypassing Google indexing automatically.")
+                print("[INFO] Please verify and add 'goelganga@eminent-bond-433313-m2.iam.gserviceaccount.com' as an Owner in your GSC Property.")
+            elif result.returncode != 0:
+                print(f"[WARNING] Google Indexing script failed with code {result.returncode}. Bypassed.")
+            else:
+                print("[SUCCESS] Google Indexing completed successfully.")
+        except Exception as e:
+            print(f"[WARNING] Bypassing Google indexing due to script error: {e}")
 
 if __name__ == "__main__":
     main()
