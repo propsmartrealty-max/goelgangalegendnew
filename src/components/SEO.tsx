@@ -63,8 +63,9 @@ export default function SEO({ title, description, keywords, canonical, image, fa
   const isHome = !canonical || canonical === '/';
   const isBhk3 = canonical === '/3bhk-flats-bavdhan';
   const isBhk35 = canonical === '/3.5-bhk-flats-bavdhan';
+  const isBhk4 = canonical === '/luxury-4bhk-flats-pune';
   const isArticle = canonical?.startsWith('/insights/');
-  const isSilo = canonical && !isHome && !isArticle;
+  const isSilo = canonical && !isHome && !isArticle && !isBhk4;
 
   // 1. Dynamic Breadcrumb List Schema
   const getBreadcrumbsSchema = () => {
@@ -166,6 +167,34 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       };
     }
 
+    if (isBhk4) {
+      return {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "4 BHK Luxury Combined Duplex Apartment - Goel Ganga Legend County",
+        "image": [`${siteUrl}/hero-aerial.webp`],
+        "description": "Spacious combined 4 BHK and luxury duplex layouts at Goel Ganga Legend County Bavdhan starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies.",
+        "sku": "GGLC-4BHK-LUXE",
+        "brand": {
+          "@type": "Brand",
+          "name": "Goel Ganga Developments"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": fullCanonical,
+          "priceCurrency": "INR",
+          "price": "29000000",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31"
+        },
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "Structure", "value": "Earthquake Resistant Mivan RCC" },
+          { "@type": "PropertyValue", "name": "Configuration", "value": "Combined Layout / Duplex / Penthouse" },
+          { "@type": "PropertyValue", "name": "Security", "value": "3-Tier with Digital Locks" }
+        ]
+      };
+    }
+
     return null;
   };
 
@@ -222,11 +251,11 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "@type": ["LocalBusiness", "RealEstateAgent"],
       "name": "Goel Ganga Legend County Bavdhan",
       "image": ogImage,
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies.",
       "@id": `${siteUrl}/#localbusiness`,
       "url": siteUrl,
       "telephone": "+917744009295",
-      "priceRange": "₹1.77 Cr - ₹2.10 Cr",
+      "priceRange": "₹1.77 Cr - ₹2.90 Cr+",
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
       "areaServed": [
         {
@@ -367,20 +396,20 @@ export default function SEO({ title, description, keywords, canonical, image, fa
 
   // 7. ApartmentComplex Schema (Home and BHK config pages)
   const getApartmentComplexSchema = () => {
-    if (!isHome && !isBhk3 && !isBhk35) return null;
+    if (!isHome && !isBhk3 && !isBhk35 && !isBhk4) return null;
     return {
       "@context": "https://schema.org",
       "@type": "ApartmentComplex",
       "@id": `${siteUrl}/#apartmentcomplex`,
       "name": "Goel Ganga Legend County Bavdhan",
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies.",
       "url": siteUrl,
       "brand": {
         "@id": `${siteUrl}/#organization`
       },
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
-      "numberOfBedrooms": "2, 3, 3.5",
-      "priceRange": "₹1.77 Cr - ₹2.10 Cr",
+      "numberOfBedrooms": "2, 3, 3.5, 4",
+      "priceRange": "₹1.77 Cr - ₹2.90 Cr+",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",
