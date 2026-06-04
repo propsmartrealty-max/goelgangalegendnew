@@ -138,7 +138,7 @@ However, residents of <a href="/sports-township-pune">sports-first townships</a>
 <h2>Cost of Living Summary Matrix (Monthly Estimates)</h2>
 <p>To provide a clear comparison, here is a breakdown of estimated monthly expenses for different household profiles in Bavdhan for 2026:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Expense Category</th>
@@ -197,7 +197,7 @@ However, residents of <a href="/sports-township-pune">sports-first townships</a>
       <td style="padding: 12px;"><strong>₹60,000 - ₹94,000</strong></td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Conclusion: Is Bavdhan Worth It?</h2>
 <p>While the initial cost of acquiring or renting a property in Bavdhan is premium compared to developing eastern areas, the overall quality of life, access to nature (surrounded by the NDA hills), excellent schools, and unparalleled connectivity make it one of the most value-driven micro-markets in Pune today. It offers a secure, clean, and forward-looking environment that protects your family's health and ensures your investment appreciates consistently. For those seeking the ideal balance of work-life harmony and smart wealth creation, Bavdhan is the undisputed choice in West Pune's premium real estate landscape.</p>\n\n<h2>MahaRERA Registration & Legal Trust</h2>\n<p>To ensure total transparency, Goel Ganga Legend County Bavdhan is registered under MahaRERA number <strong>P52100054578</strong>. Sanctioned plans and title clearances can be verified directly on the MahaRERA portal, giving buyers absolute peace of mind.</p>`
@@ -248,7 +248,7 @@ For rental income, both areas perform well, but the target tenant profile differ
 <h2>Side-by-Side Comparison Matrix</h2>
 <p>Here is a detailed comparison of the key parameters to help you evaluate both micro-markets:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Feature / Parameter</th>
@@ -293,7 +293,7 @@ For rental income, both areas perform well, but the target tenant profile differ
       <td style="padding: 12px;">2.8% - 3.2% (Budget tenants)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>The Verdict: Choosing Your Future</h2>
 <p>The choice between Bavdhan and Hinjewadi ultimately depends on your life stage and long-term goals:
@@ -347,7 +347,7 @@ By living in <strong>Goel Ganga Bavdhan</strong> or investing in <strong>Goel Ga
 <h2>Case Study: 5-Year Investment Comparison</h2>
 <p>To demonstrate the ROI difference, let's compare a ₹1.8 Crore investment in a standard standalone residential building in Bavdhan versus a ₹1.8 Crore investment in a 3 BHK luxury apartment at Goel Ganga Legend County over a 5-year holding period (2026 to 2031):</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Financial Parameter</th>
@@ -387,7 +387,7 @@ By living in <strong>Goel Ganga Bavdhan</strong> or investing in <strong>Goel Ga
       <td style="padding: 12px;"><strong>11.8%</strong></td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Conclusion: The Future of Premium Living</h2>
 <p>The numbers speak for themselves. In the modern real estate landscape, sports-integrated townships like Goel Ganga Legend County are no longer just a lifestyle trend; they represent a highly sophisticated, high-yielding investment vehicle. By aligning your capital with the growing demand for health, wellness, and professional athletic coaching, you secure an asset that delivers superior rental returns, rapid capital appreciation, and unparalleled long-term security. Whether you are a homebuyer looking to secure your family's future or an investor seeking to maximize your portfolio's gains, the sports township model is the undisputed leader in Pune's real estate market today, outperforming standard <strong>Luxury township projects in Bavdhan Pune</strong>, standalone <strong>Ready possession luxury flats in Bavdhan</strong>, <strong>Gated community luxury homes in Bavdhan</strong>, <strong>Premium apartments with clubhouse in Bavdhan</strong>, <strong>Luxury township projects in Bavdhan</strong>, and standard <strong>Luxury apartments with clubhouse in Bavdhan</strong> options."</p>`
@@ -423,7 +423,7 @@ These limitations have forced sophisticated homebuyers to look for alternate pre
 <h2>Comparing the Numbers: Baner Pashan Link Road vs. Goel Ganga Legend County</h2>
 <p>Let's look at the comparative data for a luxury home buyer in Pune West in 2026:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Feature / Parameter</th>
@@ -463,7 +463,7 @@ These limitations have forced sophisticated homebuyers to look for alternate pre
       <td style="padding: 12px;">Premium rent, 0% vacancy (Stable family tenants)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Why Branded Sports Townships Win the Luxury Segment</h2>
 <p>Branded sports townships like Goel Ganga Legend County create a powerful value proposition. By dedicating 12.5 acres of a 30-acre layout to active sports infrastructure, it caters to families who prioritize health and physical activity. Having the <a href="/michael-phelps-swimming-pune">Michael Phelps Swimming Academy</a>, South United Football Academy, and Dhoni's <a href="/tagda-raho-dhoni-pune">Tagda Raho</a> fitness protocol inside the gates saves families hours of travel time in peak evening traffic and thousands of rupees in coaching fees. This is a massive USP that standalone projects on BPLR cannot match. It ensures that the property retains high desirability, command a 20% rental premium, and experiences rapid capital growth, serving as an ideal choice for those exploring <strong>Bavdhan Hinjewadi Luxury Flats</strong>, <strong>Bavdhan Sus Road Apartments</strong>, <strong>Bavdhan Balewadi Luxury Homes</strong>, <strong>Bavdhan NDA Road Apartments</strong>, and <strong>Bavdhan Chandani Chowk Luxury Property</strong> options.</p>
@@ -499,7 +499,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
 <h2>Comparing Buyer Profiles: Traditional vs. Modern Luxury Segment</h2>
 <p>Here is a detailed comparison of how luxury home buying criteria have evolved in Pune in 2026:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Buying Criteria</th>
@@ -534,7 +534,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
       <td style="padding: 12px;">Low-density master plan, clean air index, water security</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Why Goel Ganga Legend County Bavdhan Captures Tech Wealth</h2>
 <p>Located in the western growth corridor near Hinjewadi and Baner, Goel Ganga Legend County is perfectly positioned to capture this tech-driven demand. Spanning 30 acres, this planned township provides anti-density living facing the NDA hills, matching the requirements of elite <strong>Branded Residences Pune</strong>. By integrating Olympic-grade training at the Michael Phelps Swimming Academy and Dhoni's Tagda Raho fitness protocol inside the gates, Legend County offers the exact active wellness environment that modern buyers demand. For NRI and local tech leaders, it offers a secure, legally clear investment (MahaRERA: P52100054578) with high rental yields and robust capital growth, establishing itself as Pune's premier <strong>Premium Township Pune</strong>.</p>
@@ -565,7 +565,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
 <h2>Connectivity Overview Matrix</h2>
 <p>Here is an analysis of travel times and distances from Bavdhan to key hubs via the new metro and highway corridors:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Destination Hub</th>
@@ -600,7 +600,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
       <td style="padding: 12px;">5 - 8 mins (Feeder)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Multi-Modal Integration & Traffic Reductions</h2>
 <p>The integration of the Metro Line 3 with the existing road network is designed to create a seamless transit web. Feeder buses operated by PMPML will run at 5-minute intervals during peak commute hours, connecting Bavdhan's residential sectors directly to the Hinjewadi Metro Station. This transit model ensures that residents do not need to rely on personal vehicles for their daily office commute, contributing to a cleaner environment and reduced carbon footprint. Furthermore, the transit authority has planned dedicated multi-level parking facilities at key stations, allowing commuters to 'park and ride' efficiently. As a result, the traffic density on the main highway bypass is expected to drop by an estimated 30%, making road travel significantly faster for those who still choose to drive. This holistic approach to urban planning makes buying a home in a premium sports township in Bavdhan not just a lifestyle upgrade, but a highly sustainable choice for future-focused families.</p>
@@ -628,7 +628,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
 <h2>Commute Time Comparison: Before vs. After Flyover</h2>
 <p>Here is a comparison of average travel times from Goel Ganga Legend County during peak hours (09:00 - 10:30 and 18:00 - 19:30):</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Commute Corridor</th>
@@ -663,7 +663,7 @@ This demographic shift has created a high-value asset class: the sports-integrat
       <td style="padding: 12px;">66%</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>Impact on Residential Investment Value</h2>
 <p>The reduction in travel times has had a direct impact on real estate demand in Bavdhan. The suburb is now recognized as a key central connector, attracting second-generation families from Kothrud who want modern amenities and open spaces without leaving the western side of the city. Master-planned townships like <a href="/rera-legal-compliance-bavdhan">Goel Ganga Legend County</a> have experienced increased interest, leading to steady capital appreciation. A <strong>Goel Ganga Legend County Premium Home Near Chandani Chowk</strong> offers the ultimate combination of luxury, wellness, and transport connectivity, making it a highly sought-after residential destination in West Pune.</p>
@@ -716,7 +716,7 @@ The presence of local pharmacies, diagnostic centers, and clinics ensures that d
 <h2>Quality of Life Index Matrix</h2>
 <p>Here is an overview of the key family infrastructure metrics near Goel Ganga Legend County:</p>
 
-<table style="width:100%; border-collapse: collapse; margin: 2rem 0; border: 1px solid var(--border-light);">
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;margin:2rem 0;"><table style="width:100%; border-collapse: collapse; border: 1px solid var(--border-light);">
   <thead>
     <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border-light);">
       <th style="padding: 12px; text-align: left; font-weight: 600;">Infrastructure Category</th>
@@ -751,7 +751,7 @@ The presence of local pharmacies, diagnostic centers, and clinics ensures that d
       <td style="padding: 12px;">3 - 10 mins</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 
 <h2>The Gated Community Advantage for Families</h2>
 <p>While proximity to external <a href="/schools-hospitals-near-bavdhan">schools and hospitals</a> is important, living in a master-planned township like <a href="/sports-township-pune">Goel Ganga Legend County</a> adds another layer of convenience. The township features professional sports academies, including the <a href="/michael-phelps-swimming-pune">Michael Phelps Swimming</a> Academy and Dhoni's Tagda Raho, right inside the gates. This allows children to participate in athletic training in a safe, convenient environment, saving parents time and travel expenses. For families looking to relocate, Bavdhan offers a complete lifestyle solution in West Pune.</p>
