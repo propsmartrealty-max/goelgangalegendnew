@@ -37,6 +37,9 @@ def main():
         # Ping Bing IndexNow (ignore network/CORS issues)
         run_script("ping_indexnow.py", ignore_errors=True)
         
+        # Ping alternative search engines with sitemap
+        run_script("ping_sitemaps.py", ignore_errors=True)
+        
         # Google Indexing (Gracefully bypassed/ignored if 403 or unauthorized)
         print("\n=========================================")
         print(" Running Google Indexing API Submission")

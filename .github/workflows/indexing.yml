@@ -41,3 +41,7 @@ jobs:
       - name: Run Bing IndexNow Pinger
         run: |
           python3 scratch/ping_indexnow.py
+
+      - name: Run Alternative Search Engines Sitemap Pinger
+        run: |
+          python3 scratch/ping_sitemaps.py
