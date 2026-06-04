@@ -37,7 +37,8 @@ VALID_INSIGHTS = {
     'pune-luxury-real-estate-demographics-2026',
     'pune-metro-line-3-bavdhan-connector',
     'post-chandni-chowk-traffic-index-bavdhan',
-    'top-international-schools-pune-west-bavdhan'
+    'top-international-schools-pune-west-bavdhan',
+    'bavdhan-to-hinjewadi-it-park-commute-guide'
 }
 
 VALID_HASHES = {'#about', '#amenities', '#floor-plans', '#location', '#contact'}

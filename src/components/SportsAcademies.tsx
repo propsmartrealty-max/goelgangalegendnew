@@ -61,6 +61,7 @@ export default function SportsAcademies() {
                   width={1024}
                   height={1024}
                   loading="lazy"
+                  decoding="async"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
                 <div style={{

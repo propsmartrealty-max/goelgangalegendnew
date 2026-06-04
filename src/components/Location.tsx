@@ -111,6 +111,7 @@ export default function Location() {
                 width={18} 
                 height={18} 
                 loading="lazy" 
+                decoding="async"
                 style={{ height: 18, width: 18 }} 
                 alt="Google Maps Logo" 
               />

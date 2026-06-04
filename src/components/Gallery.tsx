@@ -58,7 +58,7 @@ export default function Gallery() {
               aspectRatio: '4/3',
             }}
           >
-            <img src={img.src} alt={img.title} width={1024} height={1024} loading="lazy" style={{
+            <img src={img.src} alt={img.title} width={1024} height={1024} loading="lazy" decoding="async" style={{
               width: '100%', height: '100%', objectFit: 'cover',
               transition: 'transform 0.6s var(--ease-out)',
             }}

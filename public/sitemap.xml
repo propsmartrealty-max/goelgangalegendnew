@@ -280,4 +280,15 @@
       <image:title>Luxury 4 BHK flats in Pune - Goel Ganga Legend County</image:title>
     </image:image>
   </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/insights/bavdhan-to-hinjewadi-it-park-commute-guide</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Bavdhan to Hinjewadi IT Park Commute Guide: Best Housing for IT Professionals</image:title>
+    </image:image>
+  </url>
 </urlset>

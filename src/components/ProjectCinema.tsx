@@ -63,6 +63,7 @@ export default function ProjectCinema() {
             width={1024}
             height={1024}
             loading="lazy"
+            decoding="async"
             style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
           />
 

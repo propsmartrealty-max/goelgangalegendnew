@@ -448,3 +448,63 @@ div::-webkit-scrollbar {
   transform-origin: left;
   transition: none;
 }
+
+/* ─── Premium Visual Polish & Accents ─── */
+:root {
+  --accent-gradient-radial: radial-gradient(circle, rgba(0, 114, 188, 0.2) 0%, transparent 70%);
+  --accent-glow-heavy: 0 20px 40px rgba(0, 114, 188, 0.18);
+}
+
+/* Glassmorphism Card Hover Effects */
+.card-glow {
+  transition: transform var(--duration-fast) var(--ease-out), box-shadow var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out) !important;
+}
+
+.card-glow:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--accent-glow-heavy) !important;
+  border-color: rgba(0, 114, 188, 0.4) !important;
+}
+
+/* Primary Button Premium Hover States */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  transition: all var(--duration-fast) var(--ease-out) !important;
+  z-index: 1;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-light), var(--accent));
+  z-index: -1;
+  transition: opacity var(--duration-fast) var(--ease-out);
+  opacity: 0;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 114, 188, 0.3);
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
+}
+
+/* Outline Button Hover States */
+.btn-outline {
+  transition: all var(--duration-fast) var(--ease-out) !important;
+}
+
+.btn-outline:hover {
+  background: var(--accent) !important;
+  color: #000 !important;
+  border-color: var(--accent) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 114, 188, 0.15);
+}

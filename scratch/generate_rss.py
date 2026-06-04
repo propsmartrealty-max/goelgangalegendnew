@@ -61,6 +61,12 @@ items = [
         "link": "https://goelgangalegend.com/luxury-4bhk-flats-pune",
         "description": "Explore luxury 4 BHK duplex and combined flats in Bavdhan, Pune at Goel Ganga Legend County starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies.",
         "date": "2026-06-04T09:00:00+05:30"
+    },
+    {
+        "title": "Bavdhan to Hinjewadi IT Park Commute Guide: Best Housing for IT Professionals",
+        "link": "https://goelgangalegend.com/insights/bavdhan-to-hinjewadi-it-park-commute-guide",
+        "description": "A comprehensive connectivity and commute analysis between Bavdhan and Hinjewadi IT Park for software engineers, tech managers, and real estate investors in 2026.",
+        "date": "2026-06-04T10:00:00+05:30"
     }
 ]
 

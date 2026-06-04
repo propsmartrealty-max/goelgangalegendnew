@@ -44,7 +44,8 @@ SITE_URLS = [
     "https://goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026",
     "https://goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector",
     "https://goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan",
-    "https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan"
+    "https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan",
+    "https://goelgangalegend.com/insights/bavdhan-to-hinjewadi-it-park-commute-guide"
 ]
 
 def get_access_token():

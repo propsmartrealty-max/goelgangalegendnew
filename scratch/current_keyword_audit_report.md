@@ -37,6 +37,7 @@ This report audits the density and distribution of high-intent brand, configurat
 | `pune-metro-line-3-bavdhan-connector` | 24 | 23 | 12 | 3 | 2 | ✅ | ✅ Compliant |
 | `post-chandni-chowk-traffic-index-bavdhan` | 24 | 17 | 8 | 9 | 1 | ✅ | ✅ Compliant |
 | `top-international-schools-pune-west-bavdhan` | 24 | 23 | 9 | 9 | 1 | ✅ | ✅ Compliant |
+| `bavdhan-to-hinjewadi-it-park-commute-guide` | 12 | 29 | 8 | 4 | 3 | ✅ | ✅ Compliant |
 
 ## Audit Summary
 

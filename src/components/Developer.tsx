@@ -55,6 +55,7 @@ export default function Developer() {
               alt="Goel Ganga Developments - Trusted Real Estate Developer in Pune" 
               title="Goel Ganga Developments Legacy"
               loading="lazy"
+              decoding="async"
               width={500}
               height={500}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}

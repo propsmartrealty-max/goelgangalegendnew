@@ -5,11 +5,11 @@ This report lists the status of content depth, metadata optimization, RERA compl
 ## Executive Summary
 
 - **Total Silo Pages Audited:** 22
-- **Total Insights Articles Audited:** 9
+- **Total Insights Articles Audited:** 10
 - **Average Silo Word Count:** 910 words (Target: 800+ words)
-- **Average Article Word Count:** 1330 words (Target: 800+ words)
-- **Total Dynamic Internal Contextual Links:** 58 links
-- **RERA Verification Compliance (`P52100054578`):** 22/22 Silos, 9/9 Articles
+- **Average Article Word Count:** 1304 words (Target: 800+ words)
+- **Total Dynamic Internal Contextual Links:** 66 links
+- **RERA Verification Compliance (`P52100054578`):** 22/22 Silos, 10/10 Articles
 
 ## Silo Page Optimization Matrix
 
@@ -52,10 +52,11 @@ This report lists the status of content depth, metadata optimization, RERA compl
 | `insights/pune-metro-line-3-bavdhan-connector` | 79 | 166 | 885 | 1 | ✅ Verified | ✅ |
 | `insights/post-chandni-chowk-traffic-index-bavdhan` | 74 | 149 | 823 | 1 | ✅ Verified | ✅ |
 | `insights/top-international-schools-pune-west-bavdhan` | 74 | 141 | 864 | 1 | ✅ Verified | ✅ |
+| `insights/bavdhan-to-hinjewadi-it-park-commute-guide` | 77 | 161 | 1068 | 8 | ✅ Verified | ✅ |
 
 
 ## Detailed Compliance Analysis
 
-✅ **Helpful Content Compliant:** All 22 silo pages and 9 insights pages exceed the 800-word threshold, ensuring maximum authoritative value.
+✅ **Helpful Content Compliant:** All 22 silo pages and 10 insights pages exceed the 800-word threshold, ensuring maximum authoritative value.
 
 ✅ **Metadata Perfect:** All page titles (30-70 chars) and meta descriptions (110-165 chars) are optimized for Google SERP display layouts.

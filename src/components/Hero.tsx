@@ -38,6 +38,7 @@ export default function Hero() {
           loading="eager"
           width={1024}
           height={1024}
+          decoding="sync"
           style={{
             width: '100%',
             height: '120%',

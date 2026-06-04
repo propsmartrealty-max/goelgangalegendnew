@@ -56,6 +56,7 @@ export default function Overview() {
               width={1024}
               height={1024}
               loading="lazy"
+              decoding="async"
               style={{ width: '100%', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-xl)' }}
             />
             <div style={{

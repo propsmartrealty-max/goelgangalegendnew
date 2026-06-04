@@ -93,7 +93,7 @@ export default function Navbar() {
           }}
         >
           {/* Left - Brand (Equalized Flex) */}
-          <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start' }}>
+          <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', gap: '1rem' }}>
             <a
               href="#"
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
@@ -116,6 +116,18 @@ export default function Navbar() {
                 <BrandLogo style={{ height: '38px', width: 'auto' }} />
               </div>
             </a>
+            <div style={{
+              fontSize: '0.62rem',
+              fontWeight: 700,
+              padding: '0.25rem 0.65rem',
+              background: 'rgba(255, 255, 255, 0.08)',
+              borderRadius: 'var(--radius-pill)',
+              border: '1px solid var(--border-light)',
+              color: 'var(--text-white-muted)',
+              whiteSpace: 'nowrap',
+            }} className="hide-mobile">
+              MahaRERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>P52100054578</a>
+            </div>
           </div>
 
           {/* Middle - Links (Visual Center) */}
@@ -229,6 +241,20 @@ export default function Navbar() {
                 <Phone size={18} />
                 ENQUIRE NOW
               </button>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.6 }}
+              transition={{ delay: 0.5 }}
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: 'var(--text-white-muted)',
+                textAlign: 'center',
+                marginTop: '1rem'
+              }}
+            >
+              MahaRERA No: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>P52100054578</a>
             </motion.div>
           </motion.div>
         )}

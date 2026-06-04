@@ -46,6 +46,7 @@ export default function MasterLayout() {
               width={1000}
               height={705}
               loading="lazy"
+              decoding="async"
               style={{ width: '100%', display: 'block' }}
             />
             <div style={{
