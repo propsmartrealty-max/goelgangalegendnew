@@ -33,6 +33,7 @@ SITE_URLS = [
     "https://goelgangalegend.com/luxury-3bhk-flats-pune",
     "https://goelgangalegend.com/best-investment-property-pune",
     "https://goelgangalegend.com/sports-township-pune-stadium-life",
+    "https://goelgangalegend.com/luxury-4bhk-flats-pune",
     
     # Insights Articles (MOFU Content)
     "https://goelgangalegend.com/insights/bavdhan-real-estate-investment-2026",

@@ -216,7 +216,7 @@ def main():
             parts.append(f"Articles: {', '.join(thin_articles)}")
         report_lines.append(warning_msg + "; ".join(parts) + ".\n")
     else:
-        report_lines.append("✅ **Helpful Content Compliant:** All 21 silo pages and 9 insights pages exceed the 800-word threshold, ensuring maximum authoritative value.\n")
+        report_lines.append(f"✅ **Helpful Content Compliant:** All {total_silos} silo pages and {total_articles} insights pages exceed the 800-word threshold, ensuring maximum authoritative value.\n")
 
     # Metadata check
     bad_metadata = []

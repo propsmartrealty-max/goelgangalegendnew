@@ -31,7 +31,15 @@ export default function Footer() {
       navigate('/' + href);
       return;
     }
-    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    const el = document.querySelector(href);
+    if (el) {
+      const lenis = (window as any).lenis;
+      if (lenis) {
+        lenis.scrollTo(el, { offset: -80 });
+      } else {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (

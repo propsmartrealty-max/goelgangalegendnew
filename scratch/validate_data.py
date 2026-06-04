@@ -24,7 +24,8 @@ VALID_SILOS = {
     'luxury-flats-kothrud-vs-bavdhan-pune',
     'luxury-3bhk-flats-pune',
     'best-investment-property-pune',
-    'sports-township-pune-stadium-life'
+    'sports-township-pune-stadium-life',
+    'luxury-4bhk-flats-pune'
 }
 
 VALID_INSIGHTS = {

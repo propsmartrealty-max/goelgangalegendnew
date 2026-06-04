@@ -41,12 +41,23 @@ function ScrollToTop() {
       const el = document.querySelector(hash);
       if (el) {
         const timer = setTimeout(() => {
-          el.scrollIntoView({ behavior: 'smooth' });
+          const lenis = (window as any).lenis;
+          if (lenis) {
+            lenis.scrollTo(el, { offset: -80, immediate: false });
+          } else {
+            el.scrollIntoView({ behavior: 'smooth' });
+          }
         }, 150);
         return () => clearTimeout(timer);
       }
+    } else {
+      const lenis = (window as any).lenis;
+      if (lenis) {
+        lenis.scrollTo(0, { immediate: true });
+      } else {
+        window.scrollTo(0, 0);
+      }
     }
-    window.scrollTo(0, 0);
   }, [pathname, hash]);
   return null;
 }

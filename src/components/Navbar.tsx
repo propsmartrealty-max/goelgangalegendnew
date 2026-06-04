@@ -25,6 +25,21 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  useEffect(() => {
+    const lenis = (window as any).lenis;
+    if (mobileOpen) {
+      lenis?.stop();
+      document.body.style.overflow = 'hidden';
+    } else {
+      lenis?.start();
+      document.body.style.overflow = '';
+    }
+    return () => {
+      lenis?.start();
+      document.body.style.overflow = '';
+    };
+  }, [mobileOpen]);
+
   const handleClick = (href: string) => {
     setMobileOpen(false);
     if (window.location.pathname !== '/') {
@@ -32,7 +47,14 @@ export default function Navbar() {
       return;
     }
     const el = document.querySelector(href);
-    el?.scrollIntoView({ behavior: 'smooth' });
+    if (el) {
+      const lenis = (window as any).lenis;
+      if (lenis) {
+        lenis.scrollTo(el, { offset: -80 });
+      } else {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (
