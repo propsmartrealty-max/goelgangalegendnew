@@ -204,9 +204,17 @@ def main():
     report_lines.append("## Detailed Compliance Analysis\n")
     
     # Helpful Content check
-    thin_pages = [s["slug"] for s in silo_reports if s["total_word_count"] < 800]
-    if thin_pages:
-        report_lines.append(f"⚠️ **Helpful Content Warning:** The following pages are below the 800-word target: {', '.join(thin_pages)}.\n")
+    thin_silos = [s["slug"] for s in silo_reports if s["total_word_count"] < 800]
+    thin_articles = [a["slug"] for a in article_reports if a["total_word_count"] < 800]
+    
+    if thin_silos or thin_articles:
+        warning_msg = "⚠️ **Helpful Content Warning:** The following pages are below the 800-word target: "
+        parts = []
+        if thin_silos:
+            parts.append(f"Silos: {', '.join(thin_silos)}")
+        if thin_articles:
+            parts.append(f"Articles: {', '.join(thin_articles)}")
+        report_lines.append(warning_msg + "; ".join(parts) + ".\n")
     else:
         report_lines.append("✅ **Helpful Content Compliant:** All 21 silo pages and 9 insights pages exceed the 800-word threshold, ensuring maximum authoritative value.\n")
 
