@@ -4,6 +4,54 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
   {
+    title: 'Pune Metro Line 3: Hinjewadi-Shivajinagar Metro Progress & Bavdhan Connectivity',
+    excerpt: 'Track the progress of Pune Metro Line 3 (Hinjewadi-Shivajinagar) and how the planned connector and feeder services benefit Goel Ganga Legend County Bavdhan residents...',
+    date: 'June 03, 2026',
+    author: 'Research Team',
+    keywords: 'Pune Metro Line 3, Hinjewadi Metro, Shivajinagar Metro, Bavdhan Metro connectivity',
+    slug: 'pune-metro-line-3-bavdhan-connector'
+  },
+  {
+    title: 'Post-Chandni Chowk Traffic Index: Commute Times to Baner & Kothrud in 2026',
+    excerpt: 'An analysis of traffic index patterns, travel times, and connectivity benefits in Bavdhan following the multi-level Chandni Chowk flyover completion...',
+    date: 'June 03, 2026',
+    author: 'Research Team',
+    keywords: 'Chandni Chowk flyover, Bavdhan traffic index, Bavdhan to Baner travel time, Bavdhan to Kothrud commute',
+    slug: 'post-chandni-chowk-traffic-index-bavdhan'
+  },
+  {
+    title: 'Top International Schools in Pune West: Family Relocation Guide to Bavdhan',
+    excerpt: 'A comprehensive directory of top schools, universities, and healthcare facilities near Bavdhan, Pune West, for families planning to relocate...',
+    date: 'June 03, 2026',
+    author: 'Research Team',
+    keywords: 'schools near Bavdhan, international schools in Pune West, hospitals in Bavdhan, Flame University Pune',
+    slug: 'top-international-schools-pune-west-bavdhan'
+  },
+  {
+    title: 'Under-40 Homebuyers: Tech Wealth Reshaping Pune Luxury Real Estate',
+    excerpt: 'An analysis of why tech-savvy professionals under 40 represent 55% of Pune\'s luxury real estate sales, and how they prioritize wellness-first sports townships...',
+    date: 'June 03, 2026',
+    author: 'Research Team',
+    keywords: 'Pune Real Estate, luxury residential projects in Pune, property market Pune, tech homebuyers Pune',
+    slug: 'pune-luxury-real-estate-demographics-2026'
+  },
+  {
+    title: 'Baner Pashan Link Road Market: The Ultimate Luxury Residential Guide',
+    excerpt: 'An in-depth analysis of the Baner Pashan Link Road market, pricing trends, congestion index, and why luxury buyers are upgrade-shifting to nearby sports townships...',
+    date: 'June 03, 2026',
+    author: 'Research Team',
+    keywords: 'luxury real estate Baner Pashan Link Road market, high end luxury Baner Pashan Link Road, Baner Pashan Link Road residential projects, properties near Baner Pashan Link Road',
+    slug: 'baner-pashan-link-road-real-estate-guide'
+  },
+  {
+    title: 'Cost of Living in Bavdhan Pune: A Comprehensive 2026 Guide',
+    excerpt: 'Explore the cost of living, top schools, healthcare, and lifestyle amenities in Bavdhan, Pune\'s most sought-after residential hub...',
+    date: 'May 15, 2026',
+    author: 'Lifestyle Analyst',
+    keywords: 'cost of living in Bavdhan, schools near Bavdhan, healthcare Bavdhan, lifestyle amenities Bavdhan',
+    slug: 'cost-of-living-bavdhan-pune'
+  },
+  {
     title: 'Why Bavdhan is the Best Real Estate Investment in Pune West 2026',
     excerpt: 'Explore the high ROI potential and future growth corridor of Bavdhan Budruk near Chandni Chowk flyover...',
     date: 'May 12, 2026',
@@ -41,7 +89,7 @@ export default function BlogSection() {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))', gap: '2.5rem' }}>
           {blogs.map((blog, i) => (
             <motion.div
               key={i}

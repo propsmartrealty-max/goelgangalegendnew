@@ -25,6 +25,36 @@ items = [
         "link": "https://goelgangalegend.com/insights/roi-sports-townships-pune",
         "description": "Discover why integrated sports townships in Pune, featuring international academies, are outperforming standalone residential buildings in rental yields and capital growth.",
         "date": "2026-05-14T13:00:00+05:30"
+    },
+    {
+        "title": "Baner Pashan Link Road Market: The Ultimate Luxury Residential Guide for Pune West",
+        "link": "https://goelgangalegend.com/insights/baner-pashan-link-road-real-estate-guide",
+        "description": "A deep-dive analysis of the Baner Pashan Link Road market, property rates, congestion index, and why luxury buyers are shifting to nearby premium townships.",
+        "date": "2026-06-03T09:00:00+05:30"
+    },
+    {
+        "title": "Under-40 Homebuyers: Tech Wealth Reshaping Pune Luxury Real Estate",
+        "link": "https://goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026",
+        "description": "An analysis of why tech-savvy professionals under 40 represent 55% of Pune's luxury real estate sales, and how they prioritize wellness-first sports townships.",
+        "date": "2026-06-03T09:00:00+05:30"
+    },
+    {
+        "title": "Pune Metro Line 3: Hinjewadi-Shivajinagar Metro Progress & Bavdhan Connectivity",
+        "link": "https://goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector",
+        "description": "Track the progress of Pune Metro Line 3 (Hinjewadi-Shivajinagar) and how the planned connector and feeder services benefit Goel Ganga Legend County Bavdhan residents.",
+        "date": "2026-06-03T09:00:00+05:30"
+    },
+    {
+        "title": "Post-Chandni Chowk Traffic Index: Commute Times to Baner & Kothrud in 2026",
+        "link": "https://goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan",
+        "description": "An analysis of traffic index patterns, travel times, and connectivity benefits in Bavdhan following the multi-level Chandni Chowk flyover completion.",
+        "date": "2026-06-03T09:00:00+05:30"
+    },
+    {
+        "title": "Top International Schools in Pune West: Family Relocation Guide to Bavdhan",
+        "link": "https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan",
+        "description": "A comprehensive directory of top schools, universities, and healthcare facilities near Bavdhan, Pune West, for families planning to relocate.",
+        "date": "2026-06-03T09:00:00+05:30"
     }
 ]
 

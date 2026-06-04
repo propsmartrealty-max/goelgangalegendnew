@@ -194,7 +194,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       },
       "about": {
         "@type": "ApartmentComplex",
-        "name": "Goel Ganga Legend County",
+        "name": "Goel Ganga Legend County Bavdhan",
         "url": siteUrl,
         "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
         "address": {
@@ -220,12 +220,12 @@ export default function SEO({ title, description, keywords, canonical, image, fa
     return {
       "@context": "https://schema.org",
       "@type": ["LocalBusiness", "RealEstateAgent"],
-      "name": "Goel Ganga Legend County",
+      "name": "Goel Ganga Legend County Bavdhan",
       "image": ogImage,
       "description": "Experience Pune's premier 30-acre sports township. Luxury 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
       "@id": `${siteUrl}/#localbusiness`,
       "url": siteUrl,
-      "telephone": "+912067654321",
+      "telephone": "+917744009295",
       "priceRange": "₹1.77 Cr - ₹2.10 Cr",
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
       "areaServed": [
@@ -240,6 +240,26 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         {
           "@type": "AdministrativeArea",
           "name": "West Pune"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Kothrud"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Baner"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pashan Link Road"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oxford Golf Resort"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hinjewadi"
         }
       ],
       "knowsAbout": [
@@ -259,8 +279,8 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 18.5126,
-        "longitude": 73.7667
+        "latitude": 18.512876,
+        "longitude": 73.771961
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -269,8 +289,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       },
       "review": reviewsData,
       "memberOf": {
-        "@type": "Organization",
-        "name": "Goel Ganga Developments"
+        "@id": `${siteUrl}/#organization`
       },
       "amenityFeature": [
         { "@type": "LocationFeatureSpecification", "name": "Michael Phelps Swimming Academy", "value": true },
@@ -296,6 +315,9 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "sameAs": [
         "https://www.facebook.com/goelgangadevelopments",
         "https://www.instagram.com/goelgangadevelopments",
+        "https://www.linkedin.com/company/goel-ganga-developments",
+        "https://www.youtube.com/@GoelGangaDevelopments",
+        "https://twitter.com/goelgangapune",
         "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
         "https://en.wikipedia.org/wiki/Pune",
         "https://en.wikipedia.org/wiki/Bavdhan"
@@ -309,12 +331,16 @@ export default function SEO({ title, description, keywords, canonical, image, fa
     return {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
       "name": "Goel Ganga Developments",
       "url": siteUrl,
       "logo": `${siteUrl}/logo.webp`,
       "sameAs": [
         "https://www.facebook.com/goelgangadevelopments",
-        "https://www.instagram.com/goelgangadevelopments"
+        "https://www.instagram.com/goelgangadevelopments",
+        "https://www.linkedin.com/company/goel-ganga-developments",
+        "https://www.youtube.com/@GoelGangaDevelopments",
+        "https://twitter.com/goelgangapune"
       ]
     };
   };
@@ -325,8 +351,12 @@ export default function SEO({ title, description, keywords, canonical, image, fa
     return {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Goel Ganga Legend County",
+      "@id": `${siteUrl}/#website`,
+      "name": "Goel Ganga Legend County Bavdhan",
       "url": siteUrl,
+      "publisher": {
+        "@id": `${siteUrl}/#organization`
+      },
       "potentialAction": {
         "@type": "SearchAction",
         "target": `${siteUrl}/?s={search_term_string}`,
@@ -341,9 +371,13 @@ export default function SEO({ title, description, keywords, canonical, image, fa
     return {
       "@context": "https://schema.org",
       "@type": "ApartmentComplex",
-      "name": "Goel Ganga Legend County",
+      "@id": `${siteUrl}/#apartmentcomplex`,
+      "name": "Goel Ganga Legend County Bavdhan",
       "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
       "url": siteUrl,
+      "brand": {
+        "@id": `${siteUrl}/#organization`
+      },
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
       "numberOfBedrooms": "2, 3, 3.5",
       "priceRange": "₹1.77 Cr - ₹2.10 Cr",
@@ -357,10 +391,10 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 18.5126,
-        "longitude": 73.7667
+        "latitude": 18.512876,
+        "longitude": 73.771961
       },
-      "telephone": "+912067654321",
+      "telephone": "+917744009295",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
@@ -429,6 +463,33 @@ export default function SEO({ title, description, keywords, canonical, image, fa
     };
   };
 
+  // 9. VideoObject Schema (Home page only)
+  const getVideoSchema = () => {
+    if (!isHome) return null;
+    return {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "@id": `${siteUrl}/#video`,
+      "name": "Goel Ganga Legend County Bavdhan — Official 2026 Cinematic Walkthrough",
+      "description": "Cinematic walkthrough of Pune's premier 30-acre sports township. Experience the Michael Phelps Swimming Academy and Dhoni's Tagda Raho center.",
+      "thumbnailUrl": [
+        `${siteUrl}/hero-aerial.webp`
+      ],
+      "uploadDate": "2026-06-03T09:00:00+05:30",
+      "duration": "PT2M15S",
+      "contentUrl": `${siteUrl}/hero-aerial.webp`,
+      "embedUrl": `${siteUrl}/#cinema`,
+      "publisher": {
+        "@id": `${siteUrl}/#organization`
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": { "@type": "WatchAction" },
+        "userInteractionCount": 12500
+      }
+    };
+  };
+
   const breadcrumbsSchema = getBreadcrumbsSchema();
   const productSchema = getProductSchema();
   const realEstateSchema = getRealEstateListingSchema();
@@ -437,6 +498,58 @@ export default function SEO({ title, description, keywords, canonical, image, fa
   const websiteSchema = getWebSiteSchema();
   const apartmentComplexSchema = getApartmentComplexSchema();
   const siteNavigationSchema = getSiteNavigationSchema();
+  const videoSchema = getVideoSchema();
+
+  // Consolidate all schemas into a single semantic @graph definition for deepest web data integration
+  const getConsolidatedSchema = () => {
+    const graph: any[] = [];
+
+    if (breadcrumbsSchema) graph.push(breadcrumbsSchema);
+    if (productSchema) graph.push(productSchema);
+    if (realEstateSchema) graph.push(realEstateSchema);
+    if (localBusinessSchema) graph.push(localBusinessSchema);
+    if (organizationSchema) graph.push(organizationSchema);
+    if (websiteSchema) graph.push(websiteSchema);
+    if (apartmentComplexSchema) graph.push(apartmentComplexSchema);
+    if (videoSchema) graph.push(videoSchema);
+
+    if (siteNavigationSchema) {
+      if (siteNavigationSchema["@graph"]) {
+        graph.push(...siteNavigationSchema["@graph"]);
+      } else {
+        graph.push(siteNavigationSchema);
+      }
+    }
+
+    if (faq && faq.length > 0) {
+      graph.push({
+        "@type": "FAQPage",
+        "mainEntity": faq.map((item) => ({
+          "@type": "Question",
+          "name": item.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item.answer
+          }
+        }))
+      });
+    }
+
+    if (graph.length === 0) return null;
+
+    // Remove separate @context properties from individual nodes to conform with the single parent @context
+    const cleanedGraph = graph.map(node => {
+      const { "@context": context, ...rest } = node;
+      return rest;
+    });
+
+    return {
+      "@context": "https://schema.org",
+      "@graph": cleanedGraph
+    };
+  };
+
+  const consolidatedSchema = getConsolidatedSchema();
 
   return (
     <Helmet>
@@ -459,79 +572,11 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
 
-      {/* Breadcrumb Schema */}
-      {breadcrumbsSchema && (
+      {/* Consolidated Semantic Graph Schema */}
+      {consolidatedSchema && (
         <script type="application/ld+json">
-          {JSON.stringify(breadcrumbsSchema)}
+          {JSON.stringify(consolidatedSchema)}
         </script>
-      )}
-
-      {/* Google Product & Offer Schema */}
-      {productSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(productSchema)}
-        </script>
-      )}
-
-      {/* Real Estate Schema */}
-      {realEstateSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(realEstateSchema)}
-        </script>
-      )}
-
-      {/* LocalBusiness Schema */}
-      {localBusinessSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(localBusinessSchema)}
-        </script>
-      )}
-
-      {/* Organization Schema */}
-      {organizationSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(organizationSchema)}
-        </script>
-      )}
-
-      {/* WebSite Schema */}
-      {websiteSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(websiteSchema)}
-        </script>
-      )}
-
-      {/* ApartmentComplex Schema */}
-      {apartmentComplexSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(apartmentComplexSchema)}
-        </script>
-      )}
-
-      {/* SiteNavigationElement Schema */}
-      {siteNavigationSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(siteNavigationSchema)}
-        </script>
-      )}
-
-      {/* FAQ Schema */}
-      {faq && faq.length > 0 && (
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faq.map((item) => ({
-              "@type": "Question",
-              "name": item.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": item.answer
-              }
-            }))
-          })}
-        </script>
-      )}
-    </Helmet>
+      )}</Helmet>
   );
 }

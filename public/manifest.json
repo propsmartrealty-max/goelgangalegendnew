@@ -1,0 +1,24 @@
+{
+  "name": "Goel Ganga Legend County Bavdhan",
+  "short_name": "Ganga Legend",
+  "description": "Luxury 3 & 3.5 BHK Sports Township in Bavdhan, Pune.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

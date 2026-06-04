@@ -4,7 +4,7 @@ export default function Developer() {
   return (
     <section id="developer" className="section-light" style={{ padding: '8rem 0', background: 'var(--bg-cream-deep)' }}>
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '4rem', alignItems: 'center' }}>
           
           {/* Legacy Content */}
           <motion.div
@@ -35,7 +35,7 @@ export default function Developer() {
               </div>
             </div>
           </motion.div>
-
+ 
           {/* Vision Image/Card */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -75,11 +75,11 @@ export default function Developer() {
             </div>
           </motion.div>
         </div>
-
+ 
         {/* Chronicle of Excellence */}
         <div style={{ 
           marginTop: '6rem', paddingTop: '4rem', borderTop: '1px solid rgba(0,0,0,0.05)',
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem'
+          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: '3rem'
         }}>
           <div>
             <div style={{ fontSize: '0.65rem', fontWeight: 800, color: 'var(--accent)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Awards</div>

@@ -31,7 +31,7 @@ export default function Testimonials() {
           <h2 className="heading-display heading-md" style={{ color: 'var(--text-dark)' }}>Resident <span style={{ color: 'var(--accent)', fontStyle: 'italic' }}>Stories</span></h2>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem' }}>
           {reviews.map((review, i) => (
             <motion.div
               key={i}

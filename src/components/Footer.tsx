@@ -62,25 +62,76 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Project Silos */}
+          {/* West Pune Luxury Corridors */}
           <div>
-            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Project Silos</h4>
+            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>West Pune Corridors</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/3bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3 BHK Residences</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/3.5-bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3.5 BHK Residences</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-projects-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury Projects</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Township</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Pune Real Estate</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/west-pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>West Pune Market</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-real-estate-baner-pashan-link-road" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner Pashan Link Road</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-apartments-chandni-chowk" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Chandni Chowk Link</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/schools-hospitals-near-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Infrastructure & Schools</Link></li>
             </ul>
           </div>
 
-          {/* Experience */}
+          {/* Comparative Hub */}
           <div>
-            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Experience</h4>
+            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Comparative Hub</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-flats-kharadi-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kharadi vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-homes-koregaon-park-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Koregaon Park vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-apartments-baner-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-flats-kothrud-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kothrud vs Bavdhan</Link></li>
+            </ul>
+          </div>
+
+          {/* Configurations */}
+          <div>
+            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Configurations</h4>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/2bhk-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>2 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/3bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/3.5-bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3.5 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-3bhk-flats-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury 3 BHK Pune</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/investment-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Investment Properties</Link></li>
+            </ul>
+          </div>
+
+          {/* Elite Sports & Legal */}
+          <div>
+            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Experience & Legal</h4>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Township</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune-stadium-life" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Stadium Life</Link></li>
               <li style={{ marginBottom: '0.75rem' }}><Link to="/michael-phelps-swimming-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Phelps Swimming</Link></li>
               <li style={{ marginBottom: '0.75rem' }}><Link to="/tagda-raho-dhoni-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Tagda Raho Center</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Football Academy</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-projects-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury Projects</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/best-investment-property-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Best Investment Property</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/rera-legal-compliance-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>MahaRERA Status</Link></li>
               <li style={{ marginBottom: '0.75rem' }}><a href="/sitemap.xml" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--accent)' }}>Digital Sitemap</a></li>
+            </ul>
+          </div>
+
+          {/* Goel Ganga Portfolio */}
+          <div>
+            <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Goel Ganga Estates</h4>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ marginBottom: '0.85rem' }}>
+                <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-white)' }}>Ganga Platino (Kharadi)</span>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', lineHeight: '1.4', marginTop: '0.15rem' }}>Award-winning premium residences featuring luxury waterfront parks.</p>
+              </li>
+              <li style={{ marginBottom: '0.85rem' }}>
+                <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-white)' }}>Ganga Dham Towers (Market Yard)</span>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', lineHeight: '1.4', marginTop: '0.15rem' }}>Ultra-luxury sky-mansions with 360-degree scenic Pune views.</p>
+              </li>
+              <li style={{ marginBottom: '0.85rem' }}>
+                <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-white)' }}>Ganga Asmi (Wakad)</span>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', lineHeight: '1.4', marginTop: '0.15rem' }}>Premium high-rise tower homes situated in the Wakad IT corridor.</p>
+              </li>
+              <li style={{ marginBottom: '0.85rem' }}>
+                <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-white)' }}>Ganga Trueno (Viman Nagar)</span>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', lineHeight: '1.4', marginTop: '0.15rem' }}>Landmark Grade-A retail and corporate commercial structure.</p>
+              </li>
             </ul>
           </div>
 
@@ -107,7 +158,7 @@ export default function Footer() {
         {/* Bottom */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginBottom: '3rem' }}>
           <div style={{ fontSize: '0.78rem', color: 'var(--text-white-subtle)' }}>
-            © {new Date().getFullYear()} Goel Ganga Developments. All rights reserved. RERA: P52100054578
+            © {new Date().getFullYear()} Goel Ganga Developments. All rights reserved. RERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>P52100054578</a>
           </div>
           <button onClick={scrollTop} aria-label="Scroll to top" style={{
             width: 40, height: 40, borderRadius: '50%',
@@ -128,6 +179,8 @@ export default function Footer() {
           <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--accent)', letterSpacing: '0.15em', marginBottom: '1rem', opacity: 0.6 }}>Project Metadata & Silo Index</div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', opacity: 0.3 }}>
             {[
+              'Pune Real Estate', 'West Pune Real Estate Market', 'luxury real estate Baner Pashan Link Road market',
+              'high end luxury Baner Pashan Link Road', 'Baner Pashan Link Road residential projects', 'properties near Baner Pashan Link Road',
               'Goel Ganga Legend County Pune reviews', 'Goel Ganga Legend County Bavdhan price list', 'Goel Ganga Legend County Bavdhan brochure pdf',
               'Goel Ganga Legend County Bavdhan possession', 'Goel Ganga Legend County Bavdhan photos', 'Goel Ganga Legend County Bavdhan master plan',
               'Goel Ganga Legend County Bavdhan floor plans', 'Goel Ganga Legend County Bavdhan resale price', 'Goel Ganga Legend County Bavdhan rental yield',

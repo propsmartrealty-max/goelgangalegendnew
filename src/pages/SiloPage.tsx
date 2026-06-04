@@ -82,7 +82,7 @@ export default function SiloPage() {
       {/* Content Section */}
       <section className="section-light" style={{ padding: '4rem 0' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '4rem' }}>
             <div 
               className="silo-content-body"
               style={{ display: 'grid', gap: '1.5rem' }}

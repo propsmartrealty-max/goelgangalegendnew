@@ -139,4 +139,134 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- New Hardened SEO Silos -->
+  <url>
+    <loc>https://goelgangalegend.com/pune-real-estate-market</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/west-pune-real-estate-market</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/luxury-real-estate-baner-pashan-link-road</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- New Insights Guide -->
+  <url>
+    <loc>https://goelgangalegend.com/insights/baner-pashan-link-road-real-estate-guide</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/interior-luxury.webp</image:loc>
+      <image:title>Baner Pashan Link Road Market: The Ultimate Luxury Residential Guide</image:title>
+    </image:image>
+  </url>
+
+  <!-- New Comparative & Thematic Silos -->
+  <url>
+    <loc>https://goelgangalegend.com/luxury-flats-kharadi-vs-bavdhan-pune</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/luxury-homes-koregaon-park-vs-bavdhan</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/luxury-apartments-baner-vs-bavdhan</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/luxury-flats-kothrud-vs-bavdhan-pune</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/luxury-3bhk-flats-pune</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/best-investment-property-pune</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/sports-township-pune-stadium-life</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- New Under-40 Demographics Insight -->
+  <url>
+    <loc>https://goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/interior-luxury.webp</image:loc>
+      <image:title>Under-40 Homebuyers: Tech Wealth Reshaping Pune Luxury Real Estate</image:title>
+    </image:image>
+  </url>
+
+  <!-- New Hardened Content Clusters (June 2026) -->
+  <url>
+    <loc>https://goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Pune Metro Line 3: Hinjewadi-Shivajinagar Metro Progress &amp; Bavdhan Connectivity</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Post-Chandni Chowk Traffic Index: Commute Times to Baner &amp; Kothrud in 2026</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://goelgangalegend.com/gallery-clubhouse.webp</image:loc>
+      <image:title>Top International Schools in Pune West: Family Relocation Guide to Bavdhan</image:title>
+    </image:image>
+  </url>
 </urlset>

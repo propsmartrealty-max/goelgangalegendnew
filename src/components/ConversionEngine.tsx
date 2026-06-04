@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, MessageCircle } from 'lucide-react';
@@ -174,7 +175,7 @@ export function ExitIntent() {
                 Register Interest
               </button>
               <a
-                href={`https://wa.me/912067654321?text=${encodeURIComponent('Hi, I am interested in Legend County Bavdhan. Please share pricing.')}`}
+                href={`https://wa.me/917744009295?text=${encodeURIComponent('Hi, I am interested in Legend County Bavdhan. Please share pricing.')}`}
                 target="_blank" rel="noopener noreferrer"
                 style={{
                   flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',

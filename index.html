@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
     <link rel="preload" href="/hero-aerial.webp" as="image" fetchpriority="high" />
+    <meta name="google-site-verification" content="google34ba1234567890ab" />
+    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE_PLACEHOLDER" />
 
     <!-- Primary Meta Tags -->
-    <title>Goel Ganga Legend County | Luxury 3 & 3.5 BHK Sports Township, Bavdhan Pune</title>
+    <title>Goel Ganga Legend County Bavdhan | Luxury 3 & 3.5 BHK Sports Township, Pune</title>
     <meta name="description" content="Discover Pune's premier 30-acre sports-first township. Luxury 3 & 3.5 BHK residences starting ₹1.77 Cr* with 9+ international sports academies including Michael Phelps Swimming & Tagda Raho by Dhoni." />
-    <meta name="keywords" content="Goel Ganga Legend County, Luxury Flats Bavdhan, 3 BHK Pune, Sports Township Pune, Stadium Life Bavdhan" />
+    <meta name="keywords" content="Goel Ganga Legend County Bavdhan, Goel Ganga Legend County, Luxury Flats Bavdhan, 3 BHK Pune, Sports Township Pune, Stadium Life Bavdhan, Pune Real Estate, West Pune Real Estate Market, Luxury Real Estate Baner Pashan Link Road Market, High End Luxury Residential Baner Pashan Link Road" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Goel Ganga Developments" />
     <meta name="theme-color" content="#09090b" />
@@ -17,7 +20,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Goel Ganga Legend County — Pune's Iconic Sports Township" />
+    <meta property="og:title" content="Goel Ganga Legend County Bavdhan — Pune's Iconic Sports Township" />
     <meta property="og:description" content="30-acre luxury sports-first township in Bavdhan, Pune. 3 & 3.5 BHK from ₹1.77 Cr*. 9+ international sports academies." />
     <meta property="og:image" content="/hero-aerial.webp" />
 
@@ -43,5 +46,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('Service Worker registered successfully:', reg.scope))
+            .catch((err) => console.error('Service Worker registration failed:', err));
+        });
+      }
+    </script>
   </body>
 </html>

@@ -68,7 +68,7 @@ export default function StickyCTA() {
               Enquire
             </button>
             <a
-              href={`https://wa.me/912067654321?text=${whatsappMsg}`}
+              href={`https://wa.me/917744009295?text=${whatsappMsg}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{

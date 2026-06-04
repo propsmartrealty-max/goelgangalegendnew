@@ -43,7 +43,7 @@ export default function ProjectMonograph() {
   return (
     <section className="section-dark" style={{ padding: '8rem 0', borderTop: '1px solid var(--border-light)' }}>
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '5rem' }}>
           
           {/* Left - Strategic Summary */}
           <div>

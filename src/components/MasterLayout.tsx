@@ -24,7 +24,7 @@ export default function MasterLayout() {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))', gap: '4rem', alignItems: 'center' }}>
           
           {/* Master Plan Image */}
           <motion.div
@@ -61,7 +61,7 @@ export default function MasterLayout() {
               <p style={{ fontSize: '0.88rem', color: 'rgba(255,255,255,0.6)' }}>Engineered for performance and peace.</p>
             </div>
           </motion.div>
-
+ 
           {/* Legend Details */}
           <div>
             <div style={{ display: 'grid', gap: '1.5rem' }}>
@@ -109,16 +109,16 @@ export default function MasterLayout() {
                 </motion.div>
               ))}
             </div>
-
+ 
             <div style={{ marginTop: '3rem' }}>
               <a href="#contact" className="btn-primary" style={{ width: '100%', justifyContent: 'center' }}>Download High-Res Master Plan</a>
             </div>
-
+ 
             {/* Programmatic Landmark Index for SEO */}
             <div style={{
               marginTop: '2.5rem',
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 140px), 1fr))',
               gap: '1rem',
               opacity: 0.8,
               borderTop: '1px solid var(--border-light)',

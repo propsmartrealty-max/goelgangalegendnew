@@ -9,6 +9,7 @@ ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 JSON_KEY_FILE = "google-credentials.json" # User must provide this
 SITE_URLS = [
     "https://goelgangalegend.com/",
+    # Core Configurations & Infrastructure Silos
     "https://goelgangalegend.com/3bhk-flats-bavdhan",
     "https://goelgangalegend.com/2bhk-flats-bavdhan-pune",
     "https://goelgangalegend.com/luxury-projects-bavdhan",
@@ -19,7 +20,30 @@ SITE_URLS = [
     "https://goelgangalegend.com/tagda-raho-dhoni-pune",
     "https://goelgangalegend.com/3.5-bhk-flats-bavdhan",
     "https://goelgangalegend.com/schools-hospitals-near-bavdhan",
-    "https://goelgangalegend.com/rera-legal-compliance-bavdhan"
+    "https://goelgangalegend.com/rera-legal-compliance-bavdhan",
+    
+    # New Corridors and Comparative Silos
+    "https://goelgangalegend.com/pune-real-estate-market",
+    "https://goelgangalegend.com/west-pune-real-estate-market",
+    "https://goelgangalegend.com/luxury-real-estate-baner-pashan-link-road",
+    "https://goelgangalegend.com/luxury-flats-kharadi-vs-bavdhan-pune",
+    "https://goelgangalegend.com/luxury-homes-koregaon-park-vs-bavdhan",
+    "https://goelgangalegend.com/luxury-apartments-baner-vs-bavdhan",
+    "https://goelgangalegend.com/luxury-flats-kothrud-vs-bavdhan-pune",
+    "https://goelgangalegend.com/luxury-3bhk-flats-pune",
+    "https://goelgangalegend.com/best-investment-property-pune",
+    "https://goelgangalegend.com/sports-township-pune-stadium-life",
+    
+    # Insights Articles (MOFU Content)
+    "https://goelgangalegend.com/insights/bavdhan-real-estate-investment-2026",
+    "https://goelgangalegend.com/insights/cost-of-living-bavdhan-pune",
+    "https://goelgangalegend.com/insights/bavdhan-vs-hinjewadi-real-estate",
+    "https://goelgangalegend.com/insights/roi-sports-townships-pune",
+    "https://goelgangalegend.com/insights/baner-pashan-link-road-real-estate-guide",
+    "https://goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026",
+    "https://goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector",
+    "https://goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan",
+    "https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan"
 ]
 
 def get_access_token():

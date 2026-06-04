@@ -14,8 +14,8 @@ export default function NotFound() {
       padding: '2rem'
     }}>
       <SEO 
-        title="404 - Page Not Found | Goel Ganga Legend County"
-        description="The page you are looking for does not exist. Return to Goel Ganga Legend County home page."
+        title="404 - Page Not Found | Goel Ganga Legend County Bavdhan"
+        description="The page you are looking for does not exist. Return to Goel Ganga Legend County Bavdhan home page."
         canonical="/404"
         robots="noindex, nofollow"
       />

@@ -12,7 +12,7 @@ export default function Overview() {
   return (
     <section id="overview" className="section-light" style={{ padding: '8rem 0' }}>
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '5rem', alignItems: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '5rem', alignItems: 'center' }}>
           
           <motion.div
             initial={{ opacity: 0, x: -30 }}

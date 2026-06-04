@@ -54,7 +54,7 @@ export default function Trust() {
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 180px), 1fr))',
           gap: '2rem',
           textAlign: 'center',
         }}>

@@ -81,7 +81,7 @@ export default function ProjectCinema() {
 
         {/* Cinematic Stats */}
         <div style={{ 
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
+          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', 
           gap: '2rem', marginTop: '4rem', paddingBottom: '8rem',
           borderBottom: '1px solid var(--border-light)'
         }}>
