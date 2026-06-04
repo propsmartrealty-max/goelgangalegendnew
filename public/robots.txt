@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /not-found
+Disallow: /404
+Disallow: /*?*
 
 Sitemap: https://goelgangalegend.com/sitemap.xml
