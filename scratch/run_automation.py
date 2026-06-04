@@ -27,10 +27,11 @@ def main():
     # 2. Regenerate RSS feed
     run_script("generate_rss.py")
     
-    # 3. Search Engine Indexing (Bypassed if BYPASS_INDEXING=1 environment variable is set)
-    if os.environ.get("BYPASS_INDEXING") == "1":
+    # 3. Search Engine Indexing (Bypassed if BYPASS_INDEXING=1 or running in a CI/CD Git webhook environment)
+    is_ci = any(os.environ.get(x) for x in ["CI", "VERCEL", "NETLIFY", "GITHUB_ACTIONS", "CF_PAGES"])
+    if os.environ.get("BYPASS_INDEXING") == "1" or is_ci:
         print("\n=========================================")
-        print(" [INFO] Bypassing Google and Bing Indexing (Git pre-commit bypass active)")
+        print(" [INFO] Bypassing Google and Bing Indexing (CI/CD Git Webhook or Manual Bypass active)")
         print("=========================================")
     else:
         # Ping Bing IndexNow (ignore network/CORS issues)

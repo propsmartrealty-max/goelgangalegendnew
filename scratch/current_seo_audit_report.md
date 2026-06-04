@@ -7,7 +7,7 @@ This report lists the status of content depth, metadata optimization, RERA compl
 - **Total Silo Pages Audited:** 21
 - **Total Insights Articles Audited:** 9
 - **Average Silo Word Count:** 888 words (Target: 800+ words)
-- **Average Article Word Count:** 1316 words (Target: 800+ words)
+- **Average Article Word Count:** 1315 words (Target: 800+ words)
 - **Total Dynamic Internal Contextual Links:** 108 links
 - **RERA Verification Compliance (`P52100054578`):** 21/21 Silos, 9/9 Articles
 
@@ -43,14 +43,14 @@ This report lists the status of content depth, metadata optimization, RERA compl
 | Article Slug | Title Length | Description Length | Total Word Count | Internal Links | RERA Verified | Sitemap Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | `insights/bavdhan-real-estate-investment-2026` | 60 | 126 | 1959 | 7 | ✅ Verified | ✅ |
-| `insights/cost-of-living-bavdhan-pune` | 58 | 130 | 1904 | 3 | ✅ Verified | ✅ |
-| `insights/bavdhan-vs-hinjewadi-real-estate` | 58 | 137 | 1611 | 4 | ✅ Verified | ✅ |
-| `insights/roi-sports-townships-pune` | 52 | 172 | 1853 | 4 | ✅ Verified | ✅ |
-| `insights/baner-pashan-link-road-real-estate-guide` | 82 | 156 | 1174 | 4 | ✅ Verified | ✅ |
-| `insights/pune-luxury-real-estate-demographics-2026` | 66 | 159 | 819 | 1 | ✅ Verified | ✅ |
-| `insights/pune-metro-line-3-bavdhan-connector` | 79 | 166 | 871 | 1 | ✅ Verified | ✅ |
-| `insights/post-chandni-chowk-traffic-index-bavdhan` | 74 | 149 | 805 | 3 | ✅ Verified | ✅ |
-| `insights/top-international-schools-pune-west-bavdhan` | 74 | 141 | 852 | 3 | ✅ Verified | ✅ |
+| `insights/cost-of-living-bavdhan-pune` | 58 | 130 | 1903 | 3 | ✅ Verified | ✅ |
+| `insights/bavdhan-vs-hinjewadi-real-estate` | 58 | 137 | 1610 | 4 | ✅ Verified | ✅ |
+| `insights/roi-sports-townships-pune` | 52 | 172 | 1852 | 4 | ✅ Verified | ✅ |
+| `insights/baner-pashan-link-road-real-estate-guide` | 82 | 156 | 1173 | 4 | ✅ Verified | ✅ |
+| `insights/pune-luxury-real-estate-demographics-2026` | 66 | 159 | 818 | 1 | ✅ Verified | ✅ |
+| `insights/pune-metro-line-3-bavdhan-connector` | 79 | 166 | 870 | 1 | ✅ Verified | ✅ |
+| `insights/post-chandni-chowk-traffic-index-bavdhan` | 74 | 149 | 804 | 3 | ✅ Verified | ✅ |
+| `insights/top-international-schools-pune-west-bavdhan` | 74 | 141 | 851 | 3 | ✅ Verified | ✅ |
 
 
 ## Detailed Compliance Analysis
