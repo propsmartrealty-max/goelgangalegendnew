@@ -4,6 +4,7 @@ import { siloData } from '../data/siloData';
 import SEO from '../components/SEO';
 import Contact from '../components/Contact';
 import { CheckCircle2, ChevronRight } from 'lucide-react';
+import { injectInternalLinks } from '../utils/seoLinker';
 
 export default function SiloPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -103,7 +104,7 @@ export default function SiloPage() {
                   key={i} 
                   className="body-md" 
                   style={{ color: 'var(--text-dark-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}
-                  dangerouslySetInnerHTML={{ __html: p }}
+                  dangerouslySetInnerHTML={{ __html: injectInternalLinks(p, data.slug) }}
                 />
               ))}
               <div style={{ marginTop: '2rem', display: 'grid', gap: '1rem' }}>

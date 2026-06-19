@@ -117,7 +117,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         "@type": "Product",
         "name": "3 BHK Luxe Apartment - Goel Ganga Legend County",
         "image": [`${siteUrl}/floorplan-3bhk.webp`],
-        "description": "Premium 3 BHK Luxe residence in Bavdhan, Pune. 1124 Sq.Ft. usable carpet area with sports views.",
+        "description": "Premium 3 BHK Luxe residence in Bavdhan, Pune. 1124 Sq.Ft. usable carpet area with sports views. MahaRERA No: P52100054578.",
         "sku": "GGLC-3BHK-LUXE",
         "brand": {
           "@type": "Brand",
@@ -145,7 +145,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         "@type": "Product",
         "name": "3.5 BHK Premium Apartment - Goel Ganga Legend County",
         "image": [`${siteUrl}/floorplan-3.5bhk.webp`],
-        "description": "Spacious 3.5 BHK Premium residence in Bavdhan, Pune. Elite living with an extra room for home office/yoga.",
+        "description": "Spacious 3.5 BHK Premium residence in Bavdhan, Pune. Elite living with an extra room for home office/yoga. MahaRERA No: P52100054578.",
         "sku": "GGLC-3.5BHK-PREMIUM",
         "brand": {
           "@type": "Brand",
@@ -173,7 +173,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         "@type": "Product",
         "name": "4 BHK Luxury Combined Duplex Apartment - Goel Ganga Legend County",
         "image": [`${siteUrl}/hero-aerial.webp`],
-        "description": "Spacious combined 4 BHK and luxury duplex layouts at Goel Ganga Legend County Bavdhan starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies.",
+        "description": "Spacious combined 4 BHK and luxury duplex layouts at Goel Ganga Legend County Bavdhan starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies. MahaRERA No: P52100054578.",
         "sku": "GGLC-4BHK-LUXE",
         "brand": {
           "@type": "Brand",
@@ -225,7 +225,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
         "@type": "ApartmentComplex",
         "name": "Goel Ganga Legend County Bavdhan",
         "url": siteUrl,
-        "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies.",
+        "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3 & 3.5 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",
@@ -251,7 +251,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "@type": ["LocalBusiness", "RealEstateAgent"],
       "name": "Goel Ganga Legend County Bavdhan",
       "image": ogImage,
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
       "@id": `${siteUrl}/#localbusiness`,
       "url": siteUrl,
       "telephone": "+917744009295",
@@ -402,7 +402,7 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "@type": "ApartmentComplex",
       "@id": `${siteUrl}/#apartmentcomplex`,
       "name": "Goel Ganga Legend County Bavdhan",
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
       "url": siteUrl,
       "brand": {
         "@id": `${siteUrl}/#organization`

@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Calendar, ChevronRight } from 'lucide-react';
 import SEO from '../components/SEO';
+import { injectInternalLinks } from '../utils/seoLinker';
 
 interface Article {
   title: string;
@@ -970,7 +971,7 @@ export default function ArticlePage() {
                 }
               }
             }}
-            dangerouslySetInnerHTML={{ __html: article.content }}
+            dangerouslySetInnerHTML={{ __html: injectInternalLinks(article.content, "insights/" + (slug || "")) }}
           />
 
           {/* Inline Styles for Article */}
