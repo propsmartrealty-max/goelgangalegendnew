@@ -61,11 +61,12 @@ export default function SEO({ title, description, keywords, canonical, image, fa
   ];
 
   const isHome = !canonical || canonical === '/';
-  const isBhk3 = canonical === '/3bhk-flats-bavdhan';
-  const isBhk35 = canonical === '/3.5-bhk-flats-bavdhan';
-  const isBhk4 = canonical === '/luxury-4bhk-flats-pune';
+  const isBhk3 = canonical === '/goel-ganga-legend-county-3bhk-flats-bavdhan';
+  const isBhk35 = canonical === '/goel-ganga-legend-county-3.5-bhk-flats-bavdhan';
+  const isBhk4 = canonical === '/goel-ganga-legend-county-luxury-4bhk-flats-pune';
+  const isBhk5 = canonical === '/goel-ganga-legend-county-luxury-5bhk-duplex-penthouse-flats-pune';
   const isArticle = canonical?.startsWith('/insights/');
-  const isSilo = canonical && !isHome && !isArticle && !isBhk4;
+  const isSilo = canonical && !isHome && !isArticle && !isBhk4 && !isBhk5;
 
   // 1. Dynamic Breadcrumb List Schema
   const getBreadcrumbsSchema = () => {
@@ -195,6 +196,34 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       };
     }
 
+    if (isBhk5) {
+      return {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "5 BHK Luxury Combined Duplex & Penthouse - Goel Ganga Legend County",
+        "image": [`${siteUrl}/hero-aerial.webp`],
+        "description": "Premium combined 5 BHK duplexes and penthouses at Goel Ganga Legend County Bavdhan starting ₹3.40 Cr*. Enjoy 12.5 acres of dedicated sports infrastructure. MahaRERA No: P52100054578.",
+        "sku": "GGLC-5BHK-PENTHOUSE",
+        "brand": {
+          "@type": "Brand",
+          "name": "Goel Ganga Developments"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": fullCanonical,
+          "priceCurrency": "INR",
+          "price": "34000000",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31"
+        },
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "Structure", "value": "Earthquake Resistant Mivan RCC" },
+          { "@type": "PropertyValue", "name": "Configuration", "value": "Combined Duplex / Penthouse / Grand Villa" },
+          { "@type": "PropertyValue", "name": "Security", "value": "3-Tier with Digital Locks" }
+        ]
+      };
+    }
+
     return null;
   };
 
@@ -251,11 +280,11 @@ export default function SEO({ title, description, keywords, canonical, image, fa
       "@type": ["LocalBusiness", "RealEstateAgent"],
       "name": "Goel Ganga Legend County Bavdhan",
       "image": ogImage,
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5, 4 & 5 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
       "@id": `${siteUrl}/#localbusiness`,
       "url": siteUrl,
       "telephone": "+917744009295",
-      "priceRange": "₹1.77 Cr - ₹2.90 Cr+",
+      "priceRange": "₹1.77 Cr - ₹3.40 Cr+",
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
       "areaServed": [
         {
@@ -396,20 +425,20 @@ export default function SEO({ title, description, keywords, canonical, image, fa
 
   // 7. ApartmentComplex Schema (Home and BHK config pages)
   const getApartmentComplexSchema = () => {
-    if (!isHome && !isBhk3 && !isBhk35 && !isBhk4) return null;
+    if (!isHome && !isBhk3 && !isBhk35 && !isBhk4 && !isBhk5) return null;
     return {
       "@context": "https://schema.org",
       "@type": "ApartmentComplex",
       "@id": `${siteUrl}/#apartmentcomplex`,
       "name": "Goel Ganga Legend County Bavdhan",
-      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5 & 4 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
+      "description": "Experience Pune's premier 30-acre sports township. Luxury 2, 3, 3.5, 4 & 5 BHK flats in Bavdhan with 9+ international sports academies. MahaRERA No: P52100054578.",
       "url": siteUrl,
       "brand": {
         "@id": `${siteUrl}/#organization`
       },
       "hasMap": "https://maps.app.goo.gl/vL7k5ZndB2tVNDBf7",
-      "numberOfBedrooms": "2, 3, 3.5, 4",
-      "priceRange": "₹1.77 Cr - ₹2.90 Cr+",
+      "numberOfBedrooms": "2, 3, 3.5, 4, 5",
+      "priceRange": "₹1.77 Cr - ₹3.40 Cr+",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Sr. No. 34, Bavdhan Budruk, Near Chandni Chowk",

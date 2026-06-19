@@ -81,10 +81,10 @@ export default function Location() {
             <div style={{ marginTop: '2.5rem', padding: '1.5rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
               <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--accent)', letterSpacing: '0.1em', marginBottom: '1rem', opacity: 0.6 }}>Explore Micro-Markets</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
-                <Link to="/3bhk-flats-bavdhan" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>3 BHK Bavdhan</Link>
-                <Link to="/luxury-projects-bavdhan" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>Top Projects</Link>
-                <Link to="/investment-flats-bavdhan-pune" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>ROI Guide</Link>
-                <Link to="/sports-township-pune" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>Sports Township</Link>
+                <Link to="/goel-ganga-legend-county-3bhk-flats-bavdhan" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>3 BHK Bavdhan</Link>
+                <Link to="/goel-ganga-legend-county-luxury-projects-bavdhan" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>Top Projects</Link>
+                <Link to="/goel-ganga-legend-county-investment-flats-bavdhan-pune" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>ROI Guide</Link>
+                <Link to="/goel-ganga-legend-county-sports-township-pune" style={{ fontSize: '0.75rem', color: 'var(--text-white-muted)', textDecoration: 'underline', textUnderlineOffset: '4px' }}>Sports Township</Link>
               </div>
             </div>
           </div>

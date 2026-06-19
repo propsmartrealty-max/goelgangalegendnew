@@ -31,7 +31,7 @@ def extract_json_ld_schemas():
     if '"telephone": "+917744009295"' not in content:
         errors.append("Missing standard business contact telephone in LocalBusiness Schema")
         
-    if '"priceRange": "₹1.77 Cr - ₹2.90 Cr+"' not in content:
+    if '"priceRange": "₹1.77 Cr - ₹3.40 Cr+"' not in content:
         errors.append("Missing standard priceRange in LocalBusiness Schema")
 
     # 4. Check that site URL is correct

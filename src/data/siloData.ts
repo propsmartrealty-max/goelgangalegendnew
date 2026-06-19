@@ -10,8 +10,8 @@ export interface SiloData {
 }
 
 export const siloData: Record<string, SiloData> = {
-  '3bhk-flats-bavdhan': {
-    slug: '3bhk-flats-bavdhan',
+  'goel-ganga-legend-county-3bhk-flats-bavdhan': {
+    slug: 'goel-ganga-legend-county-3bhk-flats-bavdhan',
     title: 'Luxury 3 BHK Flats in Bavdhan Pune | Stadium Life at Legend County',
     heading: 'Spacious 3 BHK Flats in Bavdhan',
     subheading: 'Live the Iconic Stadium Life near Chandni Chowk',
@@ -39,8 +39,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Are there ready possession 3 BHK flats available?", answer: "Yes, the township has multiple phases, including ready-to-move-in towers and under-construction configurations. Contact our sales desk for active inventory sheets." }
     ]
   },
-  '2bhk-flats-bavdhan-pune': {
-    slug: '2bhk-flats-bavdhan-pune',
+  'goel-ganga-legend-county-2bhk-flats-bavdhan-pune': {
+    slug: 'goel-ganga-legend-county-2bhk-flats-bavdhan-pune',
     title: 'Premium 2 BHK Flats in Bavdhan Pune | High ROI Investment',
     heading: 'Spacious 2 BHK Flats in Bavdhan',
     subheading: 'The Perfect Investment near Hinjewadi & Chandni Chowk',
@@ -67,8 +67,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What is the security system in place for the gated community?", answer: "The project features a 3-tier security system, including CCTV surveillance at all entry points, smart card access control, and 24/7 security personnel patrols." }
     ]
   },
-  'luxury-projects-bavdhan': {
-    slug: 'luxury-projects-bavdhan',
+  'goel-ganga-legend-county-luxury-projects-bavdhan': {
+    slug: 'goel-ganga-legend-county-luxury-projects-bavdhan',
     title: 'Top Residential Projects in Bavdhan Pune | Goel Ganga Legend County',
     heading: 'The Best Project in Bavdhan for Luxury Living',
     subheading: 'Experience the Iconic 30-Acre Sports Township',
@@ -95,8 +95,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Which developers are behind Ganga Legend County?", answer: "The project is developed by Goel Ganga Developments, one of Pune's most trusted real estate brands with over 40 years of delivery track record." }
     ]
   },
-  'investment-flats-bavdhan-pune': {
-    slug: 'investment-flats-bavdhan-pune',
+  'goel-ganga-legend-county-investment-flats-bavdhan-pune': {
+    slug: 'goel-ganga-legend-county-investment-flats-bavdhan-pune',
     title: 'Real Estate Investment in Bavdhan, Pune | High ROI Property',
     heading: 'High Appreciation Property in Bavdhan',
     subheading: 'Invest in Pune\'s Premier Sports Growth Corridor',
@@ -123,8 +123,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Is it easy to exit and resell property in Legend County?", answer: "Yes, branded township projects by trusted developers command high resale demand and fast transaction times compared to standalone apartments." }
     ]
   },
-  'sports-township-pune': {
-    slug: 'sports-township-pune',
+  'goel-ganga-legend-county-sports-township-pune': {
+    slug: 'goel-ganga-legend-county-sports-township-pune',
     title: 'Pune\'s Largest Sports Township | Goel Ganga Legend County',
     heading: 'The Ultimate Sports Township in Pune',
     subheading: 'Where Performance Meets Luxury Living',
@@ -152,8 +152,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What are the benefits of sports residency for capital growth?", answer: "Branded sports residencies enjoy 15-20% higher capital growth compared to standalone buildings due to unique infrastructure and high demand." }
     ]
   },
-  'luxury-apartments-chandni-chowk': {
-    slug: 'luxury-apartments-chandni-chowk',
+  'goel-ganga-legend-county-luxury-apartments-chandni-chowk': {
+    slug: 'goel-ganga-legend-county-luxury-apartments-chandni-chowk',
     title: 'Luxury Apartments near Chandni Chowk, Pune | Legend County',
     heading: 'Luxury Living near Chandni Chowk',
     subheading: 'Premium 3 & 3.5 BHK Residences in Bavdhan',
@@ -181,8 +181,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What is the security system for the towers near Chandni Chowk?", answer: "We implement a comprehensive 3-tier security system, including smart card access control, 24/7 CCTV surveillance, and manned checkposts." }
     ]
   },
-  'michael-phelps-swimming-pune': {
-    slug: 'michael-phelps-swimming-pune',
+  'goel-ganga-legend-county-michael-phelps-swimming-pune': {
+    slug: 'goel-ganga-legend-county-michael-phelps-swimming-pune',
     title: 'Michael Phelps Swimming Academy in Pune | Legend County Bavdhan',
     heading: 'Train at the Michael Phelps Swimming Academy',
     subheading: 'World-Class Aquatics for All Skill Levels',
@@ -210,8 +210,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What is the resident discount for the swimming classes?", answer: "Residents of Ganga Legend County receive priority batch booking and exclusive, discounted monthly coaching fees." }
     ]
   },
-  'tagda-raho-dhoni-pune': {
-    slug: 'tagda-raho-dhoni-pune',
+  'goel-ganga-legend-county-tagda-raho-dhoni-pune': {
+    slug: 'goel-ganga-legend-county-tagda-raho-dhoni-pune',
     title: 'Tagda Raho by MS Dhoni in Pune | Goel Ganga Legend County',
     heading: 'Unleash Your Strength with Tagda Raho',
     subheading: 'Revolutionary Functional Fitness by MS Dhoni',
@@ -239,8 +239,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Is there a trial class available for new residents?", answer: "Yes, new residents can book a complimentary functional fitness trial session to experience the Mudgar and Gada workouts." }
     ]
   },
-  '3.5-bhk-flats-bavdhan': {
-    slug: '3.5-bhk-flats-bavdhan',
+  'goel-ganga-legend-county-3.5-bhk-flats-bavdhan': {
+    slug: 'goel-ganga-legend-county-3.5-bhk-flats-bavdhan',
     title: 'Luxury 3.5 BHK Flats in Bavdhan Pune | Premium Stadium Life Homes',
     heading: 'Spacious 3.5 BHK Residences in Bavdhan',
     subheading: 'Elite Living with an Extra Room for Your Ambition',
@@ -268,8 +268,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Are home loans available for the 3.5 BHK configurations?", answer: "Yes, the project is pre-approved for loans by major banks like HDFC, SBI, ICICI, and Axis Bank, ensuring fast processing." }
     ]
   },
-  'schools-hospitals-near-bavdhan': {
-    slug: 'schools-hospitals-near-bavdhan',
+  'goel-ganga-legend-county-schools-hospitals-near-bavdhan': {
+    slug: 'goel-ganga-legend-county-schools-hospitals-near-bavdhan',
     title: 'Top Schools & Hospitals near Bavdhan Pune | Legend County',
     heading: 'Bavdhan Connectivity & Infrastructure Guide',
     subheading: 'Living in the Heart of West Pune\'s Educational & Healthcare Hub',
@@ -297,8 +297,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Is there a clinic inside Ganga Legend County?", answer: "Yes, the township includes a basic medical first-aid room and local clinic facilities to address minor emergency requirements immediately." }
     ]
   },
-  'rera-legal-compliance-bavdhan': {
-    slug: 'rera-legal-compliance-bavdhan',
+  'goel-ganga-legend-county-rera-legal-compliance-bavdhan': {
+    slug: 'goel-ganga-legend-county-rera-legal-compliance-bavdhan',
     title: 'RERA & Legal Compliance | Goel Ganga Legend County Bavdhan Pune',
     heading: 'Transparent & RERA Compliant Living',
     subheading: 'Secure Your Future with a 100% Legally Clear Project',
@@ -326,8 +326,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Can I review the sanctioned master plan of the township?", answer: "Yes, the sanctioned master plan is uploaded on the MahaRERA site and can also be inspected at our sales gallery." }
     ]
   },
-  'pune-real-estate-market': {
-    slug: 'pune-real-estate-market',
+  'goel-ganga-legend-county-pune-real-estate-market': {
+    slug: 'goel-ganga-legend-county-pune-real-estate-market',
     title: 'Pune Real Estate | Luxury Projects & Market Trends',
     heading: 'Pune Real Estate & Luxury Housing Developments',
     subheading: 'Invest in Pune\'s High-Growth Residential and Luxury Corridors',
@@ -354,8 +354,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Are NRI investors active in the Pune real estate market?", answer: "Yes, NRIs represent a significant buyer segment, focusing on premium townships in West Pune due to stable rental yields and capital gains." }
     ]
   },
-  'west-pune-real-estate-market': {
-    slug: 'west-pune-real-estate-market',
+  'goel-ganga-legend-county-west-pune-real-estate-market': {
+    slug: 'goel-ganga-legend-county-west-pune-real-estate-market',
     title: 'West Pune Real Estate Market | Premier Luxury Housing Corridor',
     heading: 'The Booming West Pune Real Estate Market',
     subheading: 'High ROI Investment & Premium Gated Communities near Hinjewadi & Baner',
@@ -382,8 +382,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What configurations are popular in the West Pune luxury segment?", answer: "The luxury segment is dominated by demand for spacious 3 BHK and 3.5 BHK apartments that include home office provisions, Vastu-compliant structures, and scenic hill views." }
     ]
   },
-  'luxury-real-estate-baner-pashan-link-road': {
-    slug: 'luxury-real-estate-baner-pashan-link-road',
+  'goel-ganga-legend-county-luxury-real-estate-baner-pashan-link-road': {
+    slug: 'goel-ganga-legend-county-luxury-real-estate-baner-pashan-link-road',
     title: 'Luxury Real Estate in Baner Pashan Link Road Market | Elite Homes',
     heading: 'High-End Luxury in Baner Pashan Link Road Market',
     subheading: 'Compare BPLR Congestion with Legend County\'s 30-Acre Sports Sanctuary',
@@ -410,8 +410,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Are there green zones near Baner Pashan Link Road?", answer: "While Pashan Hill offers some green space, it is surrounded by high-density developments. Bavdhan is bordered by the protected NDA forest lands, ensuring permanent green cover." }
     ]
   },
-  'luxury-flats-kharadi-vs-bavdhan-pune': {
-    slug: 'luxury-flats-kharadi-vs-bavdhan-pune',
+  'goel-ganga-legend-county-luxury-flats-kharadi-vs-bavdhan-pune': {
+    slug: 'goel-ganga-legend-county-luxury-flats-kharadi-vs-bavdhan-pune',
     title: 'Kharadi vs Bavdhan | Best Luxury IT Real Estate Corridor Pune',
     heading: 'Kharadi vs Bavdhan: Luxury Real Estate ROI Comparison',
     subheading: 'Compare East vs West Pune for Long-Term Capital Growth & Rental Yields',
@@ -438,8 +438,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Which project in Bavdhan offers the best comparison to Kharadi's luxury townships?", answer: "Goel Ganga Legend County is the ideal choice, offering a 30-acre sports township with 12.5 acres of active sports facilities that Kharadi standalone towers cannot match." }
     ]
   },
-  'luxury-homes-koregaon-park-vs-bavdhan': {
-    slug: 'luxury-homes-koregaon-park-vs-bavdhan',
+  'goel-ganga-legend-county-luxury-homes-koregaon-park-vs-bavdhan': {
+    slug: 'goel-ganga-legend-county-luxury-homes-koregaon-park-vs-bavdhan',
     title: 'Koregaon Park vs Bavdhan | Luxury Home Investment Pune',
     heading: 'Koregaon Park vs Bavdhan: Luxury Real Estate Comparison',
     subheading: 'Compare Pune\'s Traditional Elite Hub with West Pune\'s Modern Sports Township',
@@ -466,8 +466,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Which project in Bavdhan offers the best comparison to Koregaon Park's luxury apartments?", answer: "Goel Ganga Legend County is the ideal choice, offering a 30-acre sports township with premium high-rise towers and scenic hill views." }
     ]
   },
-  'luxury-apartments-baner-vs-bavdhan': {
-    slug: 'luxury-apartments-baner-vs-bavdhan',
+  'goel-ganga-legend-county-luxury-apartments-baner-vs-bavdhan': {
+    slug: 'goel-ganga-legend-county-luxury-apartments-baner-vs-bavdhan',
     title: 'Baner vs Bavdhan | Luxury Apartments & Investment Comparison',
     heading: 'Baner vs Bavdhan: Luxury Real Estate Comparison',
     subheading: 'Compare Baner\'s High-Density Layout with Bavdhan\'s Scenic Sports Township',
@@ -494,8 +494,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Which project in Bavdhan offers the best comparison to Baner's luxury townships?", answer: "Goel Ganga Legend County is the ideal choice, offering a 30-acre sports township with premium high-rise towers and scenic hill views." }
     ]
   },
-  'luxury-flats-kothrud-vs-bavdhan-pune': {
-    slug: 'luxury-flats-kothrud-vs-bavdhan-pune',
+  'goel-ganga-legend-county-luxury-flats-kothrud-vs-bavdhan-pune': {
+    slug: 'goel-ganga-legend-county-luxury-flats-kothrud-vs-bavdhan-pune',
     title: 'Kothrud vs Bavdhan | Best Luxury Real Estate Comparison Pune',
     heading: 'Kothrud vs Bavdhan: Luxury Real Estate Comparison',
     subheading: 'Compare Traditional Kothrud Saturation with Bavdhan\'s Modern Sports Township',
@@ -522,8 +522,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Which project in Bavdhan offers the best comparison to Kothrud's premium apartments?", answer: "Goel Ganga Legend County is the ideal choice, offering a 30-acre sports township with premium high-rise towers and scenic hill views." }
     ]
   },
-  'luxury-3bhk-flats-pune': {
-    slug: 'luxury-3bhk-flats-pune',
+  'goel-ganga-legend-county-luxury-3bhk-flats-pune': {
+    slug: 'goel-ganga-legend-county-luxury-3bhk-flats-pune',
     title: 'Luxury 3 BHK Flats in Pune | Goel Ganga Legend County Bavdhan',
     heading: 'Luxury 3 BHK Flats & Apartments in Pune',
     subheading: 'Premium Multi-Aspect Residences starting ₹1.77 Cr* in West Pune\'s Sports Township',
@@ -550,8 +550,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "What is the construction status of the 3 BHK phase?", answer: "We have both ready-to-move-in towers and under-construction configurations. Contact our sales office for active inventory details." }
     ]
   },
-  'best-investment-property-pune': {
-    slug: 'best-investment-property-pune',
+  'goel-ganga-legend-county-best-investment-property-pune': {
+    slug: 'goel-ganga-legend-county-best-investment-property-pune',
     title: 'Best Investment Property in Pune | High ROI Gated Community',
     heading: 'The Best Investment Property in Pune for High ROI',
     subheading: 'Invest in West Pune\'s Scenic Sports Growth Corridor starting ₹1.77 Cr*',
@@ -578,8 +578,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Is there resale liquidity for township properties in Pune?", answer: "Yes, planned townships by trusted brands like Goel Ganga Developments enjoy higher secondary market demand and faster transaction times." }
     ]
   },
-  'sports-township-pune-stadium-life': {
-    slug: 'sports-township-pune-stadium-life',
+  'goel-ganga-legend-county-sports-township-pune-stadium-life': {
+    slug: 'goel-ganga-legend-county-sports-township-pune-stadium-life',
     title: 'Stadium Life at Legend County | Gated Sports Township Pune',
     heading: 'Experience the Stadium Life at Goel Ganga Legend County',
     subheading: 'Premium Hill-Facing Residences in Pune West\'s Premier 30-Acre Sports Township',
@@ -607,8 +607,8 @@ export const siloData: Record<string, SiloData> = {
       { question: "Is the Stadium Life phase RERA registered?", answer: "Yes, it is fully registered under MahaRERA registration number P52100054578." }
     ]
   },
-  'luxury-4bhk-flats-pune': {
-    slug: 'luxury-4bhk-flats-pune',
+  'goel-ganga-legend-county-luxury-4bhk-flats-pune': {
+    slug: 'goel-ganga-legend-county-luxury-4bhk-flats-pune',
     title: 'Luxury 4 BHK Flats in Pune | Spacious Combined Homes Bavdhan',
     heading: 'Spacious Duplexes and Combined 4 BHK Apartments in Bavdhan',
     subheading: 'Experience Ultra-Premium Gated Living with Multi-Generational Comfort',
@@ -634,6 +634,60 @@ export const siloData: Record<string, SiloData> = {
       { question: "What is the design technology used for the structures?", answer: "All residential towers are engineered using state-of-the-art Mivan aluminum shuttering technology, providing superior earthquake resistance, clean finishes, and outstanding durability." },
       { question: "How close is the project to major IT hubs?", answer: "The project is located just 3 minutes from Chandni Chowk, offering a 15-20 minute commute to Hinjewadi IT Park and 10 minutes to Baner offices." },
       { question: "Can I inspect a show combined apartment?", answer: "Yes, you can schedule a private walkthrough with our sales team to inspect available show residences, check layout drawings, and discuss customization options." }
+    ]
+  },
+  'goel-ganga-legend-county-luxury-5bhk-duplex-penthouse-flats-pune': {
+    slug: 'goel-ganga-legend-county-luxury-5bhk-duplex-penthouse-flats-pune',
+    title: '5 BHK Luxury Duplex & Penthouse in Pune | Legend County',
+    heading: 'Ultra-Luxury 5 BHK Duplex & Penthouse in Bavdhan',
+    subheading: 'Experience Grand Combined Layouts and High-Performance Estate Living',
+    description: 'Bespoke 5 BHK combined duplex and penthouse residences in Bavdhan, Pune starting from ₹3.40 Cr*. High-rise luxury at Goel Ganga Legend County with sports features.',
+    keywords: '5 BHK flats in Pune, luxury duplex Pune, penthouse in Pune Bavdhan, combined apartments West Pune, duplex penthouses near Chandni Chowk, luxury residences Pune',
+    content: [
+      'For the elite homebuyer seeking the ultimate living space, Goel Ganga Legend County introduces custom-designed combined 5 BHK duplex and penthouse configurations. As the demand for ultra-luxury residential spaces rises in West Pune, these expansive combined properties offer the space, layout customization, and privacy of a standalone villa alongside the security and world-class amenities of a premier gated township. Merging adjacent inventory configurations allows HNW buyers to design grand living layouts exceeding 2248 sq ft of usable carpet area, featuring double-height ceiling areas, grand entertainment lounges, separate family decks, and dedicated quarters for domestic staff. The layout is optimized to provide panoramic views of the green NDA hills and the sports arena.',
+      'Our combined duplexes and penthouses are strategically located near the Chandni Chowk junction, providing immediate access to the Mumbai-Bangalore Highway bypass. IT leaders, business owners, and corporate executives can enjoy a rapid 15-20 minute commute to the Hinjewadi IT Park and a quick 10-minute transit to Baner and Balewadi office zones. The completion of the multi-level flyover complex has resolved historical bottlenecks, making road transit to Kothrud, Deccan, and central Pune fast and convenient, which directly drives high resale demand and strong rental queries.',
+      'Inside these premier residences, every detail represents premium quality and design. Built using advanced Mivan aluminum shuttering technology, the towers offer jointless structural strength, earthquake resistance, and premium insulation. The double-aspect layouts ensure maximum cross-ventilation, capturing fresh breezes from the nearby forest reserves. The layout can be custom-tailored to incorporate up to five private suites with walk-in closets, home theater spaces, private libraries, and extensive double-glazed window configurations that block noise while flooding the rooms with natural light.',
+      'Living at Legend County gives HNW families access to a premium active lifestyle that is unmatched in Maharashtra. The township dedicates over 12.5 acres to professional sports infrastructure, featuring the Michael Phelps Swimming Academy, Dhoni\'s Tagda Raho functional fitness center, and the South United Football Academy. Subsidized member fees and dedicated coaching slots allow your children to build athletic careers right inside the gates. Proximity to Ryan International School and Suryadatta National School makes school travel highly convenient for families.',
+      'From a real estate investment standpoint, ultra-luxury configurations in Bavdhan present a highly secure wealth asset. Geographically bounded by protected defense and forest lands, Bavdhan has a strictly limited land supply, ensuring premium projects appreciate consistently. These large combined flats command strong rental yields of 3.5% to 4.2%, attracting senior multinational directors, corporate heads, and NRI families who seek a managed estate with premium security, water systems, and global sports academies. Proximity to Chellaram Hospital and Sahyadri Hospital ensures high-quality medical support is always nearby.',
+      'Complete legal trust and transparency are guaranteed at Goel Ganga Legend County Bavdhan. The entire development is fully registered under MahaRERA number P52100054578, with PMRDA and PMC building sanctions in place and clear title records. Approved home loans from leading national banks simplify custom purchase structures for combined duplex and penthouse assets. Contact our HNW sales desk today to schedule a private site visit, review structural layouts, and get customized pricing structures tailored for premium homebuyers.',
+      'Beyond the elite sports infrastructure, Goel Ganga Legend County Bavdhan is planned to offer a self-sustaining luxury lifestyle for modern families. The secure gated estate features a state-of-the-art multi-level clubhouse, a fully equipped health gymnasium, indoor games rooms, children\'s play zones, dedicated senior citizen pavilions, and landscaped reflexology pathways. Ecological responsibility is engineered directly into the project layout, incorporating high-efficiency rainwater harvesting networks, organic waste treatment converters, solar-powered common area lighting, and modern sewage treatment facilities. Unlike many standalone projects in West Pune that face water security issues, this 30-acre planned development benefits from PMC municipal water supply connections alongside independent filtration systems. Strategically located just off the Mumbai-Bangalore Highway bypass, the project offers unparalleled transit benefits, reducing daily commute times to the Rajiv Gandhi Infotech Park in Hinjewadi to under 20 minutes, while Baner and Wakad office hubs are accessible within 15 minutes. To guarantee absolute legal trust and transparency, the entire development is fully registered under MahaRERA number P52100054578, with pre-approved home loan lines from leading national banks including SBI, HDFC, and ICICI. This clean legal status, combined with premium sports amenities and proximity to Ryan International School and Chellaram Hospital, ensures Ganga Legend County stands as a highly stable, high-yield investment asset yielding up to 4.2% in rental income while promising long-term capital appreciation in Pune\'s primary future growth corridor.'
+    ],
+    faq: [
+      { question: "Does Legend County offer ready-built 5 BHK configurations?", answer: "We offer bespoke custom-designed combined 5 BHK apartments, allowing buyers to merge adjacent inventories into a single, massive duplex or penthouse layout." },
+      { question: "What is the approximate carpet area of a 5 BHK combined layout?", answer: "Bespoke combined 5 BHK layouts offer grand usable carpet areas starting from 2,248 sq. ft. up to 3,000 sq. ft. depending on your preferences." },
+      { question: "What is the starting price for a 5 BHK combined duplex in Bavdhan?", answer: "The starting price begins at ₹3.40 Cr*, which covers the cost of adjacent inventories and structural customizations." },
+      { question: "Is the combined structure approved under MahaRERA?", answer: "Yes, all combined and duplex configurations are legally validated and match the master layout registered under MahaRERA number P52100054578." },
+      { question: "Can I customize the floor plan of a 5 BHK duplex?", answer: "Yes, our engineering team works directly with luxury buyers to customize inner partition walls, bedroom allocations, home office spaces, and private decks." },
+      { question: "Are home loans available for customized combined units?", answer: "Yes, major national banks like SBI, HDFC, and ICICI provide comprehensive home loan support for custom duplex and combined layouts." },
+      { question: "What is the security system in place for the penthouses?", answer: "We implement a comprehensive 3-tier security protocol including CCTV coverage, smart digital locks, video door phones, and 24/7 security patrols." },
+      { question: "How can I schedule a private layout consultation?", answer: "Please contact our HNW relationship team to book a private site visit, view the duplex show flat, and review structural design plans." }
+    ]
+  },
+  'goel-ganga-legend-county-luxury-residences-pune-west': {
+    slug: 'goel-ganga-legend-county-luxury-residences-pune-west',
+    title: 'Luxury Residences in Pune West | Premium Gated Community',
+    heading: 'Elite Luxury Residences in Bavdhan Pune',
+    subheading: 'Experience Premium Estate Living inside a 30-Acre Sports Sanctuary',
+    description: 'Explore the finest luxury residences in Pune West at Goel Ganga Legend County. 30-acre sports township in Bavdhan featuring premium amenities and global academies.',
+    keywords: 'luxury residences in Pune, Pune real estate luxury properties, luxury property Pune West, premium estate homes Bavdhan, elite gated community Pune',
+    content: [
+      'The demand for premium gated communities and **luxury residences in Pune** has experienced a massive surge, driven by affluent professionals who prioritize wellness, connectivity, and clean air. Goel Ganga Legend County in Bavdhan sets the benchmark for elite living in the western corridor, offering a master-planned 30-acre estate that balances anti-density housing with pristine nature. Residents enjoy an exclusive gated community experience, bordered by the green hills of Pashan and Kothrud, providing a quiet luxury lifestyle that standalone buildings cannot replicate.',
+      'Connectivity is a primary highlight of these premium properties. Situated just off the Mumbai-Bangalore highway bypass and minutes from Chandni Chowk, residents benefit from quick travel to primary IT and business corridors. Traveling to the Rajiv Gandhi Infotech Park in Hinjewadi takes under 20 minutes, while commercial hubs in Baner, Balewadi, and Wakad are accessible within 15 minutes. This strategic location ensures HNW owners stay connected to Pune\'s high-growth job corridors while returning home to a peaceful, low-pollution hill-view sanctuary.',
+      'Our elite residences are built using state-of-the-art Mivan construction technology, providing superior structural strength, earthquake resistance, and premium wall finishes. Layouts are designed according to Vastu principles, incorporating double-aspect balconies to maximize natural air ventilation and daylight. The master-planned towers feature high-speed elevators, double-height grand entrance lobbies, private backup power grids, and a multi-level security network that ensures complete safety and peace of mind for your family.',
+      'Wellness is woven directly into the lifestyle of this gated community. Over 12.5 acres of the estate are dedicated to professional sports infrastructure, including the Michael Phelps Swimming Academy, South United Football Academy, and MS Dhoni\'s Tagda Raho functional training center. Subsidized fees and priority admissions allow residents of all ages to train under international coaches. Proximity to Ryan International School and Mitcon School ensures that children\'s education is easily accessible.',
+      'From a real estate investment standpoint, Bavdhan is West Pune\'s most stable and high-performing micro-market. Bounded by protected defense lands and hills, the area faces a strict supply constraint, guaranteeing high capital appreciation over the coming years. Premium residences at Legend County yield up to 4.2% in rental income, attracting corporate tech executives, business heads, and NRI investors who demand managed estate services, PMC municipal water connections, and premium lifestyle amenities. Sahyadri Hospital and Chellaram Hospital provide excellent medical support close by.',
+      'Total legal clarity and transparency are guaranteed, with PMRDA and PMC approvals fully verified. The development is registered under MahaRERA number P52100054578, with pre-approved home loan lines from leading national financial institutions including HDFC, SBI, and ICICI. Contact our sales desk today to receive customized floor plans, pricing sheets, and payment models.',
+      'Beyond the elite sports infrastructure, Goel Ganga Legend County Bavdhan is planned to offer a self-sustaining luxury lifestyle for modern families. The secure gated estate features a state-of-the-art multi-level clubhouse, a fully equipped health gymnasium, indoor games rooms, children\'s play zones, dedicated senior citizen pavilions, and landscaped reflexology pathways. Ecological responsibility is engineered directly into the project layout, incorporating high-efficiency rainwater harvesting networks, organic waste treatment converters, solar-powered common area lighting, and modern sewage treatment facilities. Unlike many standalone projects in West Pune that face water security issues, this 30-acre planned development benefits from PMC municipal water supply connections alongside independent filtration systems. Strategically located just off the Mumbai-Bangalore Highway bypass, the project offers unparalleled transit benefits, reducing daily commute times to the Rajiv Gandhi Infotech Park in Hinjewadi to under 20 minutes, while Baner and Wakad office hubs are accessible within 15 minutes. To guarantee absolute legal trust and transparency, the entire development is fully registered under MahaRERA number P52100054578, with pre-approved home loan lines from leading national banks including SBI, HDFC, and ICICI. This clean legal status, combined with premium sports amenities and proximity to Ryan International School and Chellaram Hospital, ensures Ganga Legend County stands as a highly stable, high-yield investment asset yielding up to 4.2% in rental income while promising long-term capital appreciation in Pune\'s primary future growth corridor.'
+    ],
+    faq: [
+      { question: "What configurations of luxury residences are available at Legend County?", answer: "We offer spacious 2 BHK, 3 BHK, 3.5 BHK, and bespoke combined 4 BHK and 5 BHK configurations, catering to different family sizes and preferences." },
+      { question: "Why is Bavdhan preferred for luxury residences in Pune?", answer: "Bavdhan is surrounded by protected NDA hills, offering clean air and a low-density environment while maintaining quick 15-minute connectivity to Hinjewadi and Baner." },
+      { question: "What makes Goel Ganga Legend County a premium gated community?", answer: "The township features 12.5 acres of dedicated sports facilities, a multi-level clubhouse, PMC municipal water connection, and a multi-tiered security system." },
+      { question: "Is the project legally compliant and approved?", answer: "Yes, the project is PMC and PMRDA approved and registered under MahaRERA registration number P52100054578." },
+      { question: "What is the distance to nearest IT corridors?", answer: "The project is located near Chandni Chowk, offering a 15-20 minute commute to Hinjewadi IT Park and 10 minutes to Baner." },
+      { question: "Are international sports academies open to all residents?", answer: "Yes, residents across all configurations receive priority admissions and subsidized fees at Michael Phelps Swimming and South United Football." },
+      { question: "What is the source of water supply in the township?", answer: "The township has a municipal water connection from the PMC, supplemented by local borewells, rain-water harvesting systems, and a dedicated sewage treatment plant." },
+      { question: "Which banks have pre-approved the project for home loans?", answer: "Home loans are pre-approved by major nationalized and private banks including SBI, HDFC, ICICI, and Axis Bank." }
     ]
   },
 };
