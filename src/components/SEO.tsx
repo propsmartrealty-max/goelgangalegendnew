@@ -61,10 +61,10 @@ export default function SEO({ title, description, keywords, canonical, image, fa
   ];
 
   const isHome = !canonical || canonical === '/';
-  const isBhk3 = canonical === '/goel-ganga-legend-county-3bhk-flats-bavdhan';
-  const isBhk35 = canonical === '/goel-ganga-legend-county-3.5-bhk-flats-bavdhan';
-  const isBhk4 = canonical === '/goel-ganga-legend-county-luxury-4bhk-flats-pune';
-  const isBhk5 = canonical === '/goel-ganga-legend-county-luxury-5bhk-duplex-penthouse-flats-pune';
+  const isBhk3 = canonical === '/3bhk-flats-bavdhan';
+  const isBhk35 = canonical === '/3.5-bhk-flats-bavdhan';
+  const isBhk4 = canonical === '/luxury-4bhk-flats-pune';
+  const isBhk5 = canonical === '/luxury-5bhk-duplex-penthouse-flats-pune';
   const isArticle = canonical?.startsWith('/insights/');
   const isSilo = canonical && !isHome && !isArticle && !isBhk4 && !isBhk5;
 

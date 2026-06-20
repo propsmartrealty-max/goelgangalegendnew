@@ -11,6 +11,32 @@ export default function SiloPage() {
   const navigate = useNavigate();
   const data = slug ? siloData[slug] : null;
 
+  const formatBreadcrumb = (s: string) => {
+    if (!s) return '';
+    const terms: Record<string, string> = {
+      '3bhk': '3 BHK',
+      '2bhk': '2 BHK',
+      '3.5': '3.5 BHK',
+      '4bhk': '4 BHK',
+      '5bhk': '5 BHK',
+      'rera': 'RERA',
+      'roi': 'ROI',
+      'pune': 'Pune',
+      'bavdhan': 'Bavdhan',
+      'kharadi': 'Kharadi',
+      'kothrud': 'Kothrud',
+      'baner': 'Baner',
+      'vs': 'vs',
+      'phelps': 'Phelps',
+      'dhoni': 'Dhoni'
+    };
+    return s.split('-').map(word => {
+      const lower = word.toLowerCase();
+      if (terms[lower]) return terms[lower];
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    }).join(' ');
+  };
+
   if (!data) return <Navigate to="/" replace />;
 
   return (
@@ -76,7 +102,7 @@ export default function SiloPage() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.75rem', opacity: 0.5, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
           <Link to="/">Home</Link>
           <ChevronRight size={12} />
-          <span style={{ color: 'var(--accent)' }}>{slug?.replace(/-/g, ' ')}</span>
+          <span style={{ color: 'var(--accent)' }}>{formatBreadcrumb(slug || '')}</span>
         </div>
       </div>
 

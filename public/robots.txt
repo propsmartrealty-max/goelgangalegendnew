@@ -3,5 +3,7 @@ Allow: /
 Disallow: /not-found
 Disallow: /404
 Disallow: /*?*
+Disallow: /scratch/
+Disallow: /google-credentials.json
 
 Sitemap: https://goelgangalegend.com/sitemap.xml

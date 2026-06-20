@@ -74,11 +74,11 @@ export default function Footer() {
           <div>
             <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>West Pune Corridors</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Pune Real Estate</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-west-pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>West Pune Market</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-real-estate-baner-pashan-link-road" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner Pashan Link Road</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-apartments-chandni-chowk" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Chandni Chowk Link</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-schools-hospitals-near-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Infrastructure & Schools</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Pune Real Estate</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/west-pune-real-estate-market" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>West Pune Market</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-real-estate-baner-pashan-link-road" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner Pashan Link Road</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-apartments-chandni-chowk" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Chandni Chowk Link</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/schools-hospitals-near-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Infrastructure & Schools</Link></li>
             </ul>
           </div>
 
@@ -86,10 +86,10 @@ export default function Footer() {
           <div>
             <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Comparative Hub</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-flats-kharadi-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kharadi vs Bavdhan</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-homes-koregaon-park-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Koregaon Park vs Bavdhan</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-apartments-baner-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner vs Bavdhan</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-flats-kothrud-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kothrud vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-flats-kharadi-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kharadi vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-homes-koregaon-park-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Koregaon Park vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-apartments-baner-vs-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Baner vs Bavdhan</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-flats-kothrud-vs-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Kothrud vs Bavdhan</Link></li>
             </ul>
           </div>
 
@@ -97,11 +97,11 @@ export default function Footer() {
           <div>
             <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Configurations</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-2bhk-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>2 BHK Residences</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-3bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3 BHK Residences</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-3.5-bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3.5 BHK Residences</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-3bhk-flats-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury 3 BHK Pune</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-investment-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Investment Properties</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/2bhk-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>2 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/3bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/3.5-bhk-flats-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>3.5 BHK Residences</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-3bhk-flats-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury 3 BHK Pune</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/investment-flats-bavdhan-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Investment Properties</Link></li>
             </ul>
           </div>
 
@@ -109,13 +109,13 @@ export default function Footer() {
           <div>
             <h4 style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1.25rem' }}>Experience & Legal</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-sports-township-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Township</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-sports-township-pune-stadium-life" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Stadium Life</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-michael-phelps-swimming-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Phelps Swimming</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-tagda-raho-dhoni-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Tagda Raho Center</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-luxury-projects-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury Projects</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-best-investment-property-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Best Investment Property</Link></li>
-              <li style={{ marginBottom: '0.75rem' }}><Link to="/goel-ganga-legend-county-rera-legal-compliance-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>MahaRERA Status</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Township</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/sports-township-pune-stadium-life" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Sports Stadium Life</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/michael-phelps-swimming-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Phelps Swimming</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/tagda-raho-dhoni-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Tagda Raho Center</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/luxury-projects-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Luxury Projects</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/best-investment-property-pune" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>Best Investment Property</Link></li>
+              <li style={{ marginBottom: '0.75rem' }}><Link to="/rera-legal-compliance-bavdhan" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--text-white-muted)' }}>MahaRERA Status</Link></li>
               <li style={{ marginBottom: '0.75rem' }}><a href="/sitemap.xml" className="footer-link" style={{ fontSize: '0.88rem', color: 'var(--accent)' }}>Digital Sitemap</a></li>
             </ul>
           </div>
