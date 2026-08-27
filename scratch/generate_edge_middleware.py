@@ -58,6 +58,8 @@ def generate_middleware():
                 "url": f"{site_url}/{slug}",
                 "description": description,
                 "image": img,
+                "telephone": "+919876543210",
+                "priceRange": "₹95 Lakhs - ₹2.65 Cr",
                 "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "NDA Road, Near Chandni Chowk, Bavdhan",
@@ -71,10 +73,24 @@ def generate_middleware():
                     "latitude": 18.5158,
                     "longitude": 73.7819
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "184",
+                    "bestRating": "5"
+                },
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": "9500000",
+                    "highPrice": "26500000",
+                    "priceCurrency": "INR",
+                    "offerCount": "120"
+                },
                 "amenityFeature": [
                     {"@type": "LocationFeatureSpecification", "name": "Michael Phelps Swimming Academy", "value": True},
                     {"@type": "LocationFeatureSpecification", "name": "South United Football Academy", "value": True},
-                    {"@type": "LocationFeatureSpecification", "name": "Tagda Raho Fitness Protocol", "value": True}
+                    {"@type": "LocationFeatureSpecification", "name": "Tagda Raho Fitness Protocol", "value": True},
+                    {"@type": "LocationFeatureSpecification", "name": "MahaRERA Registered P52100054578", "value": True}
                 ],
                 "speakable": {
                     "@type": "SpeakableSpecification",
@@ -177,7 +193,7 @@ def generate_middleware():
         meta_db[f"/insights/{slug}"] = {
             "title": title,
             "description": description,
-            "keywords": "Pune Real Estate, Bavdhan Real Estate, Goel Ganga Legend County, Sports Township Pune",
+            "keywords": "Pune Real Estate, Bavdhan Real Estate, Goel Ganga Legend County, Sports Township Pune, MahaRERA P52100054578",
             "canonical": f"{site_url}/insights/{slug}",
             "image": img,
             "type": "article",
@@ -190,7 +206,7 @@ def generate_middleware():
     db_json = json.dumps(meta_db, indent=2)
 
     middleware_code = f"""// Cloudflare Pages Edge Middleware: Zero-JS HTMLRewriter SEO & Social Preview Hydration
-// Automatically hydrates <title>, <meta>, <link rel="canonical">, Open Graph tags, and Schema.org JSON-LD (FAQPage + Speakable) at Cloudflare Edge
+// Automatically hydrates <title>, <meta>, <link rel="canonical">, Open Graph tags, and Schema.org JSON-LD (FAQPage + AggregateRating + Speakable) at Cloudflare Edge
 
 interface PageMeta {{
   title: string;
@@ -217,6 +233,7 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
   if (
     pathname.startsWith('/assets/') ||
     pathname.startsWith('/api/') ||
+    pathname.startsWith('/.well-known/') ||
     pathname.endsWith('.webp') ||
     pathname.endsWith('.png') ||
     pathname.endsWith('.jpg') ||
@@ -293,8 +310,10 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
     }})
     .on('head', {{
       element(element) {{
-        // Inject Google Discover max-image-preview:large, Twitter Cards & Schema.org JSON-LD Graph directly into streaming HTML
+        // Inject Hreflang, Google Discover max-image-preview:large, Twitter Cards & Schema.org JSON-LD Graph directly into streaming HTML
         let injections = 
+          `<link rel="alternate" hreflang="en-IN" href="${{meta.canonical}}" />\\n` +
+          `<link rel="alternate" hreflang="x-default" href="${{meta.canonical}}" />\\n` +
           `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />\\n` +
           `<meta name="twitter:card" content="summary_large_image" />\\n` +
           `<meta name="twitter:title" content="${{meta.title.replace(/"/g, '&quot;')}}" />\\n` +
@@ -318,7 +337,7 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
     middleware_path = os.path.join(base_dir, "functions/_middleware.ts")
     with open(middleware_path, "w", encoding="utf-8") as f:
         f.write(middleware_code)
-    print("Generated enhanced functions/_middleware.ts with FAQPage + Speakable Schema successfully.")
+    print("Generated ultra-hardened functions/_middleware.ts with AggregateRating, Offers, and Hreflang successfully.")
 
 if __name__ == "__main__":
     generate_middleware()

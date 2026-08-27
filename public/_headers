@@ -1,13 +1,17 @@
 # ─────────────────────────────────────────────────────────────
-# Cloudflare Edge Security & Cache Policy Headers
+# Cloudflare Ultra Edge Security, Privacy & Cache Policy Headers
 # ─────────────────────────────────────────────────────────────
 
-# Global Security Headers across all routes
+# Global Security & Privacy Headers across all routes
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  X-DNS-Prefetch-Control: on
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
   Link: <https://fonts.googleapis.com>; rel="preconnect", <https://fonts.gstatic.com>; rel="preconnect"; crossorigin, </hero-aerial.webp>; rel="preload"; as="image"; type="image/webp"
 
 # Immutable Caching for Bundled Static Assets (Vite hash-named files)
@@ -40,3 +44,11 @@
 /manifest.json
   Cache-Control: public, max-age=86400
   Content-Type: application/manifest+json; charset=utf-8
+
+/llms.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8
+
+/.well-known/security.txt
+  Cache-Control: public, max-age=604800
+  Content-Type: text/plain; charset=utf-8

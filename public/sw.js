@@ -1,90 +1,79 @@
-const CACHE_NAME = 'ganga-legend-v1';
-const ASSETS_TO_CACHE = [
+// Goel Ganga Legend County — High-Performance Edge Service Worker
+// Implements Stale-While-Revalidate caching for maximum Core Web Vitals (INP/LCP)
+
+const CACHE_NAME = 'gglc-edge-v1';
+const ASSETS_TO_PRECACHE = [
   '/',
-  '/index.html',
-  '/manifest.json',
-  '/logo.png',
-  '/logo.webp',
   '/favicon.svg',
+  '/manifest.json',
   '/hero-aerial.webp',
-  '/master-layout.webp'
+  '/floorplan-3bhk.webp',
+  '/floorplan-3.5bhk.webp'
 ];
 
-// Install Event: cache shell assets
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE);
+      return cache.addAll(ASSETS_TO_PRECACHE).catch(() => {});
     })
   );
   self.skipWaiting();
 });
 
-// Activate Event: clear legacy caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.map((key) => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-        })
+        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
       );
     })
   );
   self.clients.claim();
 });
 
-// Fetch Event: hybrid cache strategy
 self.addEventListener('fetch', (event) => {
-  const requestUrl = new URL(event.request.url);
+  const url = new URL(event.request.url);
 
-  // Network-First for page routing (ensures fresh blog post & pricing content)
-  if (
-    event.request.mode === 'navigate' ||
-    requestUrl.pathname.startsWith('/insights/') ||
-    requestUrl.pathname.match(/\/[a-zA-Z0-9_\.\-]+$/)
-  ) {
+  // Do not intercept API requests or non-GET methods
+  if (event.request.method !== 'GET' || url.pathname.startsWith('/api/')) {
+    return;
+  }
+
+  // Network-First for HTML navigation to ensure latest Edge SEO metadata
+  if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (response.status === 200) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-          }
-          return response;
-        })
-        .catch(() => {
-          return caches.match(event.request).then((cachedResponse) => {
-            return cachedResponse || caches.match('/index.html');
-          });
-        })
+      fetch(event.request).catch(() => {
+        return caches.match('/') || new Response('Offline', { status: 503 });
+      })
     );
     return;
   }
 
-  // Cache-First for static assets (images, fonts, stylesheets, scripts)
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request).then((response) => {
-        if (
-          response.status === 200 &&
-          (event.request.url.includes('.webp') ||
-            event.request.url.includes('.js') ||
-            event.request.url.includes('.css') ||
-            event.request.url.includes('.png') ||
-            event.request.url.includes('.svg') ||
-            event.request.url.includes('fonts.googleapis.com'))
-        ) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-        }
-        return response;
-      });
-    })
-  );
+  // Stale-While-Revalidate for images, fonts, and assets
+  if (
+    url.pathname.endsWith('.webp') ||
+    url.pathname.endsWith('.png') ||
+    url.pathname.endsWith('.jpg') ||
+    url.pathname.endsWith('.svg') ||
+    url.pathname.endsWith('.css') ||
+    url.pathname.endsWith('.js') ||
+    url.hostname.includes('fonts.gstatic.com') ||
+    url.hostname.includes('fonts.googleapis.com')
+  ) {
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        const fetchPromise = fetch(event.request).then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseClone);
+            });
+          }
+          return networkResponse;
+        }).catch(() => cachedResponse);
+
+        return cachedResponse || fetchPromise;
+      })
+    );
+  }
 });
