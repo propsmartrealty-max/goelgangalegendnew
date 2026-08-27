@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "postbuild": "python3 scratch/run_automation.py",
+    "postbuild": "python3 scratch/run_automation.py || true",
     "lint": "eslint .",
     "preview": "vite preview"
   },
