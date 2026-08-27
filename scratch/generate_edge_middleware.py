@@ -104,7 +104,12 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
   const url = new URL(context.request.url);
   const pathname = url.pathname.replace(/\\/+$/, '') || '/';
 
-  // 1. Pass through static assets, images, and API functions with zero overhead
+  // 1. Edge Canonical Redirect: non-www apex to www.goelgangalegend.com (301 Permanent)
+  if (url.hostname === 'goelgangalegend.com') {{
+    return Response.redirect(`https://www.goelgangalegend.com${{url.pathname}}${{url.search}}`, 301);
+  }}
+
+  // 2. Pass through static assets, images, and API functions with zero overhead
   if (
     pathname.startsWith('/assets/') ||
     pathname.startsWith('/api/') ||
