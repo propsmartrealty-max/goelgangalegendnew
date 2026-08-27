@@ -30,8 +30,10 @@ import Specifications from './components/Specifications';
 import ProjectCinema from './components/ProjectCinema';
 import ComparisonMatrix from './components/ComparisonMatrix';
 import EMICalculator from './components/EMICalculator';
+import OnRoadPriceCalculator from './components/OnRoadPriceCalculator';
 import ArchitecturalSpecs from './components/ArchitecturalSpecs';
 import SiteVisitBooking from './components/SiteVisitBooking';
+import DownloadCenter from './components/DownloadCenter';
 import { SocialProofToast, ExitIntent, TimedCTA } from './components/ConversionEngine';
 import SiloPage from './pages/SiloPage';
 import ArticlePage from './pages/ArticlePage';
@@ -113,12 +115,14 @@ const Home = () => (
     <ComparisonMatrix />
     <ROIHub />
     <EMICalculator />
+    <OnRoadPriceCalculator />
     <Location />
     <InfrastructureTracker />
     <ConstructionTracker />
     <Testimonials />
     <SiteVisitBooking />
     <ProjectMonograph />
+    <DownloadCenter />
     <BlogSection />
     <Developer />
     <Contact />
