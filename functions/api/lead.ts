@@ -1,11 +1,13 @@
 // Cloudflare Pages Function: /api/lead
 // Runs on Cloudflare V8 Edge Isolates (< 1ms execution time)
-// Enriched with Cloudflare Turnstile bot verification & Cloudflare D1 SQL Ledger
+// Enriched with Server-Side GA4 Measurement Protocol, Turnstile Verification, & D1 Ledger
 
 interface Env {
   GOOGLE_WEBHOOK_URL?: string;
   EMAIL_MIRROR?: string;
   TURNSTILE_SECRET_KEY?: string;
+  GA4_MEASUREMENT_ID?: string;
+  GA4_API_SECRET?: string;
   DB?: {
     prepare: (query: string) => {
       bind: (...args: unknown[]) => {
@@ -17,6 +19,7 @@ interface Env {
 
 const DEFAULT_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyeBBq1zKvx5Cmu3wpgdzuhSw0z465b3iQyH_mPeTJKNAlFBAlm41DBNPkZYBLXimv2/exec';
 const DEFAULT_EMAIL_MIRROR = 'propsmartrealty@gmail.com';
+const GA4_MEASUREMENT_ID = 'G-N57D2C1L9B';
 
 export const onRequestOptions = async () => {
   return new Response(null, {
@@ -44,7 +47,7 @@ export const onRequestPost = async (context: {
   try {
     const rawData = await request.json() as Record<string, unknown>;
 
-    // 1. Basic Validation
+    // 1. Validation
     const phone = String(rawData.phone || '').replace(/\D/g, '');
     if (phone.length < 10) {
       return new Response(
@@ -53,7 +56,7 @@ export const onRequestPost = async (context: {
       );
     }
 
-    // 2. Cloudflare Turnstile Verification (if secret key configured)
+    // 2. Cloudflare Turnstile Verification
     const turnstileToken = String(rawData.turnstile_token || '');
     if (env.TURNSTILE_SECRET_KEY && turnstileToken) {
       try {
@@ -76,7 +79,7 @@ export const onRequestPost = async (context: {
       }
     }
 
-    // 3. Cloudflare Edge Metadata Extraction
+    // 3. Cloudflare Edge Metadata
     const cf = (request as unknown as { cf?: Record<string, unknown> }).cf || {};
     const clientIp = request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for') || 'unknown';
     const leadId = `GGLC-${Date.now()}`;
@@ -97,7 +100,7 @@ export const onRequestPost = async (context: {
       user_agent: request.headers.get('user-agent') || 'Unknown',
     };
 
-    // 4. Cloudflare D1 SQL Ledger Insertion (if DB bound)
+    // 4. Cloudflare D1 SQL Ledger Insertion
     if (env.DB) {
       try {
         await env.DB.prepare(`
@@ -119,7 +122,35 @@ export const onRequestPost = async (context: {
       }
     }
 
-    // 5. Forward to Google Apps Script Webhook
+    // 5. Server-to-Server GA4 Measurement Protocol Direct Edge Dispatch to Google.com
+    const ga4Id = env.GA4_MEASUREMENT_ID || GA4_MEASUREMENT_ID;
+    try {
+      const ga4Endpoint = `https://www.google-analytics.com/mp/collect?measurement_id=${ga4Id}&api_secret=${env.GA4_API_SECRET || 'gglc_edge_secret'}`;
+      await fetch(ga4Endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          client_id: leadId,
+          events: [
+            {
+              name: 'generate_lead',
+              params: {
+                currency: 'INR',
+                value: 17700000,
+                lead_id: leadId,
+                lead_source: String(enrichedLead.source || 'Cloudflare Edge'),
+                item_name: 'Goel Ganga Legend County 3 BHK',
+                location: String(cf.city || 'Pune')
+              }
+            }
+          ]
+        })
+      });
+    } catch (gaErr) {
+      console.warn('Edge GA4 server dispatch warning:', gaErr);
+    }
+
+    // 6. Forward to Google Apps Script Webhook
     const webhookUrl = env.GOOGLE_WEBHOOK_URL || DEFAULT_WEBHOOK_URL;
     let upstreamSuccess = false;
     let upstreamStatus = 0;
@@ -139,7 +170,7 @@ export const onRequestPost = async (context: {
     return new Response(
       JSON.stringify({
         success: true,
-        message: 'Lead captured and processed by Cloudflare Ultra Edge.',
+        message: 'Lead captured and processed by Cloudflare Ultra Edge with Direct Google Interconnect.',
         upstream_dispatched: upstreamSuccess,
         upstream_status: upstreamStatus,
         lead_id: leadId,

@@ -8,6 +8,7 @@
   <link>https://www.goelgangalegend.com</link>
   <description>Official research insights, infrastructure updates, and market intelligence for Goel Ganga Legend County, Bavdhan, Pune.</description>
   <atom:link href="https://www.goelgangalegend.com/feed.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
   <language>en-in</language>
   <copyright>2026 Goel Ganga Developments</copyright>
   <lastBuildDate>Thu, 27 Aug 2026 19:37:43 +0530</lastBuildDate>
