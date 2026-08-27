@@ -10,6 +10,7 @@ import Trust from './components/Trust';
 import Overview from './components/Overview';
 import About from './components/About';
 import Amenities from './components/Amenities';
+import LivingBlueprintLongevity from './components/LivingBlueprintLongevity';
 import SportsAcademies from './components/SportsAcademies';
 import Gallery from './components/Gallery';
 import MasterLayout from './components/MasterLayout';
@@ -106,6 +107,7 @@ const Home = () => (
     <Overview />
     <About />
     <Amenities />
+    <LivingBlueprintLongevity />
     <SportsAcademies />
     <Gallery />
     <ProjectCinema />

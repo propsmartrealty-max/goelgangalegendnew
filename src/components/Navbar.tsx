@@ -6,7 +6,7 @@ import BrandLogo from './BrandLogo';
 
 const navLinks = [
   { label: 'Overview', href: '#overview' },
-  { label: 'About', href: '#about' },
+  { label: 'Longevity', href: '#longevity-district' },
   { label: 'Amenities', href: '#amenities' },
   { label: 'Master Layout', href: '#master-layout' },
   { label: 'Floor Plans', href: '#floor-plans' },
