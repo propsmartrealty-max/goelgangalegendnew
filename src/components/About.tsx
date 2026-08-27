@@ -55,9 +55,9 @@ export default function About() {
               position: 'relative',
             }}>
               <img
-                src="/interior-luxury.webp"
-                alt="Luxury 3 BHK interior at Goel Ganga Legend County"
-                title="Goel Ganga Legend County - Premium Interior Finishes"
+                src="/about-architecture.png"
+                alt="Goel Ganga Legend County 30-Acre Township Architecture"
+                title="Goel Ganga Legend County - Official Township Architecture"
                 loading="lazy"
                 width={400}
                 height={500}

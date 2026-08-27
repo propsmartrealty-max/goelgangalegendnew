@@ -10,12 +10,12 @@ import {
   Volume2,
   Zap,
   Activity,
-  Flame,
   Sparkles,
   ArrowRight,
   CheckCircle2,
   Compass,
-  Smile
+  Play,
+  X
 } from 'lucide-react';
 
 const longevityStats = [
@@ -30,44 +30,71 @@ const sevenPillars = [
     icon: <Wind size={22} />,
     title: 'Air Architecture',
     subtitle: 'PM2.5 Filtration & DGU Shielding',
+    image: '/pillar-air.jpg',
+    videoUrl: 'https://www.youtube.com/embed/1fKwUJuV2Eo',
     desc: 'High-grade DGU acoustic windows and active continuous air filtration drastically reduce PM2.5 exposure, boosting deep sleep, mental clarity, and cellular oxygenation.'
   },
   {
     icon: <Droplets size={22} />,
     title: 'Water Architecture',
     subtitle: 'Copper Pathways & WQI Monitoring',
+    image: '/pillar-water.jpg',
+    videoUrl: 'https://www.youtube.com/embed/bzNarKOXefk',
     desc: 'Stainless steel central storage tanks, antimicrobial copper piping pathways, and real-time Water Quality Index (WQI) monitoring deliver structured, pure, and alkaline hydration.'
   },
   {
     icon: <Sun size={22} />,
     title: 'Light Architecture',
     subtitle: 'Circadian Daylight Synchronization',
+    image: '/pillar-light.jpg',
+    videoUrl: 'https://www.youtube.com/embed/cY7PrDhw5ig',
     desc: 'Precision daylight engineering and biological circadian light paths harmonize melatonin rhythms, optimizing deep REM recovery, hormonal balance, and mood stability.'
   },
   {
     icon: <Trees size={22} />,
     title: 'Nature Architecture',
     subtitle: 'Biophilic Moss Walls & Micro-Farms',
+    image: '/pillar-nature.jpg',
+    videoUrl: 'https://www.youtube.com/embed/QZ4p8t4sy3o',
     desc: 'Living plant systems, indoor vertical herb gardens, and biophilic architectural integration reduce cortisol levels while stimulating immune system resilience.'
   },
   {
     icon: <ShieldCheck size={22} />,
     title: 'Material Architecture',
     subtitle: 'Zero-VOC Breathable Surfaces',
+    image: '/pillar-materials.jpg',
+    videoUrl: 'https://www.youtube.com/embed/0v1C4ebMNw4',
     desc: 'Non-toxic low-VOC organic coatings, natural stone flooring, and toxin-free mineral mortars create an ultra-clean respiratory habitat free of off-gassing.'
   },
   {
     icon: <Volume2 size={22} />,
     title: 'Sound Architecture',
     subtitle: 'Acoustic Decibel Isolation & Water Flow',
+    image: '/pillar-sound.jpg',
+    videoUrl: 'https://www.youtube.com/embed/5NRoU1OpFpk',
     desc: 'Calibrated acoustic dampers, ambient water soundscapes, and multi-layer noise insulation insulate against urban stress, enabling profound neurological restoration.'
   },
   {
     icon: <Zap size={22} />,
     title: 'Energy Architecture',
     subtitle: 'Natural Grounding & Bio-Earthing',
+    image: '/pillar-energy.jpg',
+    videoUrl: 'https://www.youtube.com/embed/0v1C4ebMNw4',
     desc: 'Dedicated copper earthing pathways and biological grounding plates neutralize static electromagnetic fields, restoring natural cellular voltage and calm.'
   }
+];
+
+const outdoorGallery = [
+  { img: '/outdoor-1.jpg', title: 'Community Dining Terrace' },
+  { img: '/outdoor-2.jpg', title: 'Open-Air Meditation Deck' },
+  { img: '/outdoor-3.jpg', title: 'Zen Garden Walkway' },
+  { img: '/outdoor-4.jpg', title: 'Stargazing & Fire Bowl Deck' }
+];
+
+const indoorGallery = [
+  { img: '/indoor-1.jpg', title: 'Longevity Spa & Infrared Sauna' },
+  { img: '/indoor-2.jpg', title: 'Cold Plunge & Cryo Zone' },
+  { img: '/indoor-3.jpg', title: 'Breathwork & Wim Hof Studio' }
 ];
 
 const outdoorAmenities = [
@@ -93,7 +120,7 @@ const indoorAmenities = [
 ];
 
 export default function LivingBlueprintLongevity() {
-  const [activePillar, setActivePillar] = useState(0);
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<'outdoor' | 'indoor'>('outdoor');
 
   return (
@@ -193,7 +220,7 @@ export default function LivingBlueprintLongevity() {
           </div>
         </div>
 
-        {/* Seven Scientific Pillars Interactive Showcase */}
+        {/* Seven Scientific Pillars Interactive Showcase with Authentic Photos */}
         <div style={{ marginBottom: '5rem' }}>
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <span style={{ fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#34D399' }}>
@@ -204,41 +231,75 @@ export default function LivingBlueprintLongevity() {
             </h3>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: '1.5rem' }}>
             {sevenPillars.map((pillar, idx) => (
               <motion.div
                 key={idx}
-                whileHover={{ y: -4 }}
-                onClick={() => setActivePillar(idx)}
+                whileHover={{ y: -6 }}
                 className="glass-card-bold"
                 style={{
-                  padding: '1.75rem',
-                  cursor: 'pointer',
-                  border: activePillar === idx ? '1px solid #34D399' : '1px solid rgba(255,255,255,0.06)',
-                  background: activePillar === idx ? 'rgba(52, 211, 153, 0.08)' : 'rgba(255,255,255,0.02)',
-                  transition: 'all 0.3s'
+                  overflow: 'hidden',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  borderRadius: '20px'
                 }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.75rem' }}>
-                  <div style={{ width: 40, height: 40, borderRadius: '10px', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: activePillar === idx ? '#34D399' : '#F59E0B' }}>
-                    {pillar.icon}
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#FFFFFF' }}>{pillar.title}</h4>
-                    <span style={{ fontSize: '0.75rem', color: '#34D399', fontWeight: 600 }}>{pillar.subtitle}</span>
+                <div style={{ position: 'relative', height: '200px', width: '100%', overflow: 'hidden' }}>
+                  <img
+                    src={pillar.image}
+                    alt={pillar.title}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                  <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,8,13,0.9) 0%, transparent 60%)' }} />
+                  
+                  <button
+                    onClick={() => setSelectedVideo(pillar.videoUrl)}
+                    style={{
+                      position: 'absolute',
+                      top: '50%',
+                      left: '50%',
+                      transform: 'translate(-50%, -50%)',
+                      width: '46px',
+                      height: '46px',
+                      borderRadius: '50%',
+                      background: 'rgba(52, 211, 153, 0.9)',
+                      border: 'none',
+                      color: '#06080D',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
+                      transition: 'all 0.3s'
+                    }}
+                  >
+                    <Play size={20} fill="#06080D" />
+                  </button>
+
+                  <div style={{ position: 'absolute', bottom: '12px', left: '16px', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div style={{ width: 30, height: 30, borderRadius: '8px', background: 'rgba(6,8,13,0.8)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#34D399' }}>
+                      {pillar.icon}
+                    </div>
+                    <span style={{ fontSize: '0.8rem', color: '#34D399', fontWeight: 800 }}>{pillar.subtitle}</span>
                   </div>
                 </div>
-                <p style={{ fontSize: '0.85rem', color: 'var(--text-white-muted)', lineHeight: 1.55 }}>
-                  {pillar.desc}
-                </p>
+
+                <div style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                  <div>
+                    <h4 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.5rem' }}>{pillar.title}</h4>
+                    <p style={{ fontSize: '0.86rem', color: 'var(--text-white-muted)', lineHeight: 1.55 }}>
+                      {pillar.desc}
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
 
-        {/* Leisure By Design - Indoor / Outdoor Tabs */}
-        <div className="glass-card-bold" style={{ padding: 'clamp(2rem, 5vw, 3.5rem)', borderRadius: '24px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem', marginBottom: '2.5rem' }}>
+        {/* Leisure By Design - Authentic Photography Gallery & Tabs */}
+        <div className="glass-card-bold" style={{ padding: 'clamp(2rem, 5vw, 3.5rem)', borderRadius: '24px', marginBottom: '4rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem', marginBottom: '2rem' }}>
             <div>
               <span style={{ fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#F59E0B' }}>
                 Intentional Indulgence
@@ -284,7 +345,21 @@ export default function LivingBlueprintLongevity() {
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: '1rem' }}>
+          {/* Gallery Photos */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+            {(activeTab === 'outdoor' ? outdoorGallery : indoorGallery).map((g, i) => (
+              <div key={i} style={{ borderRadius: '16px', overflow: 'hidden', height: '180px', position: 'relative' }}>
+                <img src={g.img} alt={g.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%)' }} />
+                <span style={{ position: 'absolute', bottom: '12px', left: '12px', right: '12px', fontSize: '0.8rem', fontWeight: 700, color: '#FFFFFF' }}>
+                  {g.title}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {/* Checklist */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: '0.85rem' }}>
             {(activeTab === 'outdoor' ? outdoorAmenities : indoorAmenities).map((item, idx) => (
               <div
                 key={idx}
@@ -292,7 +367,7 @@ export default function LivingBlueprintLongevity() {
                   display: 'flex',
                   alignItems: 'center',
                   gap: '0.75rem',
-                  padding: '0.9rem 1.25rem',
+                  padding: '0.85rem 1.15rem',
                   background: 'rgba(255,255,255,0.03)',
                   border: '1px solid rgba(255,255,255,0.06)',
                   borderRadius: '12px'
@@ -328,6 +403,74 @@ export default function LivingBlueprintLongevity() {
         </div>
 
       </div>
+
+      {/* Video Modal */}
+      <AnimatePresence>
+        {selectedVideo && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedVideo(null)}
+            style={{
+              position: 'fixed',
+              inset: 0,
+              zIndex: 9999,
+              background: 'rgba(0,0,0,0.85)',
+              backdropFilter: 'blur(10px)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '20px'
+            }}
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                position: 'relative',
+                width: '100%',
+                maxWidth: '800px',
+                aspectRatio: '16/9',
+                borderRadius: '16px',
+                overflow: 'hidden',
+                boxShadow: '0 25px 50px -12px rgba(0,0,0,0.8)',
+                border: '1px solid rgba(245,158,11,0.3)'
+              }}
+            >
+              <button
+                onClick={() => setSelectedVideo(null)}
+                style={{
+                  position: 'absolute',
+                  top: '12px',
+                  right: '12px',
+                  width: '36px',
+                  height: '36px',
+                  borderRadius: '50%',
+                  background: 'rgba(0,0,0,0.7)',
+                  border: 'none',
+                  color: '#fff',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  zIndex: 10
+                }}
+              >
+                <X size={20} />
+              </button>
+              <iframe
+                src={`${selectedVideo}?autoplay=1`}
+                title="Pillar Walkthrough"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
