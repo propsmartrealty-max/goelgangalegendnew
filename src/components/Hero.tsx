@@ -50,11 +50,11 @@ export default function Hero() {
         {/* Gradient overlays */}
         <div style={{
           position: 'absolute', inset: 0,
-          background: 'linear-gradient(to bottom, rgba(9,9,11,0.6) 0%, transparent 40%, rgba(9,9,11,0.9) 100%)',
+          background: 'linear-gradient(to bottom, rgba(7,11,20,0.65) 0%, rgba(7,11,20,0.2) 40%, rgba(7,11,20,0.95) 100%)',
         }} />
         <div style={{
           position: 'absolute', inset: 0,
-          background: 'linear-gradient(to right, rgba(9,9,11,0.8) 0%, transparent 50%, rgba(9,9,11,0.6) 100%)',
+          background: 'linear-gradient(to right, rgba(7,11,20,0.85) 0%, transparent 60%, rgba(7,11,20,0.65) 100%)',
         }} />
       </motion.div>
 
