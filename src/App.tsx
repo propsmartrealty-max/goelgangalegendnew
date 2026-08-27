@@ -30,8 +30,9 @@ import Specifications from './components/Specifications';
 import ProjectCinema from './components/ProjectCinema';
 import { SocialProofToast, ExitIntent, TimedCTA } from './components/ConversionEngine';
 import SiloPage from './pages/SiloPage';
-import NotFound from './pages/NotFound';
 import ArticlePage from './pages/ArticlePage';
+import NotFound from './pages/NotFound';
+import AIChatConcierge from './components/AIChatConcierge';
 import SEO from './components/SEO';
 
 function ScrollToTop() {
@@ -142,6 +143,7 @@ function App() {
           <SocialProofToast />
           <ExitIntent />
           <TimedCTA />
+          <AIChatConcierge />
         </SmoothScroll>
       </Router>
     </HelmetProvider>
