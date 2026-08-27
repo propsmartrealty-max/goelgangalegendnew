@@ -106,10 +106,10 @@ export default function AIChatConcierge() {
       {/* Floating Trigger Button */}
       <div className="fixed bottom-24 right-6 z-40">
         <motion.button
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-2 bg-gradient-to-r from-slate-900 to-amber-900 text-white px-4 py-3 rounded-full shadow-2xl border border-amber-500/40 hover:border-amber-400 transition-all group"
+          className="flex items-center gap-2.5 bg-gradient-to-r from-slate-950 via-slate-900 to-amber-950 text-white px-4 py-3 rounded-full shadow-2xl border border-amber-500/50 hover:border-amber-400 transition-all group shadow-amber-500/20"
           aria-label="Open AI Property Concierge"
         >
           <div className="relative">
@@ -119,7 +119,7 @@ export default function AIChatConcierge() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
           </div>
-          <span className="text-xs font-semibold tracking-wide uppercase">AI Concierge</span>
+          <span className="text-xs font-bold tracking-wider uppercase text-amber-100">AI Concierge</span>
         </motion.button>
       </div>
 

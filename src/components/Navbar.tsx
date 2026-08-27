@@ -80,16 +80,16 @@ export default function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            padding: scrolled ? '0.65rem 2rem' : '0.85rem 2.5rem',
+            padding: scrolled ? '0.6rem 2rem' : '0.85rem 2.25rem',
             background: scrolled
-              ? 'rgba(9, 9, 11, 0.85)'
-              : 'rgba(9, 9, 11, 0.4)',
-            backdropFilter: 'blur(24px)',
-            WebkitBackdropFilter: 'blur(24px)',
+              ? 'rgba(6, 8, 13, 0.88)'
+              : 'rgba(11, 15, 23, 0.65)',
+            backdropFilter: 'blur(28px)',
+            WebkitBackdropFilter: 'blur(28px)',
             borderRadius: 'var(--radius-pill)',
-            border: `1px solid ${scrolled ? 'rgba(0, 114, 188, 0.2)' : 'rgba(255, 255, 255, 0.08)'}`,
-            transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
-            boxShadow: scrolled ? '0 8px 40px rgba(0,0,0,0.3)' : 'none',
+            border: `1px solid ${scrolled ? 'rgba(245, 158, 11, 0.35)' : 'rgba(255, 255, 255, 0.12)'}`,
+            transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+            boxShadow: scrolled ? '0 12px 40px rgba(0, 0, 0, 0.6), 0 0 24px rgba(245, 158, 11, 0.1)' : '0 4px 20px rgba(0, 0, 0, 0.3)',
           }}
         >
           {/* Left - Brand (Equalized Flex) */}
@@ -104,34 +104,34 @@ export default function Navbar() {
               }}
             >
               <div style={{
-                height: 36,
-                padding: '4px 10px',
-                background: '#fff',
+                height: 38,
+                padding: '4px 12px',
+                background: '#ffffff',
                 borderRadius: 'var(--radius-md)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.25)',
               }}>
-                <BrandLogo style={{ height: '38px', width: 'auto' }} />
+                <BrandLogo style={{ height: '40px', width: 'auto' }} />
               </div>
             </a>
             <div style={{
-              fontSize: '0.62rem',
+              fontSize: '0.64rem',
               fontWeight: 700,
-              padding: '0.25rem 0.65rem',
-              background: 'rgba(255, 255, 255, 0.08)',
+              padding: '0.3rem 0.75rem',
+              background: 'rgba(15, 23, 42, 0.8)',
               borderRadius: 'var(--radius-pill)',
-              border: '1px solid var(--border-light)',
-              color: 'var(--text-white-muted)',
+              border: '1px solid rgba(245, 158, 11, 0.3)',
+              color: 'var(--accent-gold-light)',
               whiteSpace: 'nowrap',
             }} className="hide-mobile">
-              MahaRERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>P52100054578</a>
+              MahaRERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: '#FCD34D', textDecoration: 'underline' }}>P52100054578</a>
             </div>
           </div>
 
           {/* Middle - Links (Visual Center) */}
-          <div className="hide-mobile" style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
+          <div className="hide-mobile" style={{ display: 'flex', alignItems: 'center', gap: '1.75rem' }}>
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -141,19 +141,20 @@ export default function Navbar() {
                   fontSize: '0.75rem',
                   fontWeight: 700,
                   fontFamily: '"Outfit", sans-serif',
-                  opacity: 0.8,
+                  opacity: 0.85,
                   transition: 'all 0.3s',
                   letterSpacing: '0.12em',
                   textTransform: 'uppercase',
                   whiteSpace: 'nowrap',
+                  color: 'var(--text-white)',
                 }}
                 onMouseEnter={(e) => {
                   (e.target as HTMLElement).style.opacity = '1';
-                  (e.target as HTMLElement).style.color = 'var(--accent)';
+                  (e.target as HTMLElement).style.color = 'var(--accent-gold)';
                 }}
                 onMouseLeave={(e) => {
-                  (e.target as HTMLElement).style.opacity = '0.8';
-                  (e.target as HTMLElement).style.color = 'inherit';
+                  (e.target as HTMLElement).style.opacity = '0.85';
+                  (e.target as HTMLElement).style.color = 'var(--text-white)';
                 }}
               >
                 {link.label}
@@ -166,9 +167,9 @@ export default function Navbar() {
             <button 
               onClick={() => window.dispatchEvent(new CustomEvent('openEnquiryModal'))}
               className="btn-primary hide-mobile" 
-              style={{ padding: '0.65rem 1.6rem', fontSize: '0.65rem', letterSpacing: '0.12em', border: 'none', cursor: 'pointer' }}
+              style={{ padding: '0.65rem 1.75rem', fontSize: '0.70rem', letterSpacing: '0.12em', border: 'none', cursor: 'pointer' }}
             >
-              ENQUIRE
+              BOOK VISIT
             </button>
             <button
               className="hide-desktop"

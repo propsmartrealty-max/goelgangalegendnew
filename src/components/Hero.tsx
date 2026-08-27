@@ -70,30 +70,36 @@ export default function Hero() {
         style={{ y: textY, opacity }}
         className="container"
       >
-        <div style={{ position: 'relative', zIndex: 10, maxWidth: 800 }}>
+        <div style={{ position: 'relative', zIndex: 10, maxWidth: 840 }}>
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}
           >
-            <span className="label" style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '0.5rem',
-              padding: '0.5rem 1.25rem',
-              background: 'var(--accent-glow)',
-              borderRadius: 'var(--radius-pill)',
-              border: '1px solid var(--border-accent)',
-              marginBottom: '1.5rem',
-              fontSize: '0.65rem',
-            }}>
+            <span className="badge-titanium">
               <span style={{
-                width: 6, height: 6, borderRadius: '50%',
-                background: 'var(--accent)',
+                width: 7, height: 7, borderRadius: '50%',
+                background: '#10B981',
+                boxShadow: '0 0 10px #10B981',
                 animation: 'pulse-glow 2s infinite',
               }} />
-              Pune's Premier Sports Township
+              30-Acre Sports Township • Bavdhan
+            </span>
+            <span style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              padding: '0.5rem 1rem',
+              background: 'rgba(255, 255, 255, 0.06)',
+              border: '1px solid rgba(255, 255, 255, 0.12)',
+              borderRadius: 'var(--radius-pill)',
+              color: 'var(--text-white-muted)',
+              fontSize: '0.72rem',
+              fontWeight: 600,
+              letterSpacing: '0.08em',
+            }}>
+              MahaRERA: P52100054578
             </span>
           </motion.div>
 
@@ -103,13 +109,14 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="heading-display heading-xl"
-            style={{ marginBottom: '1.5rem', color: 'var(--text-white)' }}
+            style={{ marginBottom: '1.5rem', color: 'var(--text-white)', lineHeight: 0.95 }}
           >
             Goel Ganga <br />
-            <span style={{
-              color: 'var(--accent)',
+            <span className="gradient-text-gold" style={{
               fontStyle: 'italic',
-              position: 'relative',
+              fontWeight: 500,
+              display: 'inline-block',
+              paddingBottom: '0.2rem'
             }}>
               Legend County
             </span>
@@ -128,38 +135,61 @@ export default function Hero() {
             </span>
           </motion.h1>
 
-          {/* Subtitle */}
-          <motion.p
+          {/* Subtitle with Price Callout */}
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            className="body-lg"
-            style={{
-              color: 'var(--text-white-muted)',
-              maxWidth: 560,
-              marginBottom: '2.5rem',
-            }}
+            style={{ marginBottom: '2.5rem' }}
           >
-            Experience Bavdhan's iconic 30-acre sports-first township. Luxury 3 & 3.5 BHK residences
-            with 9+ international sports academies, starting ₹1.77 Cr*.
-          </motion.p>
+            <p
+              className="body-lg"
+              style={{
+                color: 'var(--text-white-muted)',
+                maxWidth: 620,
+                lineHeight: 1.65,
+                fontSize: '1.15rem',
+              }}
+            >
+              Experience West Pune's premier 30-acre sports-first sanctuary near Chandni Chowk.
+              Ultra-luxury 3 & 3.5 BHK hill-view residences with 9+ international academies.
+            </p>
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.75rem',
+              marginTop: '1rem',
+              padding: '0.4rem 1rem',
+              background: 'rgba(245, 158, 11, 0.10)',
+              border: '1px solid rgba(245, 158, 11, 0.3)',
+              borderRadius: '8px',
+            }}>
+              <span style={{ color: '#FCD34D', fontSize: '0.85rem', fontWeight: 700 }}>
+                3 & 3.5 BHK Luxury Residences
+              </span>
+              <span style={{ color: 'rgba(255,255,255,0.4)' }}>•</span>
+              <span style={{ color: '#F8FAFC', fontSize: '0.85rem', fontWeight: 800 }}>
+                Starting ₹1.77 Cr*
+              </span>
+            </div>
+          </motion.div>
 
           {/* CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}
-            style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}
+            style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap' }}
           >
             <button 
               onClick={() => window.dispatchEvent(new CustomEvent('openEnquiryModal'))}
               className="btn-primary"
               style={{ border: 'none', cursor: 'pointer' }}
             >
-              Book a Site Visit
+              Book VIP Site Visit
             </button>
             <a href="#floor-plans" className="btn-outline">
-              View Floor Plans
+              Explore Floor Plans
             </a>
           </motion.div>
         </div>
@@ -172,20 +202,19 @@ export default function Hero() {
         transition={{ duration: 1, delay: 1.2 }}
         style={{
           position: 'absolute',
-          bottom: '3rem',
+          bottom: '2.5rem',
           left: '50%',
           transform: 'translateX(-50%)',
           zIndex: 10,
-          width: 'min(90%, 700px)',
+          width: 'min(92%, 760px)',
         }}
       >
         <div
-          className="glass"
+          className="glass-card-bold"
           style={{
             display: 'flex',
             justifyContent: 'center',
             gap: 0,
-            borderRadius: 'var(--radius-lg)',
             overflow: 'hidden',
           }}
         >
@@ -200,15 +229,27 @@ export default function Hero() {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '0.4rem',
+                gap: '0.25rem',
               }}
             >
-              <div style={{ color: 'var(--accent)', marginBottom: '0.25rem' }}>{stat.icon}</div>
               <div style={{
-                fontSize: 'clamp(1.3rem, 3vw, 1.8rem)',
+                color: 'var(--accent-gold)',
+                marginBottom: '0.25rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 36, height: 36,
+                borderRadius: '50%',
+                background: 'rgba(245, 158, 11, 0.12)',
+              }}>
+                {stat.icon}
+              </div>
+              <div style={{
+                fontSize: '1.65rem',
                 fontWeight: 800,
-                lineHeight: 1,
-                letterSpacing: '-0.02em',
+                fontFamily: 'var(--font-display)',
+                color: 'var(--text-white)',
+                lineHeight: 1.1,
               }}>
                 {stat.value}
                 <span style={{ fontSize: '0.7em', fontWeight: 600, opacity: 0.5, marginLeft: '0.2em' }}>

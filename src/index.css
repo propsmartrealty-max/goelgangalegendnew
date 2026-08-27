@@ -1,42 +1,50 @@
 /* ═══════════════════════════════════════════════════════════
-   GOEL GANGA LEGEND COUNTY — Fresh Design System 2026
+   GOEL GANGA LEGEND COUNTY — Bold Luxury Design System 2026
    ═══════════════════════════════════════════════════════════ */
 
 /* ─── CSS Variables ─── */
 :root {
-  /* Dark palette */
-  --bg-primary: #09090b;
-  --bg-elevated: #131316;
-  --bg-card: #1a1a1f;
-  --bg-card-hover: #222228;
+  /* Ultra-Deep Obsidian Dark Palette */
+  --bg-primary: #06080D;
+  --bg-elevated: #0B0F17;
+  --bg-card: rgba(15, 23, 42, 0.72);
+  --bg-card-hover: rgba(30, 41, 59, 0.85);
 
   /* Light palette */
   --bg-cream: #faf7f2;
   --bg-cream-deep: #f0ebe3;
   --bg-white: #ffffff;
 
-  /* Accent (Branded: Goel Ganga Blue & Green) */
-  --accent: #0072bc;
-  --accent-green: #8dc63f;
-  --accent-light: #4ba6e3;
-  --accent-dark: #005a96;
-  --accent-glow: rgba(0, 114, 188, 0.15);
-  --accent-gradient: linear-gradient(135deg, #0072bc, #8dc63f);
+  /* Luxury Accents (Branded Gold & Electric Blue) */
+  --accent-gold: #F59E0B;
+  --accent-gold-light: #FDE68A;
+  --accent-gold-dark: #B45309;
+  --accent-gradient-gold: linear-gradient(135deg, #FBBF24 0%, #D97706 50%, #B45309 100%);
+  --accent-gradient-text: linear-gradient(135deg, #FFFBEB 0%, #FBBF24 50%, #D97706 100%);
+  
+  --accent: #F59E0B;
+  --accent-green: #10B981;
+  --accent-blue: #0284C7;
+  --accent-light: #FCD34D;
+  --accent-dark: #B45309;
+  --accent-glow: rgba(245, 158, 11, 0.16);
+  --accent-gradient: linear-gradient(135deg, #F59E0B, #10B981);
 
   /* Text */
-  --text-white: #f5f5f0;
-  --text-white-muted: rgba(245, 245, 240, 0.5);
-  --text-white-subtle: rgba(245, 245, 240, 0.25);
-  --text-dark: #1a1a1e;
-  --text-dark-muted: #6b6b78;
+  --text-white: #F8FAFC;
+  --text-white-muted: rgba(241, 245, 249, 0.65);
+  --text-white-subtle: rgba(241, 245, 249, 0.35);
+  --text-dark: #0F172A;
+  --text-dark-muted: #64748B;
 
   /* Borders */
-  --border-light: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.10);
   --border-dark: rgba(0, 0, 0, 0.08);
-  --border-accent: rgba(0, 114, 188, 0.3);
+  --border-accent: rgba(245, 158, 11, 0.35);
+  --border-titanium: rgba(255, 255, 255, 0.14);
 
   /* Spacing */
-  --section-pad: clamp(4rem, 8vw, 8rem);
+  --section-pad: clamp(4.5rem, 9vw, 8.5rem);
   --container-max: 1280px;
   --container-wide: 1440px;
 
@@ -48,10 +56,11 @@
   --radius-pill: 999px;
 
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.16);
-  --shadow-glow: 0 0 60px rgba(201, 150, 59, 0.08);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.40);
+  --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.60);
+  --shadow-glow: 0 0 60px rgba(245, 158, 11, 0.18);
+  --shadow-gold: 0 10px 30px -10px rgba(245, 158, 11, 0.5);
 
   /* Transitions */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -63,6 +72,7 @@
   /* Typography */
   --font-serif: 'DM Serif Display', Georgia, serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* ─── Reset ─── */
@@ -182,62 +192,74 @@ input, textarea, select {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 2.25rem;
-  background: var(--accent);
-  color: var(--bg-primary);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  padding: 1.05rem 2.5rem;
+  background: var(--accent-gradient-gold);
+  color: #0F172A;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   border-radius: var(--radius-pill);
   transition: all var(--duration-normal) var(--ease-out);
   position: relative;
   overflow: hidden;
+  box-shadow: var(--shadow-gold);
 }
 
 .btn-primary::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,0.2), transparent);
-  opacity: 0;
-  transition: opacity var(--duration-normal);
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 80%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.75s ease-in-out;
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(201, 150, 59, 0.3);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 40px -8px rgba(245, 158, 11, 0.65);
 }
 
 .btn-primary:hover::before {
-  opacity: 1;
+  transform: translateX(100%);
 }
 
 .btn-primary:active {
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 .btn-outline {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 2.25rem;
-  background: transparent;
+  padding: 1.05rem 2.25rem;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   color: var(--text-white);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border: 1.5px solid var(--border-light);
+  border: 1.5px solid var(--border-titanium);
   border-radius: var(--radius-pill);
   transition: all var(--duration-normal) var(--ease-out);
 }
 
 .btn-outline:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-glow);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold-light);
+  background: rgba(245, 158, 11, 0.12);
   transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.2);
 }
 
 .btn-dark {
@@ -245,29 +267,70 @@ input, textarea, select {
   align-items: center;
   gap: 0.75rem;
   padding: 1rem 2.25rem;
-  background: var(--bg-primary);
+  background: var(--bg-elevated);
   color: var(--text-white);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  border: 1px solid var(--border-titanium);
   border-radius: var(--radius-pill);
   transition: all var(--duration-normal) var(--ease-out);
 }
 
 .btn-dark:hover {
-  background: var(--accent);
-  color: var(--bg-primary);
+  background: var(--accent-gradient-gold);
+  color: #0F172A;
+  border-color: transparent;
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-gold);
 }
 
-/* ─── Glass Card ─── */
+/* ─── Glass & Metallic Cards ─── */
 .glass {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--border-light);
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--border-titanium);
+}
+
+.glass-card-bold {
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.85) 0%, rgba(10, 15, 29, 0.65) 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 12px 36px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.glass-card-bold:hover {
+  border-color: rgba(245, 158, 11, 0.45);
+  box-shadow: 0 20px 48px -12px rgba(245, 158, 11, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.gradient-text-gold {
+  background: var(--accent-gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge-titanium {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1.25rem;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-pill);
+  color: var(--accent-gold-light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .glass-light {

@@ -32,16 +32,17 @@ export default function StickyCTA() {
             zIndex: 900,
             padding: '0.75rem',
             paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom, 0px))',
-            background: 'rgba(9, 9, 11, 0.92)',
-            backdropFilter: 'blur(20px)',
-            WebkitBackdropFilter: 'blur(20px)',
-            borderTop: '1px solid var(--border-light)',
+            background: 'rgba(6, 8, 13, 0.94)',
+            backdropFilter: 'blur(24px)',
+            WebkitBackdropFilter: 'blur(24px)',
+            borderTop: '1px solid rgba(245, 158, 11, 0.25)',
+            boxShadow: '0 -8px 24px rgba(0, 0, 0, 0.5)',
           }}
         >
           <div style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
-            gap: '0.6rem',
+            gap: '0.75rem',
             maxWidth: 500,
             margin: '0 auto',
           }}>
@@ -52,20 +53,21 @@ export default function StickyCTA() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: '0.5rem',
-                padding: '0.85rem',
+                padding: '0.9rem',
                 borderRadius: 'var(--radius-md)',
-                background: 'var(--accent)',
-                color: 'var(--bg-primary)',
-                fontSize: '0.78rem',
-                fontWeight: 700,
-                letterSpacing: '0.03em',
+                background: 'var(--accent-gradient-gold)',
+                color: '#0F172A',
+                fontSize: '0.80rem',
+                fontWeight: 800,
+                letterSpacing: '0.05em',
                 textTransform: 'uppercase',
                 border: 'none',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                boxShadow: 'var(--shadow-gold)',
               }}
             >
               <Phone size={16} />
-              Enquire
+              Book Site Visit
             </button>
             <a
               href={`https://wa.me/917744009295?text=${whatsappMsg}`}
@@ -76,18 +78,19 @@ export default function StickyCTA() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: '0.5rem',
-                padding: '0.85rem',
+                padding: '0.9rem',
                 borderRadius: 'var(--radius-md)',
                 background: '#25D366',
                 color: '#fff',
-                fontSize: '0.78rem',
-                fontWeight: 700,
-                letterSpacing: '0.03em',
+                fontSize: '0.80rem',
+                fontWeight: 800,
+                letterSpacing: '0.05em',
                 textTransform: 'uppercase',
+                boxShadow: '0 4px 16px rgba(37, 211, 102, 0.3)',
               }}
             >
               <MessageCircle size={16} />
-              WhatsApp
+              WhatsApp VIP
             </a>
           </div>
         </motion.div>
