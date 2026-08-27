@@ -28,6 +28,8 @@ import EnquiryModal from './components/EnquiryModal';
 import ConstructionTracker from './components/ConstructionTracker';
 import Specifications from './components/Specifications';
 import ProjectCinema from './components/ProjectCinema';
+import ComparisonMatrix from './components/ComparisonMatrix';
+import EMICalculator from './components/EMICalculator';
 import { SocialProofToast, ExitIntent, TimedCTA } from './components/ConversionEngine';
 import SiloPage from './pages/SiloPage';
 import ArticlePage from './pages/ArticlePage';
@@ -105,7 +107,9 @@ const Home = () => (
     <MasterLayout />
     <FloorPlans />
     <Specifications />
+    <ComparisonMatrix />
     <ROIHub />
+    <EMICalculator />
     <Location />
     <InfrastructureTracker />
     <ConstructionTracker />
