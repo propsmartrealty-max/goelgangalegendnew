@@ -9,7 +9,7 @@
   X-XSS-Protection: 1; mode=block
   X-DNS-Prefetch-Control: on
   Referrer-Policy: strict-origin-when-cross-origin
-  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), interest-cohort=()
   Cross-Origin-Opener-Policy: same-origin
   Link: <https://fonts.googleapis.com>; rel="preconnect", <https://fonts.gstatic.com>; rel="preconnect"; crossorigin, </hero-aerial.webp>; rel="preload"; as="image"; type="image/webp"

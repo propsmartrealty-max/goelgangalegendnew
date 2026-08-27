@@ -34,6 +34,7 @@ import OnRoadPriceCalculator from './components/OnRoadPriceCalculator';
 import ArchitecturalSpecs from './components/ArchitecturalSpecs';
 import SiteVisitBooking from './components/SiteVisitBooking';
 import DownloadCenter from './components/DownloadCenter';
+import ErrorBoundary from './components/ErrorBoundary';
 import { SocialProofToast, ExitIntent, TimedCTA } from './components/ConversionEngine';
 import SiloPage from './pages/SiloPage';
 import ArticlePage from './pages/ArticlePage';
@@ -131,34 +132,36 @@ const Home = () => (
 
 function App() {
   return (
-    <HelmetProvider>
-      <Router>
-        <ScrollToTop />
-        <SmoothScroll>
-          <PageLoader />
-          <ScrollProgress />
-          <div className="grain" />
-          <Navbar />
-          <main>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/insights/:slug" element={<ArticlePage />} />
-              <Route path="/:slug" element={<SiloPage />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
+    <ErrorBoundary>
+      <HelmetProvider>
+        <Router>
+          <ScrollToTop />
+          <SmoothScroll>
+            <PageLoader />
+            <ScrollProgress />
+            <div className="grain" />
+            <Navbar />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/insights/:slug" element={<ArticlePage />} />
+                <Route path="/:slug" element={<SiloPage />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </main>
+            <Footer />
 
-          {/* Conversion Layer */}
-          <StickyCTA />
-          <EnquiryModal />
-          <SocialProofToast />
-          <ExitIntent />
-          <TimedCTA />
-          <AIChatConcierge />
-        </SmoothScroll>
-      </Router>
-    </HelmetProvider>
+            {/* Conversion Layer */}
+            <StickyCTA />
+            <EnquiryModal />
+            <SocialProofToast />
+            <ExitIntent />
+            <TimedCTA />
+            <AIChatConcierge />
+          </SmoothScroll>
+        </Router>
+      </HelmetProvider>
+    </ErrorBoundary>
   );
 }
 
