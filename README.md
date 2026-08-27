@@ -8,7 +8,7 @@ High-performance real estate portal for **Goel Ganga Legend County Bavdhan, Pune
 
 ### 1. Cloudflare Pages Dashboard Setup
 1. Log in to the [Cloudflare Dashboard](https://dash.cloudflare.com/) and navigate to **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
-2. Select repository: `vikasyewle-prog/goelgangalegend`.
+2. Select repository: `propsmartrealty-max/goelgangalegendnew`.
 3. Configure Build Settings:
    - **Framework preset**: `Vite`
    - **Build command**: `npm run build`

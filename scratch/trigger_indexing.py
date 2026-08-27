@@ -7,7 +7,7 @@ import sys
 def trigger_webhook():
     # Retrieve configuration from environment or prompt
     token = os.environ.get("GITHUB_TOKEN")
-    repo = "vikasyewle-prog/goelgangalegend"
+    repo = "propsmartrealty-max/goelgangalegendnew"
     
     if not token:
         print("[ERROR] GITHUB_TOKEN environment variable not set.")
