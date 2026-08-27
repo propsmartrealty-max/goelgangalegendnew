@@ -28,7 +28,7 @@ def main():
     run_script("generate_rss.py")
     
     # 3. Search Engine Indexing (Bypassed if BYPASS_INDEXING=1 or running in a CI/CD Git webhook environment)
-    is_ci = any(os.environ.get(x) for x in ["CI", "VERCEL", "NETLIFY", "GITHUB_ACTIONS", "CF_PAGES"])
+    is_ci = any(os.environ.get(x) for x in ["CI", "CF_PAGES", "GITHUB_ACTIONS"])
     if os.environ.get("BYPASS_INDEXING") == "1" or is_ci:
         print("\n=========================================")
         print(" [INFO] Bypassing Google and Bing Indexing (CI/CD Git Webhook or Manual Bypass active)")
