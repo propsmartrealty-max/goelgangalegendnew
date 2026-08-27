@@ -93,14 +93,13 @@ export default function Navbar() {
           }}
         >
           {/* Left - Brand (Equalized Flex) */}
-          <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
             <a
               href="#"
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.85rem',
               }}
             >
               <div style={{
@@ -116,18 +115,6 @@ export default function Navbar() {
                 <BrandLogo style={{ height: '40px', width: 'auto' }} />
               </div>
             </a>
-            <div style={{
-              fontSize: '0.64rem',
-              fontWeight: 700,
-              padding: '0.3rem 0.75rem',
-              background: 'rgba(15, 23, 42, 0.8)',
-              borderRadius: 'var(--radius-pill)',
-              border: '1px solid rgba(245, 158, 11, 0.3)',
-              color: 'var(--accent-gold-light)',
-              whiteSpace: 'nowrap',
-            }} className="hide-mobile">
-              MahaRERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: '#FCD34D', textDecoration: 'underline' }}>P52100054578</a>
-            </div>
           </div>
 
           {/* Middle - Links (Visual Center) */}
