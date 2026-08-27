@@ -129,7 +129,7 @@ export default function Location() {
                 <div style={{ fontWeight: 700, fontSize: '0.95rem', marginBottom: '0.2rem' }}>Get Directions</div>
                 <div style={{ fontSize: '0.78rem', opacity: 0.5 }}>Bavdhan Budruk, Pune 411021</div>
               </div>
-              <a href="https://maps.google.com/?q=Ganga+Legend+County+Bavdhan+Pune" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '0.6rem 1.5rem', fontSize: '0.72rem' }}>
+              <a href="https://www.google.com/maps?sca_esv=9f17e9380ec4409d&output=search&q=goel+ganga+legend+county&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYTU1b4eMHgVSc8-UQwsgjK0c4A07SAROurluhRpvyDvVNQfYQ557iI1fX7ZDqsFhZExG8FuOt8bZTPVluL25Is5bENgVeFNjY_hlFLh_y44dkaGhllnKxjVw7bBn0i3k1RfFVnbT-jfNlEhZg5xjLyDMUSU3A&entry=mc&ved=1t:200715&ictx=111" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '0.6rem 1.5rem', fontSize: '0.72rem' }}>
                 Open Maps
               </a>
             </div>

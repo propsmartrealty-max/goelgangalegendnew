@@ -88,6 +88,7 @@ def generate_middleware():
                     "latitude": 18.5158,
                     "longitude": 73.7819
                 },
+                "hasMap": "https://www.google.com/maps?sca_esv=9f17e9380ec4409d&output=search&q=goel+ganga+legend+county&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYTU1b4eMHgVSc8-UQwsgjK0c4A07SAROurluhRpvyDvVNQfYQ557iI1fX7ZDqsFhZExG8FuOt8bZTPVluL25Is5bENgVeFNjY_hlFLh_y44dkaGhllnKxjVw7bBn0i3k1RfFVnbT-jfNlEhZg5xjLyDMUSU3A&entry=mc&ved=1t:200715&ictx=111",
                 "openingHoursSpecification": [
                     {
                         "@type": "OpeningHoursSpecification",
