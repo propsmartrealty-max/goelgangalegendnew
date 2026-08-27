@@ -6,4 +6,21 @@ Disallow: /*?*
 Disallow: /scratch/
 Disallow: /google-credentials.json
 
-Sitemap: https://goelgangalegend.com/sitemap.xml
+# AI Search Engine Directives
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+
+Sitemap: https://www.goelgangalegend.com/sitemap.xml

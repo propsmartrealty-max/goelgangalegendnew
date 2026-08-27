@@ -15,7 +15,6 @@ def generate_middleware():
     meta_db = {}
 
     for idx, match in enumerate(silo_matches):
-        key = match.group(1)
         slug = match.group(2)
         start_idx = match.start()
         next_match = silo_matches[idx+1] if idx+1 < len(silo_matches) else None
@@ -30,6 +29,19 @@ def generate_middleware():
         description = desc_m.group(1).replace("\\'", "'") if desc_m else ""
         keywords = kw_m.group(1).replace("\\'", "'") if kw_m else ""
 
+        # Extract FAQs
+        faq_list = []
+        faq_matches = re.findall(r'\{\s*question:\s*[\'"]((?:[^\'\"\\]|\\.)*)[\'"],\s*answer:\s*[\'"]((?:[^\'\"\\]|\\.)*)[\'"]\s*\}', block_text)
+        for q, a in faq_matches:
+            faq_list.append({
+                "@type": "Question",
+                "name": q.replace("\\'", "'"),
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": a.replace("\\'", "'")
+                }
+            })
+
         # Default image for silos
         img = f"{site_url}/hero-aerial.webp"
         if "3bhk" in slug:
@@ -39,42 +51,54 @@ def generate_middleware():
         elif "sports" in slug or "swimming" in slug or "dhoni" in slug:
             img = f"{site_url}/gallery-football.webp"
 
+        graph_nodes = [
+            {
+                "@type": "ApartmentComplex",
+                "name": "Goel Ganga Legend County Bavdhan",
+                "url": f"{site_url}/{slug}",
+                "description": description,
+                "image": img,
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "NDA Road, Near Chandni Chowk, Bavdhan",
+                    "addressLocality": "Pune",
+                    "addressRegion": "Maharashtra",
+                    "postalCode": "411021",
+                    "addressCountry": "IN"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 18.5158,
+                    "longitude": 73.7819
+                },
+                "amenityFeature": [
+                    {"@type": "LocationFeatureSpecification", "name": "Michael Phelps Swimming Academy", "value": True},
+                    {"@type": "LocationFeatureSpecification", "name": "South United Football Academy", "value": True},
+                    {"@type": "LocationFeatureSpecification", "name": "Tagda Raho Fitness Protocol", "value": True}
+                ],
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": ["h1", "h2", ".lead", ".faq-question"]
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": site_url},
+                    {"@type": "ListItem", "position": 2, "name": title, "item": f"{site_url}/{slug}"}
+                ]
+            }
+        ]
+
+        if faq_list:
+            graph_nodes.append({
+                "@type": "FAQPage",
+                "mainEntity": faq_list
+            })
+
         schema_json = {
             "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "ApartmentComplex",
-                    "name": "Goel Ganga Legend County Bavdhan",
-                    "url": f"{site_url}/{slug}",
-                    "description": description,
-                    "image": img,
-                    "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "NDA Road, Near Chandni Chowk, Bavdhan",
-                        "addressLocality": "Pune",
-                        "addressRegion": "Maharashtra",
-                        "postalCode": "411021",
-                        "addressCountry": "IN"
-                    },
-                    "geo": {
-                        "@type": "GeoCoordinates",
-                        "latitude": 18.5158,
-                        "longitude": 73.7819
-                    },
-                    "amenityFeature": [
-                        {"@type": "LocationFeatureSpecification", "name": "Michael Phelps Swimming Academy", "value": True},
-                        {"@type": "LocationFeatureSpecification", "name": "South United Football Academy", "value": True},
-                        {"@type": "LocationFeatureSpecification", "name": "Tagda Raho Fitness Protocol", "value": True}
-                    ]
-                },
-                {
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        {"@type": "ListItem", "position": 1, "name": "Home", "item": site_url},
-                        {"@type": "ListItem", "position": 2, "name": title, "item": f"{site_url}/{slug}"}
-                    ]
-                }
-            ]
+            "@graph": graph_nodes
         }
 
         meta_db[f"/{slug}"] = {
@@ -133,7 +157,11 @@ def generate_middleware():
                         "name": "Goel Ganga Legend County",
                         "logo": {"@type": "ImageObject", "url": f"{site_url}/logo.png"}
                     },
-                    "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/insights/{slug}"}
+                    "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/insights/{slug}"},
+                    "speakable": {
+                        "@type": "SpeakableSpecification",
+                        "cssSelector": ["h1", "h2", ".lead"]
+                    }
                 },
                 {
                     "@type": "BreadcrumbList",
@@ -162,7 +190,7 @@ def generate_middleware():
     db_json = json.dumps(meta_db, indent=2)
 
     middleware_code = f"""// Cloudflare Pages Edge Middleware: Zero-JS HTMLRewriter SEO & Social Preview Hydration
-// Automatically hydrates <title>, <meta>, <link rel="canonical">, Open Graph tags, and Schema.org JSON-LD at the Cloudflare Edge
+// Automatically hydrates <title>, <meta>, <link rel="canonical">, Open Graph tags, and Schema.org JSON-LD (FAQPage + Speakable) at Cloudflare Edge
 
 interface PageMeta {{
   title: string;
@@ -265,8 +293,9 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
     }})
     .on('head', {{
       element(element) {{
-        // Inject Twitter Cards, Google Site Verification & Schema.org JSON-LD Graph directly into streaming HTML
+        // Inject Google Discover max-image-preview:large, Twitter Cards & Schema.org JSON-LD Graph directly into streaming HTML
         let injections = 
+          `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />\\n` +
           `<meta name="twitter:card" content="summary_large_image" />\\n` +
           `<meta name="twitter:title" content="${{meta.title.replace(/"/g, '&quot;')}}" />\\n` +
           `<meta name="twitter:description" content="${{meta.description.replace(/"/g, '&quot;')}}" />\\n` +
@@ -289,7 +318,7 @@ export const onRequest = async (context: {{ request: Request; next: () => Promis
     middleware_path = os.path.join(base_dir, "functions/_middleware.ts")
     with open(middleware_path, "w", encoding="utf-8") as f:
         f.write(middleware_code)
-    print("Generated enhanced functions/_middleware.ts with Schema.org JSON-LD graph successfully.")
+    print("Generated enhanced functions/_middleware.ts with FAQPage + Speakable Schema successfully.")
 
 if __name__ == "__main__":
     generate_middleware()

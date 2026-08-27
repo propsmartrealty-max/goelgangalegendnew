@@ -1,312 +1,399 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Main Page -->
   <url>
-    <loc>https://goelgangalegend.com/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
-      <image:title>Goel Ganga Legend County - 30-Acre Sports Township in Bavdhan Pune</image:title>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Goel Ganga Legend County Bavdhan Pune</image:title>
+      <image:caption>30-Acre Luxury Sports Township in Bavdhan near Chandni Chowk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/amenities-pool.webp</image:loc>
+      <image:title>Michael Phelps Swimming Academy Pool</image:title>
+      <image:caption>Olympic-grade swimming pool at Goel Ganga Legend County</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/gallery-clubhouse.webp</image:loc>
+      <image:title>Legend County Luxury Clubhouse</image:title>
+      <image:caption>State-of-the-art wellness and sports clubhouse</image:caption>
     </image:image>
   </url>
-
-  <!-- Programmatic Silo Pages -->
   <url>
-    <loc>https://goelgangalegend.com/3bhk-flats-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/3bhk-flats-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/floorplan-3bhk.webp</image:loc>
-      <image:title>Luxury 3 BHK Floor Plan - Goel Ganga Legend County</image:title>
+      <image:loc>https://www.goelgangalegend.com/floorplan-3bhk.webp</image:loc>
+      <image:title>Luxury 3 BHK Flats in Bavdhan Pune | Stadium Life at Legend County</image:title>
+      <image:caption>Luxury 3 BHK flats in Bavdhan starting ₹1.77 Cr*. Discover Goel Ganga Legend County, Pune's premier 30-acre sports township with 9+ international academies.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/2bhk-flats-bavdhan-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-projects-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/investment-flats-bavdhan-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/sports-township-pune</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/2bhk-flats-bavdhan-pune</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/gallery-football.webp</image:loc>
-      <image:title>International Sports Arena at Legend County</image:title>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Premium 2 BHK Flats in Bavdhan Pune | High ROI Investment</image:title>
+      <image:caption>Explore premium 2 BHK flats in Bavdhan at Goel Ganga Legend County. 30-acre sports township with high rental yield potential and world-class amenities.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/luxury-apartments-chandni-chowk</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/luxury-projects-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/michael-phelps-swimming-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/amenities-pool.webp</image:loc>
-      <image:title>Michael Phelps Swimming Academy at Legend County</image:title>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Top Residential Projects in Bavdhan Pune | Goel Ganga Legend County</image:title>
+      <image:caption>Goel Ganga Legend County is the top residential project in Bavdhan, Pune. Featuring 9+ international sports academies and luxury 3 &amp; 3.5 BHK homes.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/tagda-raho-dhoni-pune</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/investment-flats-bavdhan-pune</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/3.5-bhk-flats-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/floorplan-3.5bhk.webp</image:loc>
-      <image:title>3.5 BHK Floor Plan with Extra Study - Legend County</image:title>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Real Estate Investment in Bavdhan, Pune | High ROI Property</image:title>
+      <image:caption>Looking for the best investment in Bavdhan? Goel Ganga Legend County offers high ROI flats with excellent rental potential near Hinjewadi and Kothrud.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/schools-hospitals-near-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/sports-township-pune</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/rera-legal-compliance-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Editorial Insights (MOFU) -->
-  <url>
-    <loc>https://goelgangalegend.com/insights/bavdhan-real-estate-investment-2026</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/gallery-football.webp</image:loc>
+      <image:title>Pune's Largest Sports Township | Goel Ganga Legend County</image:title>
+      <image:caption>Experience the premier sports township in Bavdhan, Pune. Goel Ganga Legend County features Dhoni's Tagda Raho and Michael Phelps Swimming Academy.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-apartments-chandni-chowk</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Luxury Apartments near Chandni Chowk, Pune | Legend County</image:title>
+      <image:caption>Find premium luxury apartments near Chandni Chowk at Goel Ganga Legend County. 30-acre township with world-class amenities and unparalleled connectivity.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/michael-phelps-swimming-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/gallery-football.webp</image:loc>
+      <image:title>Michael Phelps Swimming Academy in Pune | Legend County Bavdhan</image:title>
+      <image:caption>Looking for professional swimming coaching in Pune? Legend County features the Michael Phelps Swimming Academy with Olympic-grade infrastructure and expert coaching.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/tagda-raho-dhoni-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/gallery-football.webp</image:loc>
+      <image:title>Tagda Raho by MS Dhoni in Pune | Goel Ganga Legend County</image:title>
+      <image:caption>Experience Tagda Raho by MS Dhoni at Legend County, Bavdhan. The first-of-its-kind functional fitness ecosystem in West Pune using traditional Indian equipment.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/3.5-bhk-flats-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/floorplan-3.5bhk.webp</image:loc>
+      <image:title>Luxury 3.5 BHK Flats in Bavdhan Pune | Premium Stadium Life Homes</image:title>
+      <image:caption>Luxury 3.5 BHK flats in Bavdhan starting ₹2.10 Cr*. Experience high-performance living in Pune's premier sports township near Ryan International School.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/schools-hospitals-near-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Top Schools &amp; Hospitals near Bavdhan Pune | Legend County</image:title>
+      <image:caption>Explore the best schools like Ryan International and hospitals like Chellaram near Goel Ganga Legend County, Bavdhan. The perfect location for family-first living.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/rera-legal-compliance-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>RERA &amp; Legal Compliance | Goel Ganga Legend County Bavdhan Pune</image:title>
+      <image:caption>Verify the legal compliance and RERA status of Goel Ganga Legend County, Bavdhan. RERA No: P52100054578. Sanctioned sports township plans.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/pune-real-estate-market</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Pune Real Estate | Luxury Projects &amp; Market Trends</image:title>
+      <image:caption>Explore Pune Real Estate and luxury housing trends. Discover premier developments in Pune's high-performance western corridor starting at ₹1.77 Cr*.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/west-pune-real-estate-market</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>West Pune Real Estate Market | Premier Luxury Housing Corridor</image:title>
+      <image:caption>Analyze the West Pune Real Estate Market. Discover why Bavdhan, Kothrud, and Baner are West Pune's prime luxury corridors with high capital appreciation.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-real-estate-baner-pashan-link-road</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Luxury Real Estate in Baner Pashan Link Road Market | Elite Homes</image:title>
+      <image:caption>Explore luxury real estate on Baner Pashan Link Road. Compare high-end prices and congestion with Ganga Legend County's premium sports sanctuary.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-flats-kharadi-vs-bavdhan-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Kharadi vs Bavdhan | Best Luxury IT Real Estate Corridor Pune</image:title>
+      <image:caption>Looking at luxury flats in Kharadi? Compare Kharadi vs Bavdhan real estate prices, water security, congestion, and sports amenities at Ganga Legend County.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-homes-koregaon-park-vs-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Koregaon Park vs Bavdhan | Luxury Home Investment Pune</image:title>
+      <image:caption>Compare luxury homes in Koregaon Park with Bavdhan. Analyze price bubbles, infrastructure maturity, and sports facilities at Goel Ganga Legend County.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-apartments-baner-vs-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Baner vs Bavdhan | Luxury Apartments &amp; Investment Comparison</image:title>
+      <image:caption>Analyze Baner vs Bavdhan property rates, water security, and congestion. Discover why Goel Ganga Legend County is the best luxury choice in West Pune.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-flats-kothrud-vs-bavdhan-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Kothrud vs Bavdhan | Best Luxury Real Estate Comparison Pune</image:title>
+      <image:caption>Compare luxury flats in Kothrud with Bavdhan. Analyze property rates, congestion, and sports amenities at Goel Ganga Legend County near Kothrud.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-3bhk-flats-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/floorplan-3bhk.webp</image:loc>
+      <image:title>Luxury 3 BHK Flats in Pune | Goel Ganga Legend County Bavdhan</image:title>
+      <image:caption>Discover premium luxury 3 BHK flats in Pune West at Goel Ganga Legend County Bavdhan. 30-acre sports township near Chandni Chowk with high appreciation.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/best-investment-property-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Best Investment Property in Pune | High ROI Gated Community</image:title>
+      <image:caption>Looking for the best investment property in Pune? Goel Ganga Legend County Bavdhan offers high ROI luxury flats with high rental yields near Hinjewadi.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/sports-township-pune-stadium-life</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/gallery-football.webp</image:loc>
+      <image:title>Stadium Life at Legend County | Gated Sports Township Pune</image:title>
+      <image:caption>Discover Stadium Life at Goel Ganga Legend County Bavdhan. Premium sports township featuring Michael Phelps Swimming, Dhoni's Tagda Raho, and South United Football.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-4bhk-flats-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Luxury 4 BHK Flats in Pune | Spacious Combined Homes Bavdhan</image:title>
+      <image:caption>Explore luxury 4 BHK duplex and combined flats in Bavdhan, Pune at Goel Ganga Legend County starting ₹2.90 Cr*. Enjoy 12.5 acres of premium sports academies.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-5bhk-duplex-penthouse-flats-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>5 BHK Luxury Duplex &amp; Penthouse in Pune | Legend County</image:title>
+      <image:caption>Bespoke 5 BHK combined duplex and penthouse residences in Bavdhan, Pune starting from ₹3.40 Cr*. High-rise luxury at Goel Ganga Legend County with sports features.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/luxury-residences-pune-west</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:title>Luxury Residences in Pune West | Premium Gated Community</image:title>
+      <image:caption>Explore the finest luxury residences in Pune West at Goel Ganga Legend County. 30-acre sports township in Bavdhan featuring premium amenities and global academies.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/insights/bavdhan-real-estate-investment-2026</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
       <image:title>Is Bavdhan the Best Real Estate Investment in Pune for 2026?</image:title>
+      <image:caption>An in-depth analysis of Bavdhan's infrastructure growth, metro connectivity, and why sports townships are driving massive ROI.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/insights/cost-of-living-bavdhan-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/insights/bavdhan-vs-hinjewadi-real-estate</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/insights/roi-sports-townships-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- New Hardened SEO Silos -->
-  <url>
-    <loc>https://goelgangalegend.com/pune-real-estate-market</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/west-pune-real-estate-market</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-real-estate-baner-pashan-link-road</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- New Insights Guide -->
-  <url>
-    <loc>https://goelgangalegend.com/insights/baner-pashan-link-road-real-estate-guide</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/cost-of-living-bavdhan-pune</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/interior-luxury.webp</image:loc>
-      <image:title>Baner Pashan Link Road Market: The Ultimate Luxury Residential Guide</image:title>
+      <image:loc>https://www.goelgangalegend.com/gallery-clubhouse.webp</image:loc>
+      <image:title>Cost of Living in Bavdhan Pune: A Comprehensive 2026 Guide</image:title>
+      <image:caption>Explore the cost of living, top schools, healthcare, and lifestyle amenities in Bavdhan, Pune's most sought-after residential hub.</image:caption>
     </image:image>
   </url>
-
-  <!-- New Comparative & Thematic Silos -->
   <url>
-    <loc>https://goelgangalegend.com/luxury-flats-kharadi-vs-bavdhan-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-homes-koregaon-park-vs-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-apartments-baner-vs-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-flats-kothrud-vs-bavdhan-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-3bhk-flats-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/best-investment-property-pune</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/sports-township-pune-stadium-life</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- New Under-40 Demographics Insight -->
-  <url>
-    <loc>https://goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/bavdhan-vs-hinjewadi-real-estate</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/interior-luxury.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/interior-luxury.webp</image:loc>
+      <image:title>Bavdhan vs Hinjewadi: Where Should You Buy a Flat in Pune?</image:title>
+      <image:caption>A detailed real estate comparison between Bavdhan and Hinjewadi for homebuyers and investors looking at ROI, lifestyle, and connectivity.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/insights/roi-sports-townships-pune</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/gallery-football.webp</image:loc>
+      <image:title>Why Sports Townships Generate 20% Higher ROI in Pune</image:title>
+      <image:caption>Discover why integrated sports townships in Pune, featuring international academies, are outperforming standalone residential buildings in rental yields and capital growth.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/insights/baner-pashan-link-road-real-estate-guide</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/interior-luxury.webp</image:loc>
+      <image:title>Baner Pashan Link Road Market: The Ultimate Luxury Residential Guide for Pune West</image:title>
+      <image:caption>A deep-dive analysis of the Baner Pashan Link Road market, property rates, congestion index, and why luxury buyers are shifting to nearby premium townships.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.goelgangalegend.com/insights/pune-luxury-real-estate-demographics-2026</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.goelgangalegend.com/interior-luxury.webp</image:loc>
       <image:title>Under-40 Homebuyers: Tech Wealth Reshaping Pune Luxury Real Estate</image:title>
+      <image:caption>An analysis of why tech-savvy professionals under 40 represent 55% of Pune's luxury real estate sales, and how they prioritize wellness-first sports townships.</image:caption>
     </image:image>
   </url>
-
-  <!-- New Hardened Content Clusters (June 2026) -->
   <url>
-    <loc>https://goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/pune-metro-line-3-bavdhan-connector</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
       <image:title>Pune Metro Line 3: Hinjewadi-Shivajinagar Metro Progress &amp; Bavdhan Connectivity</image:title>
+      <image:caption>Track the progress of Pune Metro Line 3 (Hinjewadi-Shivajinagar) and how the planned connector and feeder services benefit Goel Ganga Legend County Bavdhan residents.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/post-chandni-chowk-traffic-index-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
       <image:title>Post-Chandni Chowk Traffic Index: Commute Times to Baner &amp; Kothrud in 2026</image:title>
+      <image:caption>An analysis of traffic index patterns, travel times, and connectivity benefits in Bavdhan following the multi-level Chandni Chowk flyover completion.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/top-international-schools-pune-west-bavdhan</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/gallery-clubhouse.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/gallery-clubhouse.webp</image:loc>
       <image:title>Top International Schools in Pune West: Family Relocation Guide to Bavdhan</image:title>
+      <image:caption>A comprehensive directory of top schools, universities, and healthcare facilities near Bavdhan, Pune West, for families planning to relocate.</image:caption>
     </image:image>
   </url>
-
   <url>
-    <loc>https://goelgangalegend.com/luxury-4bhk-flats-pune</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
-      <image:title>Luxury 4 BHK flats in Pune - Goel Ganga Legend County</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/insights/bavdhan-to-hinjewadi-it-park-commute-guide</loc>
-    <lastmod>2026-06-04</lastmod>
+    <loc>https://www.goelgangalegend.com/insights/bavdhan-to-hinjewadi-it-park-commute-guide</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
+      <image:loc>https://www.goelgangalegend.com/hero-aerial.webp</image:loc>
       <image:title>Bavdhan to Hinjewadi IT Park Commute Guide: Best Housing for IT Professionals</image:title>
+      <image:caption>A comprehensive connectivity and commute analysis between Bavdhan and Hinjewadi IT Park for software engineers, tech managers, and real estate investors in 2026.</image:caption>
     </image:image>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-5bhk-duplex-penthouse-flats-pune</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://goelgangalegend.com/hero-aerial.webp</image:loc>
-      <image:title>Luxury 5 BHK Duplex &amp; Penthouse in Pune - Goel Ganga Legend County</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://goelgangalegend.com/luxury-residences-pune-west</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 </urlset>
