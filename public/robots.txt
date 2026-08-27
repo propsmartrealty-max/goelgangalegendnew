@@ -24,3 +24,4 @@ Allow: /
 Allow: /llms.txt
 
 Sitemap: https://www.goelgangalegend.com/sitemap.xml
+Sitemap: https://www.goelgangalegend.com/google-property-feed.xml
