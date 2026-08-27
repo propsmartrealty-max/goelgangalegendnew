@@ -1,0 +1,6 @@
+# ─────────────────────────────────────────────────────────────
+# Cloudflare Pages SPA Routing & Canonical Enforcements
+# ─────────────────────────────────────────────────────────────
+
+# SPA Catch-all rule: Route all unmatched paths to /index.html with status 200
+/*    /index.html   200

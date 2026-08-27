@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Goel Ganga Legend County — Ultra Edge Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+High-performance real estate portal for **Goel Ganga Legend County Bavdhan, Pune**, built with React 19, Vite 8, React Router v7, and optimized for **Cloudflare Ultra Edge (Pages + Edge Functions + Anycast CDN)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Cloudflare Pages Deployment Guide
 
-## React Compiler
+### 1. Cloudflare Pages Dashboard Setup
+1. Log in to the [Cloudflare Dashboard](https://dash.cloudflare.com/) and navigate to **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
+2. Select repository: `vikasyewle-prog/goelgangalegend`.
+3. Configure Build Settings:
+   - **Framework preset**: `Vite`
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Root directory**: `/` (default)
+4. Environment Variables (optional):
+   - `NODE_VERSION`: `20`
+   - `BYPASS_INDEXING`: `1` (automatically handled in Cloudflare CI/CD builds)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Edge Routing & Security Configuration
+The repository includes pre-configured Cloudflare Edge rules:
+- `public/_redirects`: Guarantees seamless single-page application (SPA) routing for all 24 programmatic silos and 10 insights articles without 404 errors.
+- `public/_headers`: Enforces TLS 1.3, Strict-Transport-Security (HSTS Preload), XSS protections, MIME sniffing prevention, and immutable caching for hashed assets (`/assets/*`).
+- `functions/api/lead.ts`: Cloudflare Pages Edge Function running on global V8 isolates to capture and enrich lead submissions with edge geolocation before webhook dispatch.
 
-## Expanding the ESLint configuration
+### 3. Custom Domain & DNS
+1. Add custom domain: `goelgangalegend.com` & `www.goelgangalegend.com`.
+2. Cloudflare automatically handles SSL/TLS certificates and enables HTTP/3 (QUIC) + 0-RTT connection resumption.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Local Development & Build Commands
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# Install dependencies
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Start local dev server
+npm run dev
+
+# Run automated validation & production build
+npm run build
+
+# Preview production build locally
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📊 SEO & Data Validation Pipeline
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The project includes an automated pre-build and post-build data integrity suite:
+- `scratch/validate_data.py`: Validates HTML tag pairings, RERA compliance (`P52100054578`), and internal link graph consistency.
+- `scratch/validate_schemas.py`: Verifies Schema.org JSON-LD graph structures (Breadcrumbs, Product, ApartmentComplex, RealEstateListing).
+- `scratch/seo_audit.py`: Generates the SEO audit matrix for word counts, metadata lengths, and indexing compliance.
