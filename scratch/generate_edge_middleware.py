@@ -100,7 +100,7 @@ interface PageMeta {{
 
 const META_REGISTRY: Record<string, PageMeta> = {db_json};
 
-export const onRequest: PagesFunction = async (context) => {{
+export const onRequest = async (context: {{ request: Request; next: () => Promise<Response> }}) => {{
   const url = new URL(context.request.url);
   const pathname = url.pathname.replace(/\\/+$/, '') || '/';
 

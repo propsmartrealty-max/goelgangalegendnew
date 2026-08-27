@@ -285,7 +285,7 @@ const META_REGISTRY: Record<string, PageMeta> = {
   }
 };
 
-export const onRequest: PagesFunction = async (context) => {
+export const onRequest = async (context: { request: Request; next: () => Promise<Response> }) => {
   const url = new URL(context.request.url);
   const pathname = url.pathname.replace(/\/+$/, '') || '/';
 
