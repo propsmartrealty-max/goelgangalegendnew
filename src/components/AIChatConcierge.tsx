@@ -50,6 +50,17 @@ export default function AIChatConcierge() {
     setInput('');
     setLoading(true);
 
+    if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag === 'function') {
+      try {
+        (window as unknown as { gtag: (...args: unknown[]) => void }).gtag('event', 'chat_with_ai', {
+          event_category: 'AI Concierge',
+          event_label: query,
+        });
+      } catch {
+        // Analytics non-blocking
+      }
+    }
+
     try {
       const res = await fetch('/api/ai-chat', {
         method: 'POST',

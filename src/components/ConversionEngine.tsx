@@ -266,6 +266,22 @@ async function dispatchLead(data: Record<string, unknown>) {
     user_agent: navigator.userAgent,
   };
 
+  // ─── Google Ads & GA4 Enhanced Conversion Tracking ───
+  if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag === 'function') {
+    try {
+      (window as unknown as { gtag: (...args: unknown[]) => void }).gtag('event', 'generate_lead', {
+        currency: 'INR',
+        value: data.configuration === '3.5 BHK' ? 21000000 : 17700000,
+        lead_type: String(data.source || 'Website Lead'),
+        configuration: String(data.configuration || '3 BHK'),
+        event_category: 'Real Estate Leads',
+        event_label: 'Goel Ganga Legend County Bavdhan',
+      });
+    } catch {
+      // Analytics non-blocking
+    }
+  }
+
   // Layer 1: Cloudflare Pages Edge Function (/api/lead)
   let edgeDispatched = false;
   try {
