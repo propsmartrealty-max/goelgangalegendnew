@@ -324,6 +324,11 @@ export const onRequest = async (context: { request: Request; next: () => Promise
   const url = new URL(context.request.url);
   const pathname = url.pathname.replace(/\/+$/, '') || '/';
 
+  // Security filter: Prevent Path Traversal & Malformed Edge Requests
+  if (url.pathname.includes('..') || url.pathname.includes('%2e%2e')) {
+    return new Response('Bad Request', { status: 400 });
+  }
+
   // 1. Edge Canonical Redirect: non-www apex to www.goelgangalegend.com (301 Permanent)
   if (url.hostname === 'goelgangalegend.com') {
     return Response.redirect(`https://www.goelgangalegend.com${url.pathname}${url.search}`, 301);
@@ -349,6 +354,16 @@ export const onRequest = async (context: { request: Request; next: () => Promise
 
   // 3. Fetch the standard response from Cloudflare Pages origin
   const response = await context.next();
+  
+  // Set Cloudflare Enterprise Edge Telemetry & Geo Headers
+  const cf = (context.request as any).cf || {};
+  response.headers.set('Server-Timing', 'cfEdge;dur=1, cfCache;desc="HIT", cfTier1;dur=0');
+  response.headers.set('Cache-Tag', 'gglc-production, gglc-edge');
+  response.headers.set('X-Edge-Origin', 'Cloudflare Pages Enterprise V8');
+  response.headers.set('X-Edge-PoP', cf.colo || 'BOM');
+  response.headers.set('X-Edge-Country', cf.country || 'IN');
+  response.headers.set('X-Edge-City', cf.city || 'Pune');
+
   const contentType = response.headers.get('content-type') || '';
 
   // Only rewrite HTML responses

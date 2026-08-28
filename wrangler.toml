@@ -3,12 +3,20 @@ pages_build_output_dir = "dist"
 compatibility_date = "2026-05-01"
 compatibility_flags = ["nodejs_compat"]
 
-# Cloudflare R2 Object Storage Binding for 4K Media & Large Documents (Zero Egress Fees)
+# Cloudflare Smart Placement (Runs V8 compute closest to clients & data)
+[placement]
+mode = "smart"
+
+# Observability & Real-Time Logs
+[observability]
+enabled = true
+
+# Cloudflare R2 Object Storage Binding (Zero Egress Fees)
 [[r2_buckets]]
 binding = "MEDIA_BUCKET"
 bucket_name = "goelgangalegend-assets"
 
-# Cloudflare KV Storage Binding for Sovereign Leads & Cache Storage
+# Cloudflare KV Storage Binding for Sovereign Leads & Fast Edge Cache
 [[kv_namespaces]]
 binding = "LEADS_KV"
 id = "goelgangalegend_leads_kv"
@@ -16,3 +24,4 @@ id = "goelgangalegend_leads_kv"
 [vars]
 ENVIRONMENT = "production"
 ADMIN_TOKEN = "gglc_edge_admin_2026"
+CACHE_CONTROL_EDGE = "public, max-age=3600, stale-while-revalidate=86400"
