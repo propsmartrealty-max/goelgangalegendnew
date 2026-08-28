@@ -1,24 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
   <defs>
-    <linearGradient id="fav-g-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g-grad-fav" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0072BC" />
       <stop offset="100%" stop-color="#8DC63F" />
     </linearGradient>
-    <linearGradient id="fav-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#06080D" />
-    </linearGradient>
   </defs>
-
-  <!-- Elegant Dark Luxury Backdrop for Contrast in Any Browser Theme -->
-  <rect width="100" height="100" rx="22" fill="url(#fav-bg-grad)" />
-  <rect width="98" height="98" x="1" y="1" rx="21" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1.5" />
-
-  <!-- Precisely Centered & Scaled "G" Brand Mark -->
-  <g transform="translate(50, 50) scale(1.22) translate(-49.25, -50)">
+  <!-- Official G Mark from Brand Logo Element (Centered & Scaled) -->
+  <g transform="translate(50, 50) scale(1.45) translate(-49.25, -50)">
     <path 
       d="M50 20C33.4 20 20 33.4 20 50C20 66.6 33.4 80 50 80C60.2 80 69.1 74.9 74.5 67.2L60 58.5C57.5 62 53.9 64.3 50 64.3C42.1 64.3 35.7 57.9 35.7 50C35.7 42.1 42.1 35.7 50 35.7C55.4 35.7 60.1 38.7 62.5 43.1L77.3 34.6C72.2 25.8 62.1 20 50 20ZM50 42.8V57.1H78.5V42.8H50Z" 
-      fill="url(#fav-g-grad)"
+      fill="url(#g-grad-fav)"
     />
   </g>
 </svg>
