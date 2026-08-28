@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/assets/*",
+    "/favicon.ico",
+    "/favicon.png",
+    "/favicon.svg",
+    "/hero-aerial.webp",
+    "/hero-longevity.png",
+    "/about-architecture.png",
+    "/cinema-thumb.jpg",
+    "/rera-qr-official.jpg",
+    "/ggc-official-logo.png",
+    "/tlb-official-logo.png",
+    "/pillar-air.jpg",
+    "/pillar-water.jpg",
+    "/pillar-light.jpg",
+    "/pillar-nature.jpg",
+    "/pillar-materials.jpg",
+    "/pillar-sound.jpg",
+    "/pillar-energy.jpg",
+    "/outdoor-1.jpg",
+    "/outdoor-2.jpg",
+    "/outdoor-3.jpg",
+    "/outdoor-4.jpg",
+    "/indoor-1.jpg",
+    "/indoor-2.jpg",
+    "/indoor-3.jpg",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/video-sitemap.xml",
+    "/google-property-feed.xml",
+    "/feed.xml",
+    "/manifest.json",
+    "/sw.js",
+    "/offline.html",
+    "/llms.txt"
+  ]
+}

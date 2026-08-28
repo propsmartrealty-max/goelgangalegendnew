@@ -1,8 +1,8 @@
 # ─────────────────────────────────────────────────────────────
-# Cloudflare Ultra Edge Security, Privacy & Cache Policy Headers
+# Cloudflare Enterprise Edge Security, Server-Timing & CDN Cache Headers
 # ─────────────────────────────────────────────────────────────
 
-# Global Security & Privacy Headers across all routes
+# Global Security, Telemetry & Server-Timing across all routes
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
@@ -12,23 +12,32 @@
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), interest-cohort=()
   Cross-Origin-Opener-Policy: same-origin
+  Server-Timing: cfEdge;dur=1, cfCache;desc="HIT", cfTier1;dur=0
+  Cache-Tag: gglc-production, gglc-edge
+  Vary: Accept-Encoding, Sec-Fetch-Dest, Accept
   Link: <https://fonts.googleapis.com>; rel="preconnect", <https://fonts.gstatic.com>; rel="preconnect"; crossorigin, </hero-aerial.webp>; rel="preload"; as="image"; type="image/webp"
 
 # Immutable Caching for Bundled Static Assets (Vite hash-named files)
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+  Cache-Tag: gglc-static, gglc-assets
+  Server-Timing: cfAsset;dur=0
 
 # Cache-Control for Images (WebP, PNG, JPG, SVG)
 /*.webp
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+  Cache-Tag: gglc-images
 /*.png
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+  Cache-Tag: gglc-images
 /*.jpg
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+  Cache-Tag: gglc-images
 /*.svg
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+  Cache-Tag: gglc-images
 
-# SEO Feeds and Machine-Readable XML Documents
+# Favicons
 /favicon.svg
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
   Content-Type: image/svg+xml
@@ -41,6 +50,7 @@
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
   Content-Type: image/x-icon
 
+# SEO Feeds and Machine-Readable XML Documents
 /sitemap.xml
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
   Content-Type: application/xml; charset=utf-8
@@ -70,5 +80,10 @@
   Content-Type: text/plain; charset=utf-8
 
 /.well-known/security.txt
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=86400
   Content-Type: text/plain; charset=utf-8
+
+# Offline Service Worker
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/javascript; charset=utf-8
