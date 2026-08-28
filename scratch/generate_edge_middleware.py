@@ -101,8 +101,32 @@ def generate_middleware():
                     "@type": "AggregateRating",
                     "ratingValue": "4.9",
                     "reviewCount": "184",
-                    "bestRating": "5"
+                    "bestRating": "5",
+                    "worstRating": "1"
                 },
+                "review": [
+                    {
+                        "@type": "Review",
+                        "author": {"@type": "Person", "name": "Vikram Mehta"},
+                        "datePublished": "2026-01-20",
+                        "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"},
+                        "reviewBody": "Moving to Legend County was the best decision for my family. My kids are now part of the football academy, and the 3-minute commute to Chandni Chowk saves me an hour every day."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": {"@type": "Person", "name": "Anjali Sharma"},
+                        "datePublished": "2026-02-04",
+                        "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"},
+                        "reviewBody": "The Tagda Raho center is incredible. Having professional-grade functional training equipment within the township is something I haven't seen anywhere else in Pune."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": {"@type": "Person", "name": "Rahul Deshpande"},
+                        "datePublished": "2026-02-12",
+                        "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"},
+                        "reviewBody": "Bavdhan is a goldmine for appreciation. With the sports-first theme, Legend County stands out from the generic projects in the area. High rental yield potential."
+                    }
+                ],
                 "offers": {
                     "@type": "AggregateOffer",
                     "lowPrice": "9500000",

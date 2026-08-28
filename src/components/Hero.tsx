@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowDown, MapPin, Building, Trophy, ShieldCheck } from 'lucide-react';
+import { ArrowDown, MapPin, Building, Trophy, ShieldCheck, Star } from 'lucide-react';
 
 const stats = [
   { icon: <MapPin size={18} />, value: '30', unit: 'Acres', label: 'Sprawling Estate' },
@@ -71,7 +71,7 @@ export default function Hero() {
         className="container"
       >
         <div style={{ position: 'relative', zIndex: 10, maxWidth: 840 }}>
-          {/* Prominent Trust & MahaRERA Badges */}
+          {/* Prominent Trust, MahaRERA & Google 5-Star Rating Badges */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -117,6 +117,36 @@ export default function Hero() {
                 boxShadow: '0 0 8px #34D399',
                 animation: 'pulse-glow 2s infinite',
               }} />
+            </a>
+
+            {/* Google 5-Star Rich Snippet Trust Badge */}
+            <a
+              href="#testimonials"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.45rem',
+                padding: '0.55rem 1.15rem',
+                background: 'rgba(13, 21, 39, 0.85)',
+                border: '1px solid rgba(245, 158, 11, 0.45)',
+                borderRadius: 'var(--radius-pill)',
+                color: '#F8FAFC',
+                textDecoration: 'none',
+                boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
+                transition: 'all 0.3s ease',
+              }}
+            >
+              <div style={{ display: 'flex', gap: '2px' }}>
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={13} fill="#F59E0B" color="#F59E0B" />
+                ))}
+              </div>
+              <span style={{ fontSize: '0.78rem', fontWeight: 800, color: '#FCD34D' }}>
+                4.9★
+              </span>
+              <span style={{ fontSize: '0.72rem', color: 'var(--text-white-muted)', fontWeight: 600 }}>
+                (184 Reviews)
+              </span>
             </a>
           </motion.div>
 
