@@ -1,3 +1,7 @@
+# ══════════════════════════════════════════════════════════════════════
+# Goel Ganga Legend County — Googlebot & Search Engine Crawling Policy
+# ══════════════════════════════════════════════════════════════════════
+
 User-agent: *
 Allow: /
 Disallow: /not-found
@@ -6,11 +10,35 @@ Disallow: /*?*
 Disallow: /scratch/
 Disallow: /google-credentials.json
 
-# AI Search Engine Directives
+# Googlebot Specialized Crawler Directives
+User-agent: Googlebot
+Allow: /
+Allow: /api/google-property-feed
+Allow: /llms.txt
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.webp
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+
+User-agent: Googlebot-Video
+Allow: /
+Allow: /video-sitemap.xml
+
+User-agent: Googlebot-News
+Allow: /
+Allow: /feed.xml
+
 User-agent: Google-Extended
 Allow: /
 Allow: /llms.txt
 
+User-agent: Mediapartners-Google
+Allow: /
+
+# AI Engine Directives
 User-agent: GPTBot
 Allow: /
 Allow: /llms.txt
@@ -23,5 +51,8 @@ User-agent: Applebot-Extended
 Allow: /
 Allow: /llms.txt
 
+# Official Sitemaps & Search Feeds
 Sitemap: https://www.goelgangalegend.com/sitemap.xml
+Sitemap: https://www.goelgangalegend.com/video-sitemap.xml
 Sitemap: https://www.goelgangalegend.com/google-property-feed.xml
+Sitemap: https://www.goelgangalegend.com/feed.xml

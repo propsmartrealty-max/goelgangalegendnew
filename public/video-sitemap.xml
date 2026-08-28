@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Google Video XML Sitemap for Goel Ganga Legend County -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- 1. Official 4K Cinema Drone Walkthrough -->
+  <url>
+    <loc>https://www.goelgangalegend.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.goelgangalegend.com/cinema-thumb.jpg</video:thumbnail_loc>
+      <video:title>Goel Ganga Legend County 4K Cinema Drone Walkthrough — Bavdhan Pune</video:title>
+      <video:description>Exclusive aerial 4K cinema drone walkthrough of the 30-acre sports township in Bavdhan, Pune featuring 12.5-acre Olympic sports arena, stadium entrance, and luxury 3 &amp; 3.5 BHK residences.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=q3_qJkrl05I</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/q3_qJkrl05I?autoplay=1</video:player_loc>
+      <video:duration>185</video:duration>
+      <video:publication_date>2026-01-15T08:00:00+05:30</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>Goel Ganga Legend County</video:tag>
+      <video:tag>Sports Township Pune</video:tag>
+      <video:tag>3 BHK Flats in Bavdhan</video:tag>
+      <video:tag>MahaRERA P52100054578</video:tag>
+      <video:category>Real Estate</video:category>
+      <video:uploader info="https://www.goelgangalegend.com">Goel Ganga Developments</video:uploader>
+    </video:video>
+  </url>
+
+  <!-- 2. Air Architecture Video -->
+  <url>
+    <loc>https://www.goelgangalegend.com/#longevity-district</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.goelgangalegend.com/pillar-air.jpg</video:thumbnail_loc>
+      <video:title>Air Architecture &amp; PM2.5 Filtration — The Living Blueprint</video:title>
+      <video:description>Scientific deep dive into DGU acoustic shielding and PM2.5 active air filtration systems at Ganga Legend County Bavdhan.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=1fKwUJuV2Eo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/1fKwUJuV2Eo?autoplay=1</video:player_loc>
+      <video:duration>120</video:duration>
+      <video:publication_date>2026-02-01T08:00:00+05:30</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:category>Architecture</video:category>
+    </video:video>
+  </url>
+
+  <!-- 3. Water Architecture Video -->
+  <url>
+    <loc>https://www.goelgangalegend.com/3bhk-flats-bavdhan</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.goelgangalegend.com/pillar-water.jpg</video:thumbnail_loc>
+      <video:title>Water Architecture &amp; Copper Bio-Pathways — Goel Ganga Legend County</video:title>
+      <video:description>Pure alkaline water architecture, stainless steel central tanks, and copper delivery pathways at Legend County Bavdhan.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=bzNarKOXefk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/bzNarKOXefk?autoplay=1</video:player_loc>
+      <video:duration>140</video:duration>
+      <video:publication_date>2026-02-05T08:00:00+05:30</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:category>Architecture</video:category>
+    </video:video>
+  </url>
+
+</urlset>
