@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowDown, MapPin, Building, Trophy } from 'lucide-react';
+import { ArrowDown, MapPin, Building, Trophy, ShieldCheck } from 'lucide-react';
 
 const stats = [
   { icon: <MapPin size={18} />, value: '30', unit: 'Acres', label: 'Sprawling Estate' },
@@ -71,12 +71,12 @@ export default function Hero() {
         className="container"
       >
         <div style={{ position: 'relative', zIndex: 10, maxWidth: 840 }}>
-          {/* Badge */}
+          {/* Prominent Trust & MahaRERA Badges */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}
+            style={{ display: 'flex', gap: '0.85rem', flexWrap: 'wrap', alignItems: 'center', marginBottom: '1.5rem' }}
           >
             <span className="badge-titanium">
               <span style={{
@@ -87,20 +87,37 @@ export default function Hero() {
               }} />
               30-Acre Sports Township • Bavdhan
             </span>
-            <span style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              padding: '0.5rem 1rem',
-              background: 'rgba(255, 255, 255, 0.06)',
-              border: '1px solid rgba(255, 255, 255, 0.12)',
-              borderRadius: 'var(--radius-pill)',
-              color: 'var(--text-white-muted)',
-              fontSize: '0.72rem',
-              fontWeight: 600,
-              letterSpacing: '0.08em',
-            }}>
-              MahaRERA: P52100054578
-            </span>
+
+            {/* Prominent Official MahaRERA Government Trust Badge */}
+            <a
+              href="https://maharera.maharashtra.gov.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.6rem',
+                padding: '0.55rem 1.25rem',
+                background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.18) 0%, rgba(13, 21, 39, 0.95) 100%)',
+                border: '1px solid rgba(52, 211, 153, 0.55)',
+                borderRadius: 'var(--radius-pill)',
+                color: '#FFFFFF',
+                textDecoration: 'none',
+                boxShadow: '0 4px 20px rgba(16, 185, 129, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2)',
+                transition: 'all 0.3s ease',
+              }}
+            >
+              <ShieldCheck size={16} style={{ color: '#34D399' }} />
+              <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                MahaRERA: <span style={{ color: '#FCD34D', textDecoration: 'underline', textUnderlineOffset: '3px' }}>P52100054578</span>
+              </span>
+              <span style={{
+                width: 6, height: 6, borderRadius: '50%',
+                background: '#34D399',
+                boxShadow: '0 0 8px #34D399',
+                animation: 'pulse-glow 2s infinite',
+              }} />
+            </a>
           </motion.div>
 
           {/* Heading */}
