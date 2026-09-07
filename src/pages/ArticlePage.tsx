@@ -939,6 +939,108 @@ The presence of local pharmacies, diagnostic centers, and clinics ensures that d
 
 <h2>MahaRERA Registration & Project Security</h2>
 <p>Goel Ganga Legend County is fully approved under MahaRERA registration number <strong>P52100054578</strong>. Every sports academy, open stadium, and residential tower is part of the legally sanctioned township layout, guaranteeing legal certainty and scheduled delivery.</p>`
+  },
+  'bavdhan-vs-baner-vs-kothrud-real-estate-comparison': {
+    title: 'Bavdhan vs. Baner vs. Kothrud: Which West Pune Suburb Offers the Highest ROI & Liveability in 2026?',
+    description: 'A data-driven comparative analysis of property prices, rental yields, green cover, and infrastructure across Bavdhan, Baner, and Kothrud in West Pune.',
+    author: 'Goel Ganga Research Team',
+    date: 'June 24, 2026',
+    publishIsoDate: '2026-06-24T09:00:00+05:30',
+    readTime: '9 min read',
+    category: 'Market Analysis',
+    image: '/hero-aerial.webp',
+    content: `<p class="lead">Choosing between Bavdhan, Baner, and Kothrud is the most common dilemma facing luxury homebuyers in West Pune. While Kothrud represents established traditional prestige and Baner offers bustling commercial high streets, Bavdhan has emerged in 2026 as the sweet spot for modern families—offering lower density, scenic hill views, master-planned sports townships, and superior long-term capital appreciation potential.</p>
+
+<h2>Direct Comparison Matrix: Bavdhan vs. Baner vs. Kothrud (2026)</h2>
+<table style="width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.9rem;">
+  <thead>
+    <tr style="background: rgba(245, 158, 11, 0.15); border-bottom: 2px solid var(--accent);">
+      <th style="padding: 12px; text-align: left;">Liveability & Investment Metric</th>
+      <th style="padding: 12px; text-align: left;">Bavdhan (GGLC District)</th>
+      <th style="padding: 12px; text-align: left;">Baner (High Street Belt)</th>
+      <th style="padding: 12px; text-align: left;">Kothrud (Established Core)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <td style="padding: 10px; font-weight: bold;">Average Price Range (per sq.ft.)</td>
+      <td style="padding: 10px; color: #10B981; font-weight: bold;">₹9,200 – ₹11,500</td>
+      <td style="padding: 10px;">₹12,500 – ₹16,000</td>
+      <td style="padding: 10px;">₹14,000 – ₹18,500</td>
+    </tr>
+    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <td style="padding: 10px; font-weight: bold;">5-Year Projected Appreciation</td>
+      <td style="padding: 10px; color: #10B981; font-weight: bold;">12.5% – 14.8% CAGR</td>
+      <td style="padding: 10px;">7.2% – 9.1% CAGR</td>
+      <td style="padding: 10px;">6.0% – 7.5% CAGR</td>
+    </tr>
+    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <td style="padding: 10px; font-weight: bold;">Green Open Spaces & AQI</td>
+      <td style="padding: 10px; color: #10B981; font-weight: bold;">High (NDA Forest Buffer / AQI 45-75)</td>
+      <td style="padding: 10px;">Low to Moderate (AQI 95-140)</td>
+      <td style="padding: 10px;">Moderate (Mature trees / AQI 90-130)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <td style="padding: 10px; font-weight: bold;">Township & Sports Amenities</td>
+      <td style="padding: 10px; color: #10B981; font-weight: bold;">30-Acre Sports Township (9+ Academies)</td>
+      <td style="padding: 10px;">Mostly Standalone / Small Podiums</td>
+      <td style="padding: 10px;">Redevelopment Towers (Minimal ground play)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <td style="padding: 10px; font-weight: bold;">Hinjewadi IT Commute Time</td>
+      <td style="padding: 10px; color: #10B981; font-weight: bold;">15 – 20 Mins (Via Highway Bypass)</td>
+      <td style="padding: 10px;">20 – 35 Mins (Heavy Baner Road bottlenecks)</td>
+      <td style="padding: 10px;">35 – 50 Mins (Chandni Chowk / Highway transit)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Why Bavdhan Delivers Superior Quality of Life</h2>
+<p>While Baner has become synonymous with crowded vehicular high streets and Kothrud suffers from aging infrastructure and fragmented redevelopment projects, Bavdhan offers a peaceful retreat. Surrounded on two sides by the permanent green reserve of the National Defence Academy (NDA) hills, Bavdhan enjoys significantly cleaner air, cooler ambient micro-climates, and zero risk of industrial sprawl. For families exploring a <strong>3 BHK in Bavdhan</strong> or <strong>Luxury Homes for Sale Bavdhan</strong>, the township format provides children and seniors with a secure, vehicle-free ground level.</p>
+
+<h2>The Post-Chandni Chowk Infrastructure Advantage</h2>
+<p>Historically, the Chandni Chowk roundabout was an intimidating bottleneck for daily commuters. The completion of the multi-level flyover system with direct subterranean ramps has revolutionized connectivity. Residents can now access Kothrud in under 5 minutes, reach the Pune-Bangalore highway immediately, and commute to Hinjewadi Phase 1 without getting caught in local traffic signals. Furthermore, the upcoming Pune Ring Road and Metro Line 3 feeder connectivity solidify Bavdhan as the most strategically connected residential address in West Pune.</p>
+
+<h2>MahaRERA Registration & Legal Compliance</h2>
+<p>Every phase of Goel Ganga Legend County Bavdhan is registered with the regulatory authority under MahaRERA number <strong>P52100054578</strong>, ensuring strict compliance with sanctioned building layouts and legal escrow mandates.</p>`
+  },
+  'maharera-legal-due-diligence-p52100054578': {
+    title: 'MahaRERA Legal Due Diligence: Verification Guide for Goel Ganga Legend County (P52100054578)',
+    description: 'Complete legal due diligence factsheet for Goel Ganga Legend County Bavdhan. Learn how to verify MahaRERA registration P52100054578, sanctioned plans, title deeds, and escrow compliance.',
+    author: 'Legal & Regulatory Compliance Desk',
+    date: 'June 29, 2026',
+    publishIsoDate: '2026-06-29T09:00:00+05:30',
+    readTime: '8 min read',
+    category: 'Legal & Due Diligence',
+    image: '/hero-aerial.webp',
+    content: `<p class="lead">Transparency and regulatory compliance are the cornerstones of safe real estate investment. At Goel Ganga Legend County Bavdhan, every tower, common facility, and infrastructure amenity is fully registered and legally documented under Maharashtra Real Estate Regulatory Authority registration number P52100054578. Here is your step-by-step verification guide.</p>
+
+<h2>How to Verify MahaRERA Registration P52100054578 Online</h2>
+<p>Homebuyers and legal advisors can verify all project filings directly on the official Maharashtra Government MahaRERA portal by following these steps:</p>
+<ol>
+  <li>Navigate to the official government portal at <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer">https://maharera.maharashtra.gov.in/</a>.</li>
+  <li>Click on the <strong>Registration</strong> tab and select <strong>Registered Projects</strong>.</li>
+  <li>Enter the project registration number: <strong>P52100054578</strong> into the search field.</li>
+  <li>View the comprehensive filing, including the sanctioned architectural layout, building commencement certificates (CC), quarterly progress reports (QPR), and bank escrow account details.</li>
+</ol>
+
+<h2>The 4 Pillars of Legal Protection for Homebuyers</h2>
+<ul>
+  <li><strong>100% Clear Title Land Parcel:</strong> The entire 30-acre township land holding in Bavdhan is backed by verified search reports and registered title deeds free from agricultural encumbrances.</li>
+  <li><strong>PMC & PMRDA Sanctioned Layout:</strong> All residential towers, internal arterial 60-foot roads, underground utility pipelines, and 12.5-acre sports facilities have received formal municipal sanctions.</li>
+  <li><strong>Statutory Bank Escrow Safeguard:</strong> In accordance with MahaRERA mandates, 70% of all customer receivables are held in a dedicated project escrow account and can only be withdrawn for construction milestones certified by licensed engineers and chartered accountants.</li>
+  <li><strong>Standardized Carpet Area Measurement:</strong> Unit prices and floor plans for our <strong>3 BHK in Bavdhan</strong> and <strong>3.5 BHK in Bavdhan</strong> residences are strictly computed on net RERA carpet area, protecting buyers from ambiguous super-built-up loading formulas.</li>
+</ul>
+
+<h2>Scan to Verify: Official Government QR Code</h2>
+<p>For immediate mobile verification, scan the official MahaRERA QR code below using your smartphone camera to access the live government project dossier:</p>
+<div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: #FFFFFF; border-radius: 16px; display: inline-block; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+  <img src="/rera-qr-official.jpg" alt="Official MahaRERA QR Code P52100054578" width="160" height="160" style="display: block; margin: 0 auto; object-fit: contain;" />
+  <span style="display: block; font-size: 0.8rem; color: #1E293B; font-weight: 700; margin-top: 0.75rem;">MahaRERA: P52100054578 · Scan to Verify</span>
+</div>
+
+<h2>Bank Approvals & Home Loan Clearances</h2>
+<p>Due to the flawless legal track record of Goel Ganga Developments and full RERA compliance, Goel Ganga Legend County enjoys pre-approved home loan clearances from all premier financial institutions, including State Bank of India (SBI), HDFC Bank, ICICI Bank, Axis Bank, and Bank of Baroda. Buyers benefit from fast-track processing and competitive interest rates.</p>`
   }
 };
 

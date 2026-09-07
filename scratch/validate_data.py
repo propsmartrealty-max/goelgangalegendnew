@@ -42,7 +42,9 @@ VALID_INSIGHTS = {
     'top-international-schools-pune-west-bavdhan',
     'bavdhan-to-hinjewadi-it-park-commute-guide',
     'the-7-pillars-of-longevian-architecture-pune',
-    'michael-phelps-swimming-academy-pune-bavdhan'
+    'michael-phelps-swimming-academy-pune-bavdhan',
+    'bavdhan-vs-baner-vs-kothrud-real-estate-comparison',
+    'maharera-legal-due-diligence-p52100054578'
 }
 
 VALID_HASHES = {'#about', '#amenities', '#floor-plans', '#location', '#contact'}
