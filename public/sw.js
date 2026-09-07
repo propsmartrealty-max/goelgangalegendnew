@@ -1,14 +1,15 @@
 // Goel Ganga Legend County — Digital Fortress Edge Service Worker
 // Implements Stale-While-Revalidate caching, Background Sync & Offline Fortress Resiliency
 
-const CACHE_NAME = 'gglc-fortress-v2';
+const CACHE_NAME = 'gglc-fortress-v3';
 const ASSETS_TO_PRECACHE = [
   '/',
   '/favicon.svg',
+  '/favicon.png',
   '/manifest.json',
   '/hero-aerial.webp',
-  '/floorplan-3bhk.webp',
-  '/floorplan-3.5bhk.webp'
+  '/about-architecture.png',
+  '/cinema-thumb.jpg'
 ];
 
 const OFFLINE_FALLBACK_HTML = `
