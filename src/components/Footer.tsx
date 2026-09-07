@@ -164,9 +164,15 @@ export default function Footer() {
         <div className="divider" style={{ marginBottom: '1.5rem' }} />
 
         {/* Bottom */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginBottom: '3rem' }}>
-          <div style={{ fontSize: '0.78rem', color: 'var(--text-white-subtle)' }}>
-            © {new Date().getFullYear()} Goel Ganga Developments. All rights reserved. RERA: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>P52100054578</a>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem', marginBottom: '3rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flexWrap: 'wrap' }}>
+            <div style={{ background: '#fff', padding: '6px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}>
+              <img src="/rera-qr-official.jpg" alt="MahaRERA QR Code P52100054578" width={56} height={56} style={{ width: 56, height: 56, objectFit: 'contain' }} />
+            </div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--text-white-subtle)', lineHeight: 1.6 }}>
+              <div>© {new Date().getFullYear()} Goel Ganga Developments. All rights reserved.</div>
+              <div>MahaRERA Registered: <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontWeight: 700, textDecoration: 'underline' }}>P52100054578</a> (Scan QR to verify)</div>
+            </div>
           </div>
           <button onClick={scrollTop} aria-label="Scroll to top" style={{
             width: 40, height: 40, borderRadius: '50%',
