@@ -40,7 +40,9 @@ VALID_INSIGHTS = {
     'pune-metro-line-3-bavdhan-connector',
     'post-chandni-chowk-traffic-index-bavdhan',
     'top-international-schools-pune-west-bavdhan',
-    'bavdhan-to-hinjewadi-it-park-commute-guide'
+    'bavdhan-to-hinjewadi-it-park-commute-guide',
+    'the-7-pillars-of-longevian-architecture-pune',
+    'michael-phelps-swimming-academy-pune-bavdhan'
 }
 
 VALID_HASHES = {'#about', '#amenities', '#floor-plans', '#location', '#contact'}
